@@ -2654,6 +2654,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <pinref part="N1" gate="G$1" pin="LC2"/>
 <wire x1="248.92" y1="139.7" x2="274.32" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="139.7" x2="274.32" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="COIL1" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="147.32" x2="287.02" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -2661,6 +2663,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <pinref part="N1" gate="G$1" pin="LC1"/>
 <wire x1="248.92" y1="134.62" x2="274.32" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="134.62" x2="274.32" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="COIL1" gate="G$1" pin="1"/>
+<wire x1="287.02" y1="132.08" x2="274.32" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

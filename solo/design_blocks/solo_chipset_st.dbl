@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.2">
 <designblock>
-<description>solo 1.2v final</description>
+<description>solo ST NFC v1.3</description>
 <attributes>
-<attribute name="BOARDSIZE" value="41.4 x 16.5 mm"/>
+<attribute name="BOARDSIZE" value="41.9 x 19.5 mm"/>
 <attribute name="LAYERS" value="2: 1, 16"/>
 </attributes>
 <drawings>
@@ -213,14 +213,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-3.15" y="1.05" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.35" y="-2.45" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="CL-505S-X-SD-T" urn="urn:adsk.eagle:footprint:4878738/2" locally_modified="yes" library_version="49" library_locally_modified="yes">
+<package name="CL-505S-X-SD-T" urn="urn:adsk.eagle:footprint:4878738/4" library_version="57">
+<description>CL-505S-X-SD-T</description>
 <smd name="P$2" x="0.85" y="0.85" dx="0.4" dy="0.4" layer="1"/>
 <smd name="P$1" x="0.85" y="0" dx="0.4" dy="0.4" layer="1"/>
 <smd name="P$4" x="0" y="0" dx="0.4" dy="0.4" layer="1"/>
 <smd name="P$3" x="0" y="0.85" dx="0.4" dy="0.4" layer="1"/>
 <text x="-0.4" y="1.4" size="0.4" layer="21">&gt;NAME</text>
+<circle x="1.2" y="1.2" radius="0.1" width="0.127" layer="21"/>
 </package>
-<package name="QFN32" urn="urn:adsk.eagle:footprint:13977/1" library_version="22" library_locally_modified="yes">
+<package name="QFN32" urn="urn:adsk.eagle:footprint:6434393/2" library_version="57">
 <description>&lt;b&gt;QFN 32&lt;/b&gt; 5 x 5 mm&lt;p&gt;
 Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="-2.45" y1="2.45" x2="2.45" y2="2.45" width="0.1016" layer="51"/>
@@ -233,42 +235,42 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="2.45" y1="2.45" x2="2.45" y2="2.05" width="0.1016" layer="21"/>
 <wire x1="2.45" y1="-2.05" x2="2.45" y2="-2.45" width="0.1016" layer="21"/>
 <wire x1="2.45" y1="-2.45" x2="2.05" y2="-2.45" width="0.1016" layer="21"/>
-<wire x1="-2.05" y1="-2.45" x2="-2.45" y2="-2.45" width="0.1016" layer="21"/>
-<wire x1="-2.45" y1="-2.45" x2="-2.45" y2="-2.05" width="0.1016" layer="21"/>
-<circle x="-2.175" y="2.175" radius="0.15" width="0" layer="21"/>
+<wire x1="-2.05" y1="-2.45" x2="-2.45" y2="-2.4" width="0.1016" layer="21"/>
+<wire x1="-2.45" y1="-2.4" x2="-2.45" y2="-2.05" width="0.1016" layer="21"/>
+<circle x="-2.425" y="2.475" radius="0.3" width="0" layer="21"/>
 <smd name="EXP" x="0" y="0" dx="3.2" dy="3.2" layer="1" roundness="20" stop="no" cream="no"/>
-<smd name="1" x="-2.3" y="1.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="2" x="-2.3" y="1.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="3" x="-2.3" y="0.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="4" x="-2.3" y="0.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="5" x="-2.3" y="-0.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="6" x="-2.3" y="-0.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="7" x="-2.3" y="-1.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="8" x="-2.3" y="-1.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="9" x="-1.75" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="10" x="-1.25" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="11" x="-0.75" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="12" x="-0.25" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="13" x="0.25" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="14" x="0.75" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="15" x="1.25" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="16" x="1.75" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="17" x="2.3" y="-1.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="18" x="2.3" y="-1.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="19" x="2.3" y="-0.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="20" x="2.3" y="-0.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="21" x="2.3" y="0.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="22" x="2.3" y="0.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="23" x="2.3" y="1.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="24" x="2.3" y="1.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="25" x="1.75" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="26" x="1.25" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="27" x="0.75" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="28" x="0.25" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="29" x="-0.25" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="30" x="-0.75" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="31" x="-1.25" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="32" x="-1.75" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="1" x="-2.35" y="1.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="2" x="-2.35" y="1.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="3" x="-2.35" y="0.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="4" x="-2.35" y="0.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="5" x="-2.35" y="-0.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="6" x="-2.35" y="-0.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="7" x="-2.35" y="-1.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="8" x="-2.35" y="-1.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="9" x="-1.75" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="10" x="-1.25" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="11" x="-0.75" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="12" x="-0.25" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="13" x="0.25" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="14" x="0.75" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="15" x="1.25" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="16" x="1.75" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="17" x="2.35" y="-1.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="18" x="2.35" y="-1.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="19" x="2.35" y="-0.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="20" x="2.35" y="-0.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="21" x="2.35" y="0.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="22" x="2.35" y="0.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="23" x="2.35" y="1.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="24" x="2.35" y="1.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="25" x="1.75" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="26" x="1.25" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="27" x="0.75" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="28" x="0.25" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="29" x="-0.25" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="30" x="-0.75" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="31" x="-1.25" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="32" x="-1.75" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
 <text x="-4.05" y="-4.35" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-3.8" y="3.25" size="1.27" layer="25">&gt;NAME</text>
 <rectangle x1="-0.3" y1="1.1" x2="0.3" y2="1.4" layer="31"/>
@@ -289,7 +291,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <rectangle x1="0.7" y1="-0.4" x2="1.3" y2="-0.1" layer="31"/>
 <rectangle x1="0.7" y1="-0.9" x2="1.3" y2="-0.6" layer="31"/>
 <rectangle x1="0.7" y1="-1.4" x2="1.3" y2="-1.1" layer="31"/>
-<rectangle x1="-2.5" y1="0.25" x2="-0.25" y2="2.5" layer="51"/>
+<rectangle x1="-2.55" y1="0.3" x2="-0.3" y2="2.55" layer="51"/>
 <polygon width="0.5" layer="29">
 <vertex x="-1.325" y="1.175"/>
 <vertex x="-1.175" y="1.325"/>
@@ -305,11 +307,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="1.825"/>
-<vertex x="-2.125" y="1.825"/>
-<vertex x="-2.075" y="1.775"/>
-<vertex x="-2.075" y="1.675"/>
-<vertex x="-2.525" y="1.675"/>
+<vertex x="-2.575" y="1.825"/>
+<vertex x="-2.175" y="1.825"/>
+<vertex x="-2.125" y="1.775"/>
+<vertex x="-2.125" y="1.675"/>
+<vertex x="-2.575" y="1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="1.35"/>
@@ -318,10 +320,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="1.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="1.325"/>
-<vertex x="-2.075" y="1.325"/>
-<vertex x="-2.075" y="1.175"/>
-<vertex x="-2.525" y="1.175"/>
+<vertex x="-2.575" y="1.325"/>
+<vertex x="-2.125" y="1.325"/>
+<vertex x="-2.125" y="1.175"/>
+<vertex x="-2.575" y="1.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="0.85"/>
@@ -330,10 +332,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="0.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="0.825"/>
-<vertex x="-2.075" y="0.825"/>
-<vertex x="-2.075" y="0.675"/>
-<vertex x="-2.525" y="0.675"/>
+<vertex x="-2.575" y="0.825"/>
+<vertex x="-2.125" y="0.825"/>
+<vertex x="-2.125" y="0.675"/>
+<vertex x="-2.575" y="0.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="0.35"/>
@@ -342,10 +344,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="0.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="0.325"/>
-<vertex x="-2.075" y="0.325"/>
-<vertex x="-2.075" y="0.175"/>
-<vertex x="-2.525" y="0.175"/>
+<vertex x="-2.575" y="0.325"/>
+<vertex x="-2.125" y="0.325"/>
+<vertex x="-2.125" y="0.175"/>
+<vertex x="-2.575" y="0.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="-0.15"/>
@@ -354,10 +356,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="-0.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-0.175"/>
-<vertex x="-2.075" y="-0.175"/>
-<vertex x="-2.075" y="-0.325"/>
-<vertex x="-2.525" y="-0.325"/>
+<vertex x="-2.575" y="-0.175"/>
+<vertex x="-2.125" y="-0.175"/>
+<vertex x="-2.125" y="-0.325"/>
+<vertex x="-2.575" y="-0.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="-0.65"/>
@@ -366,10 +368,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="-0.85"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-0.675"/>
-<vertex x="-2.075" y="-0.675"/>
-<vertex x="-2.075" y="-0.825"/>
-<vertex x="-2.525" y="-0.825"/>
+<vertex x="-2.575" y="-0.675"/>
+<vertex x="-2.125" y="-0.675"/>
+<vertex x="-2.125" y="-0.825"/>
+<vertex x="-2.575" y="-0.825"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="-1.15"/>
@@ -378,10 +380,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="-1.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-1.175"/>
-<vertex x="-2.075" y="-1.175"/>
-<vertex x="-2.075" y="-1.325"/>
-<vertex x="-2.525" y="-1.325"/>
+<vertex x="-2.575" y="-1.175"/>
+<vertex x="-2.125" y="-1.175"/>
+<vertex x="-2.125" y="-1.325"/>
+<vertex x="-2.575" y="-1.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="-1.85"/>
@@ -391,11 +393,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="-1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-1.825"/>
-<vertex x="-2.125" y="-1.825"/>
-<vertex x="-2.075" y="-1.775"/>
-<vertex x="-2.075" y="-1.675"/>
-<vertex x="-2.525" y="-1.675"/>
+<vertex x="-2.575" y="-1.825"/>
+<vertex x="-2.175" y="-1.825"/>
+<vertex x="-2.125" y="-1.775"/>
+<vertex x="-2.125" y="-1.675"/>
+<vertex x="-2.575" y="-1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-1.85" y="-2.55"/>
@@ -405,11 +407,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-1.65" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.825" y="-2.525"/>
-<vertex x="-1.825" y="-2.125"/>
-<vertex x="-1.775" y="-2.075"/>
-<vertex x="-1.675" y="-2.075"/>
-<vertex x="-1.675" y="-2.525"/>
+<vertex x="-1.825" y="-2.575"/>
+<vertex x="-1.825" y="-2.175"/>
+<vertex x="-1.775" y="-2.125"/>
+<vertex x="-1.675" y="-2.125"/>
+<vertex x="-1.675" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-1.35" y="-2.55"/>
@@ -418,10 +420,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-1.15" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.325" y="-2.525"/>
-<vertex x="-1.325" y="-2.075"/>
-<vertex x="-1.175" y="-2.075"/>
-<vertex x="-1.175" y="-2.525"/>
+<vertex x="-1.325" y="-2.575"/>
+<vertex x="-1.325" y="-2.125"/>
+<vertex x="-1.175" y="-2.125"/>
+<vertex x="-1.175" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-0.85" y="-2.55"/>
@@ -430,10 +432,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-0.65" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.825" y="-2.525"/>
-<vertex x="-0.825" y="-2.075"/>
-<vertex x="-0.675" y="-2.075"/>
-<vertex x="-0.675" y="-2.525"/>
+<vertex x="-0.825" y="-2.575"/>
+<vertex x="-0.825" y="-2.125"/>
+<vertex x="-0.675" y="-2.125"/>
+<vertex x="-0.675" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-0.35" y="-2.55"/>
@@ -442,10 +444,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-0.15" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.325" y="-2.525"/>
-<vertex x="-0.325" y="-2.075"/>
-<vertex x="-0.175" y="-2.075"/>
-<vertex x="-0.175" y="-2.525"/>
+<vertex x="-0.325" y="-2.575"/>
+<vertex x="-0.325" y="-2.125"/>
+<vertex x="-0.175" y="-2.125"/>
+<vertex x="-0.175" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="0.15" y="-2.55"/>
@@ -454,10 +456,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.35" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.175" y="-2.525"/>
-<vertex x="0.175" y="-2.075"/>
-<vertex x="0.325" y="-2.075"/>
-<vertex x="0.325" y="-2.525"/>
+<vertex x="0.175" y="-2.575"/>
+<vertex x="0.175" y="-2.125"/>
+<vertex x="0.325" y="-2.125"/>
+<vertex x="0.325" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="0.65" y="-2.55"/>
@@ -466,10 +468,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.85" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.675" y="-2.525"/>
-<vertex x="0.675" y="-2.075"/>
-<vertex x="0.825" y="-2.075"/>
-<vertex x="0.825" y="-2.525"/>
+<vertex x="0.675" y="-2.575"/>
+<vertex x="0.675" y="-2.125"/>
+<vertex x="0.825" y="-2.125"/>
+<vertex x="0.825" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="1.15" y="-2.55"/>
@@ -478,10 +480,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="1.35" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.175" y="-2.525"/>
-<vertex x="1.175" y="-2.075"/>
-<vertex x="1.325" y="-2.075"/>
-<vertex x="1.325" y="-2.525"/>
+<vertex x="1.175" y="-2.575"/>
+<vertex x="1.175" y="-2.125"/>
+<vertex x="1.325" y="-2.125"/>
+<vertex x="1.325" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="1.85" y="-2.55"/>
@@ -491,11 +493,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="1.65" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.825" y="-2.525"/>
-<vertex x="1.825" y="-2.125"/>
-<vertex x="1.775" y="-2.075"/>
-<vertex x="1.675" y="-2.075"/>
-<vertex x="1.675" y="-2.525"/>
+<vertex x="1.825" y="-2.575"/>
+<vertex x="1.825" y="-2.175"/>
+<vertex x="1.775" y="-2.125"/>
+<vertex x="1.675" y="-2.125"/>
+<vertex x="1.675" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="-1.85"/>
@@ -505,11 +507,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="-1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-1.825"/>
-<vertex x="2.125" y="-1.825"/>
-<vertex x="2.075" y="-1.775"/>
-<vertex x="2.075" y="-1.675"/>
-<vertex x="2.525" y="-1.675"/>
+<vertex x="2.575" y="-1.825"/>
+<vertex x="2.175" y="-1.825"/>
+<vertex x="2.125" y="-1.775"/>
+<vertex x="2.125" y="-1.675"/>
+<vertex x="2.575" y="-1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="-1.35"/>
@@ -518,10 +520,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="-1.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-1.325"/>
-<vertex x="2.075" y="-1.325"/>
-<vertex x="2.075" y="-1.175"/>
-<vertex x="2.525" y="-1.175"/>
+<vertex x="2.575" y="-1.325"/>
+<vertex x="2.125" y="-1.325"/>
+<vertex x="2.125" y="-1.175"/>
+<vertex x="2.575" y="-1.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="-0.85"/>
@@ -530,10 +532,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="-0.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-0.825"/>
-<vertex x="2.075" y="-0.825"/>
-<vertex x="2.075" y="-0.675"/>
-<vertex x="2.525" y="-0.675"/>
+<vertex x="2.575" y="-0.825"/>
+<vertex x="2.125" y="-0.825"/>
+<vertex x="2.125" y="-0.675"/>
+<vertex x="2.575" y="-0.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="-0.35"/>
@@ -542,10 +544,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="-0.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-0.325"/>
-<vertex x="2.075" y="-0.325"/>
-<vertex x="2.075" y="-0.175"/>
-<vertex x="2.525" y="-0.175"/>
+<vertex x="2.575" y="-0.325"/>
+<vertex x="2.125" y="-0.325"/>
+<vertex x="2.125" y="-0.175"/>
+<vertex x="2.575" y="-0.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="0.15"/>
@@ -554,10 +556,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="0.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="0.175"/>
-<vertex x="2.075" y="0.175"/>
-<vertex x="2.075" y="0.325"/>
-<vertex x="2.525" y="0.325"/>
+<vertex x="2.575" y="0.175"/>
+<vertex x="2.125" y="0.175"/>
+<vertex x="2.125" y="0.325"/>
+<vertex x="2.575" y="0.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="0.65"/>
@@ -566,10 +568,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="0.85"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="0.675"/>
-<vertex x="2.075" y="0.675"/>
-<vertex x="2.075" y="0.825"/>
-<vertex x="2.525" y="0.825"/>
+<vertex x="2.575" y="0.675"/>
+<vertex x="2.125" y="0.675"/>
+<vertex x="2.125" y="0.825"/>
+<vertex x="2.575" y="0.825"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="1.15"/>
@@ -578,10 +580,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="1.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="1.175"/>
-<vertex x="2.075" y="1.175"/>
-<vertex x="2.075" y="1.325"/>
-<vertex x="2.525" y="1.325"/>
+<vertex x="2.575" y="1.175"/>
+<vertex x="2.125" y="1.175"/>
+<vertex x="2.125" y="1.325"/>
+<vertex x="2.575" y="1.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="1.85"/>
@@ -591,11 +593,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="1.825"/>
-<vertex x="2.125" y="1.825"/>
-<vertex x="2.075" y="1.775"/>
-<vertex x="2.075" y="1.675"/>
-<vertex x="2.525" y="1.675"/>
+<vertex x="2.575" y="1.825"/>
+<vertex x="2.175" y="1.825"/>
+<vertex x="2.125" y="1.775"/>
+<vertex x="2.125" y="1.675"/>
+<vertex x="2.575" y="1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="1.85" y="2.55"/>
@@ -605,11 +607,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="1.65" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.825" y="2.525"/>
-<vertex x="1.825" y="2.125"/>
-<vertex x="1.775" y="2.075"/>
-<vertex x="1.675" y="2.075"/>
-<vertex x="1.675" y="2.525"/>
+<vertex x="1.825" y="2.575"/>
+<vertex x="1.825" y="2.175"/>
+<vertex x="1.775" y="2.125"/>
+<vertex x="1.675" y="2.125"/>
+<vertex x="1.675" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="1.35" y="2.55"/>
@@ -618,10 +620,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="1.15" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.325" y="2.525"/>
-<vertex x="1.325" y="2.075"/>
-<vertex x="1.175" y="2.075"/>
-<vertex x="1.175" y="2.525"/>
+<vertex x="1.325" y="2.575"/>
+<vertex x="1.325" y="2.125"/>
+<vertex x="1.175" y="2.125"/>
+<vertex x="1.175" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="0.85" y="2.55"/>
@@ -630,10 +632,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.65" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.825" y="2.525"/>
-<vertex x="0.825" y="2.075"/>
-<vertex x="0.675" y="2.075"/>
-<vertex x="0.675" y="2.525"/>
+<vertex x="0.825" y="2.575"/>
+<vertex x="0.825" y="2.125"/>
+<vertex x="0.675" y="2.125"/>
+<vertex x="0.675" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="0.35" y="2.55"/>
@@ -642,10 +644,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.15" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.325" y="2.525"/>
-<vertex x="0.325" y="2.075"/>
-<vertex x="0.175" y="2.075"/>
-<vertex x="0.175" y="2.525"/>
+<vertex x="0.325" y="2.575"/>
+<vertex x="0.325" y="2.125"/>
+<vertex x="0.175" y="2.125"/>
+<vertex x="0.175" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-0.15" y="2.55"/>
@@ -654,10 +656,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-0.35" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.175" y="2.525"/>
-<vertex x="-0.175" y="2.075"/>
-<vertex x="-0.325" y="2.075"/>
-<vertex x="-0.325" y="2.525"/>
+<vertex x="-0.175" y="2.575"/>
+<vertex x="-0.175" y="2.125"/>
+<vertex x="-0.325" y="2.125"/>
+<vertex x="-0.325" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-0.65" y="2.55"/>
@@ -666,10 +668,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-0.85" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.675" y="2.525"/>
-<vertex x="-0.675" y="2.075"/>
-<vertex x="-0.825" y="2.075"/>
-<vertex x="-0.825" y="2.525"/>
+<vertex x="-0.675" y="2.575"/>
+<vertex x="-0.675" y="2.125"/>
+<vertex x="-0.825" y="2.125"/>
+<vertex x="-0.825" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-1.15" y="2.55"/>
@@ -678,10 +680,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-1.35" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.175" y="2.525"/>
-<vertex x="-1.175" y="2.075"/>
-<vertex x="-1.325" y="2.075"/>
-<vertex x="-1.325" y="2.525"/>
+<vertex x="-1.175" y="2.575"/>
+<vertex x="-1.175" y="2.125"/>
+<vertex x="-1.325" y="2.125"/>
+<vertex x="-1.325" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-1.85" y="2.55"/>
@@ -691,14 +693,14 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-1.65" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.825" y="2.525"/>
-<vertex x="-1.825" y="2.125"/>
-<vertex x="-1.775" y="2.075"/>
-<vertex x="-1.675" y="2.075"/>
-<vertex x="-1.675" y="2.525"/>
+<vertex x="-1.825" y="2.575"/>
+<vertex x="-1.825" y="2.175"/>
+<vertex x="-1.775" y="2.125"/>
+<vertex x="-1.675" y="2.125"/>
+<vertex x="-1.675" y="2.575"/>
 </polygon>
 </package>
-<package name="REG_NCP114AMX330TCG" urn="urn:adsk.eagle:footprint:5621085/1" library_version="28">
+<package name="REG_NCP114AMX330TCG" urn="urn:adsk.eagle:footprint:5621085/2" library_version="57">
 <polygon width="0.001" layer="1">
 <vertex x="-0.475" y="0.65"/>
 <vertex x="-0.475" y="0.22"/>
@@ -781,7 +783,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-0.475" y="-0.05"/>
 <vertex x="-0.525" y="-0.05"/>
 </polygon>
-<circle x="-0.635" y="-0.689" radius="0.025" width="0.05" layer="21"/>
+<circle x="-0.64" y="-0.648" radius="0.0508" width="0.1016" layer="21"/>
 <wire x1="-0.5" y1="0.5" x2="-0.5" y2="-0.5" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.5" x2="0.5" y2="-0.5" width="0.1" layer="51"/>
 <wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.1" layer="51"/>
@@ -790,7 +792,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="-0.762" y1="-0.889" x2="0.762" y2="-0.889" width="0.05" layer="39"/>
 <wire x1="0.762" y1="-0.889" x2="0.762" y2="0.889" width="0.05" layer="39"/>
 <wire x1="0.762" y1="0.889" x2="-0.762" y2="0.889" width="0.05" layer="39"/>
-<text x="-0.74228125" y="0.972990625" size="0.305740625" layer="25">&gt;NAME</text>
+<text x="-0.74228125" y="0.972990625" size="0.6" layer="25">&gt;NAME</text>
 <text x="-0.742921875" y="-1.2449" size="0.306003125" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.351734375" y1="-0.351734375" x2="0.35" y2="0.35" layer="29" rot="R45"/>
 <smd name="5" x="0" y="0" dx="0.58" dy="0.58" layer="1" rot="R45" stop="no"/>
@@ -959,7 +961,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <text x="-2.54" y="5.08" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-6.35" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="DOME-BL-12MM" urn="urn:adsk.eagle:footprint:5648518/2" library_version="47" library_locally_modified="yes">
+<package name="DOME-BL-12MM" urn="urn:adsk.eagle:footprint:5648518/3" library_version="57">
 <circle x="0" y="0" radius="1.4" width="0.1" layer="1"/>
 <circle x="0" y="0" radius="1.39895" width="0.1" layer="1"/>
 <circle x="0" y="0" radius="1.3038375" width="0.1524" layer="29"/>
@@ -1307,8 +1309,38 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="5.6" y="3.8"/>
 <vertex x="3.8" y="5.6"/>
 </polygon>
-<smd name="P$1" x="-4.1" y="0" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$2" x="0.2" y="4.5" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$1" x="-4.1" y="0" dx="1.27" dy="0.635" layer="1" stop="no" cream="no"/>
+<smd name="P$2" x="0.2" y="4.5" dx="1.27" dy="0.635" layer="1" stop="no" cream="no"/>
+</package>
+<package name="MLPD3X3" urn="urn:adsk.eagle:footprint:5825737/2" library_version="57">
+<smd name="P$1" x="0" y="0" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$2" x="0.5" y="0" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$3" x="1" y="0" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$4" x="1.5" y="0" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$5" x="2" y="0" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$6" x="2" y="-3" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$7" x="1.5" y="-3" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$8" x="1" y="-3" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$9" x="0.5" y="-3" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$10" x="0" y="-3" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$11" x="1" y="-1.5" dx="1.65" dy="2.38" layer="1" rot="R90"/>
+<text x="-0.5" y="0.5" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.5" y="-4" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
+<package name="MOLEX_NFC_COIL1" urn="urn:adsk.eagle:footprint:7114965/3" library_version="57">
+<description>Molex NFC coil, PN: 1462360101</description>
+<wire x1="15.24" y1="0" x2="0.24" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.24" y1="0" x2="0.24" y2="25" width="0.1524" layer="21"/>
+<wire x1="0.24" y1="25" x2="8.74" y2="25" width="0.1524" layer="21"/>
+<wire x1="8.74" y1="25" x2="15.24" y2="25" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="25" x2="15.24" y2="0" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="25" x2="15.24" y2="30" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="30" x2="8.74" y2="30" width="0.1524" layer="21"/>
+<wire x1="8.74" y1="30" x2="8.74" y2="25" width="0.1524" layer="21"/>
+<text x="10.43" y="23.5" size="0.8128" layer="26">&gt;NAME</text>
+<text x="10.43" y="22" size="0.8128" layer="28">&gt;VALUE</text>
+<smd name="P$1" x="13.43" y="28.5" dx="2.2" dy="3.1" layer="1" rot="R180"/>
+<smd name="P$2" x="10.73" y="28.5" dx="2.2" dy="3.1" layer="1" rot="R180"/>
 </package>
 </packages>
 <packages3d>
@@ -1335,21 +1367,20 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="EAST1616RGBA3-RGB-LED"/>
 </packageinstances>
 </package3d>
-<package3d name="CL-505S-X-SD-T" urn="urn:adsk.eagle:package:4878740/4" locally_modified="yes" type="box" library_version="49" library_locally_modified="yes">
+<package3d name="CL-505S-X-SD-T" urn="urn:adsk.eagle:package:4878740/6" type="box" library_version="57">
+<description>CL-505S-X-SD-T</description>
 <packageinstances>
 <packageinstance name="CL-505S-X-SD-T"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN50P500X500X50-32" urn="urn:adsk.eagle:package:4245373/4" type="model" library_version="49" library_locally_modified="yes">
-<description>32-QFN, 0.50 mm pitch, 5.00 X 5.00 X 0.50 mm body
-&lt;p&gt;32-pin QFN package with 0.50 mm pitch with body size 5.00 X 5.00 X 0.50 mm&lt;/p&gt;</description>
+<package3d name="QFN50P500X500X50-32" urn="urn:adsk.eagle:package:4245373/6" type="model" library_version="57">
+<description>&lt;b&gt;QFN 32&lt;/b&gt; 5 x 5 mm&lt;p&gt;
+Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstances>
 <packageinstance name="QFN32"/>
 </packageinstances>
 </package3d>
-<package3d name="DFN100X100X60-4" urn="urn:adsk.eagle:package:5621121/2" type="model" library_version="28">
-<description>DFN4, 1.00 X 1.00 X 0.60 mm body
-&lt;p&gt;DFN4 package with body size 1.00 X 1.00 X 0.60 mm&lt;/p&gt;</description>
+<package3d name="DFN100X100X60-4" urn="urn:adsk.eagle:package:5621121/3" type="model" library_version="57">
 <packageinstances>
 <packageinstance name="REG_NCP114AMX330TCG"/>
 </packageinstances>
@@ -1365,9 +1396,20 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="DOME-BL10280"/>
 </packageinstances>
 </package3d>
-<package3d name="DOME-BL-12MM" urn="urn:adsk.eagle:package:5648519/4" type="model" library_version="47" library_locally_modified="yes">
+<package3d name="DOME-BL-12MM" urn="urn:adsk.eagle:package:5648519/5" type="model" library_version="57">
 <packageinstances>
 <packageinstance name="DOME-BL-12MM"/>
+</packageinstances>
+</package3d>
+<package3d name="MLPD3X3" urn="urn:adsk.eagle:package:5825738/2" type="box" library_version="57">
+<packageinstances>
+<packageinstance name="MLPD3X3"/>
+</packageinstances>
+</package3d>
+<package3d name="MOLEX_NFC_COIL1" urn="urn:adsk.eagle:package:7114966/5" type="model" library_version="57">
+<description>Molex NFC coil, PN: 1462360101</description>
+<packageinstances>
+<packageinstance name="MOLEX_NFC_COIL1"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1578,6 +1620,38 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="AS3956" urn="urn:adsk.eagle:symbol:5825726/2" library_version="53">
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="VP_IO" x="-15.24" y="10.16" length="middle"/>
+<pin name="VP_REG" x="-15.24" y="5.08" length="middle"/>
+<pin name="LC1" x="-15.24" y="0" length="middle"/>
+<pin name="LC2" x="-15.24" y="-5.08" length="middle"/>
+<pin name="VSS" x="-15.24" y="-10.16" length="middle"/>
+<pin name="SS" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="SCLK" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="MOSI" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="MISO" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="IRQ" x="15.24" y="10.16" length="middle" rot="R180"/>
+<text x="-5.08" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MOLEX_NFC_COIL" urn="urn:adsk.eagle:symbol:7114964/1" library_version="56" library_locally_modified="yes">
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90" cap="flat"/>
+<text x="2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TEST_POINT" urn="urn:adsk.eagle:component:4245793/3" prefix="T" library_version="8" library_locally_modified="yes">
@@ -1636,7 +1710,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="EAST1616RGBA3-LED-RGB" urn="urn:adsk.eagle:component:4245376/7" locally_modified="yes" prefix="L" library_version="49" library_locally_modified="yes">
+<deviceset name="EAST1616RGBA3-LED-RGB" urn="urn:adsk.eagle:component:4245376/9" prefix="L" library_version="57">
 <description>EAST1616RGBA3</description>
 <gates>
 <gate name="G$1" symbol="LED-RGB" x="0" y="-2.54"/>
@@ -1666,7 +1740,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <connect gate="G$1" pin="CRED" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4878740/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4878740/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1674,7 +1748,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32L432KCU6" urn="urn:adsk.eagle:component:5621128/2" prefix="ST" library_version="49" library_locally_modified="yes">
+<deviceset name="STM32L432KCU6" urn="urn:adsk.eagle:component:5621128/4" prefix="ST" library_version="57">
 <gates>
 <gate name="G$1" symbol="STM32L432KCU6" x="0" y="0"/>
 </gates>
@@ -1716,7 +1790,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <connect gate="G$1" pin="VSS3" pad="EXP"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4245373/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4245373/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1724,7 +1798,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NCP114AMX330TCG" urn="urn:adsk.eagle:component:5621125/2" prefix="L" library_version="28">
+<deviceset name="NCP114AMX330TCG" urn="urn:adsk.eagle:component:5621125/3" prefix="L" library_version="57">
 <description>CMOS Low Dropout Regulator, 300 mA 3.3V, Active Discharge</description>
 <gates>
 <gate name="G$1" symbol="NCP114AMX330TCG" x="0" y="0"/>
@@ -1739,7 +1813,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <connect gate="G$1" pin="OUT" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5621121/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5621121/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1776,7 +1850,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DOME_BUTTON" urn="urn:adsk.eagle:component:4878737/10" library_version="47" library_locally_modified="yes">
+<deviceset name="DOME_BUTTON" urn="urn:adsk.eagle:component:4878737/11" library_version="57">
 <gates>
 <gate name="G$1" symbol="SWITCH-NO" x="0" y="0"/>
 </gates>
@@ -1799,7 +1873,179 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5648519/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5648519/5"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AMS3956" urn="urn:adsk.eagle:component:5825739/3" prefix="N" library_version="57">
+<gates>
+<gate name="G$1" symbol="AS3956" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MLPD3X3">
+<connects>
+<connect gate="G$1" pin="IRQ" pad="P$10"/>
+<connect gate="G$1" pin="LC1" pad="P$3"/>
+<connect gate="G$1" pin="LC2" pad="P$4"/>
+<connect gate="G$1" pin="MISO" pad="P$9"/>
+<connect gate="G$1" pin="MOSI" pad="P$8"/>
+<connect gate="G$1" pin="SCLK" pad="P$7"/>
+<connect gate="G$1" pin="SS" pad="P$6"/>
+<connect gate="G$1" pin="VP_IO" pad="P$1"/>
+<connect gate="G$1" pin="VP_REG" pad="P$2"/>
+<connect gate="G$1" pin="VSS" pad="P$5 P$11"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5825738/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOLEX_NFC_COIL_1462360101" urn="urn:adsk.eagle:component:7114967/4" prefix="COIL" library_version="57">
+<gates>
+<gate name="G$1" symbol="MOLEX_NFC_COIL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_NFC_COIL1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7114966/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/538-146236-0101" constant="no"/>
+<attribute name="MPN" value="1462360101" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ" urn="urn:adsk.eagle:footprint:15432/1" library_version="1">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+</package>
+<package name="SJW" urn="urn:adsk.eagle:footprint:15433/1" library_version="1">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
+<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
+<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
+<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
+<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
+<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
+<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
+<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
+<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
+<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
+<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
+<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
+<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
+<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
+<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SJ" urn="urn:adsk.eagle:package:15471/1" type="box" library_version="1">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJ"/>
+</packageinstances>
+</package3d>
+<package3d name="SJW" urn="urn:adsk.eagle:package:15507/1" type="box" library_version="1">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJW"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SJ" urn="urn:adsk.eagle:symbol:15431/1" library_version="1">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ" urn="urn:adsk.eagle:component:15508/1" prefix="SJ" uservalue="yes" library_version="1">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15471/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="SJW">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15507/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1840,7 +2086,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <part name="SWDIO" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="TEST_POINT" device="" package3d_urn="urn:adsk.eagle:package:4245792/4"/>
 <part name="SWCLK" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="TEST_POINT" device="" package3d_urn="urn:adsk.eagle:package:4245792/4"/>
 <part name="R1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:4245807/6" value="175"/>
-<part name="L1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="EAST1616RGBA3-LED-RGB" device="CL-505S-X-SD-T" package3d_urn="urn:adsk.eagle:package:4878740/4"/>
+<part name="L1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="EAST1616RGBA3-LED-RGB" device="CL-505S-X-SD-T" package3d_urn="urn:adsk.eagle:package:4878740/6"/>
 <part name="STX-&gt;" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="TEST_POINT" device="" package3d_urn="urn:adsk.eagle:package:4245792/4"/>
 <part name="SRX&lt;-" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="TEST_POINT" device="" package3d_urn="urn:adsk.eagle:package:4245792/4"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -1850,76 +2096,177 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <part name="C5" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".1u"/>
 <part name="C6" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value="4.7u"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
-<part name="ST1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="STM32L432KCU6" device="" package3d_urn="urn:adsk.eagle:package:4245373/4"/>
+<part name="ST1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="STM32L432KCU6" device="" package3d_urn="urn:adsk.eagle:package:4245373/6"/>
 <part name="SWO" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="TEST_POINT" device="" package3d_urn="urn:adsk.eagle:package:4245792/4"/>
-<part name="L3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="NCP114AMX330TCG" device="" package3d_urn="urn:adsk.eagle:package:5621121/2"/>
+<part name="L3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="NCP114AMX330TCG" device="" package3d_urn="urn:adsk.eagle:package:5621121/3"/>
 <part name="Z1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="BZA900A-ESD-ZENERS" device="" package3d_urn="urn:adsk.eagle:package:5621120/4"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="DOME_BUTTON" device="12MM" package3d_urn="urn:adsk.eagle:package:5648519/4"/>
+<part name="U$1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="DOME_BUTTON" device="12MM" package3d_urn="urn:adsk.eagle:package:5648519/5"/>
+<part name="N1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="AMS3956" device="" package3d_urn="urn:adsk.eagle:package:5825738/2"/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
+<part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="COIL1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="MOLEX_NFC_COIL_1462360101" device="" package3d_urn="urn:adsk.eagle:package:7114966/5"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="C1" gate="G$1" x="111.76" y="38.1" rot="R180"/>
-<instance part="SUPPLY2" gate="PE" x="160.02" y="127" rot="R180"/>
+<instance part="C1" gate="G$1" x="111.76" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="110.236" y="37.719" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="110.236" y="42.799" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY2" gate="PE" x="160.02" y="127" smashed="yes" rot="R180">
+<attribute name="VALUE" x="164.465" y="131.699" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="P+2" gate="1" x="101.6" y="50.8" smashed="yes">
 <attribute name="VALUE" x="99.06" y="50.8" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C2" gate="G$1" x="119.38" y="38.1" rot="R180"/>
-<instance part="SUPPLY1" gate="PE" x="116.84" y="50.8" rot="R180"/>
-<instance part="C3" gate="G$1" x="157.48" y="114.3" rot="R180"/>
-<instance part="C4" gate="G$1" x="165.1" y="114.3" rot="R180"/>
+<instance part="C2" gate="G$1" x="119.38" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="117.856" y="37.719" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="117.856" y="42.799" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY1" gate="PE" x="116.84" y="50.8" smashed="yes" rot="R180">
+<attribute name="VALUE" x="121.285" y="55.499" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C3" gate="G$1" x="157.48" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="155.956" y="113.919" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="155.956" y="118.999" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C4" gate="G$1" x="165.1" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="163.576" y="113.919" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="163.576" y="118.999" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="+3V2" gate="G$1" x="172.72" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="175.26" y="-5.08" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+3" gate="1" x="162.56" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="165.1" y="-5.08" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY4" gate="PE" x="152.4" y="-10.16" rot="R180"/>
-<instance part="+3V3" gate="G$1" x="271.78" y="88.9" rot="R270"/>
-<instance part="SUPPLY9" gate="PE" x="279.4" y="71.12"/>
-<instance part="D+" gate="G$1" x="121.92" y="-20.32" rot="R180"/>
-<instance part="D-" gate="G$1" x="134.62" y="-20.32" rot="R180"/>
-<instance part="GND" gate="G$1" x="152.4" y="-20.32" rot="R180"/>
-<instance part="+5V" gate="G$1" x="162.56" y="-20.32" rot="R180"/>
-<instance part="3V3" gate="G$1" x="172.72" y="-20.32" rot="R180"/>
-<instance part="SWDIO" gate="G$1" x="220.98" y="-20.32" rot="R180"/>
-<instance part="SWCLK" gate="G$1" x="231.14" y="-20.32" rot="R180"/>
-<instance part="R1" gate="G$1" x="259.08" y="88.9"/>
+<instance part="SUPPLY4" gate="PE" x="152.4" y="-10.16" smashed="yes" rot="R180">
+<attribute name="VALUE" x="156.845" y="-5.461" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V3" gate="G$1" x="271.78" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="266.7" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY9" gate="PE" x="279.4" y="71.12" smashed="yes">
+<attribute name="VALUE" x="274.955" y="66.421" size="1.778" layer="96"/>
+</instance>
+<instance part="D+" gate="G$1" x="121.92" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="123.19" y="-21.59" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="D-" gate="G$1" x="134.62" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="135.89" y="-21.59" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="GND" gate="G$1" x="152.4" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="153.67" y="-21.59" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="+5V" gate="G$1" x="162.56" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="163.83" y="-21.59" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="3V3" gate="G$1" x="172.72" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="173.99" y="-21.59" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SWDIO" gate="G$1" x="220.98" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="222.25" y="-21.59" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SWCLK" gate="G$1" x="231.14" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="232.41" y="-21.59" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="R1" gate="G$1" x="259.08" y="88.9" smashed="yes">
+<attribute name="NAME" x="255.27" y="90.3986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="255.27" y="85.598" size="1.778" layer="96"/>
+</instance>
 <instance part="L1" gate="G$1" x="241.3" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="244.602" y="86.36" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="246.761" y="86.36" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="STX-&gt;" gate="G$1" x="251.46" y="-20.32" rot="R180"/>
-<instance part="SRX&lt;-" gate="G$1" x="261.62" y="-20.32" rot="R180"/>
-<instance part="+3V4" gate="G$1" x="162.56" y="38.1"/>
-<instance part="SUPPLY3" gate="PE" x="162.56" y="15.24"/>
-<instance part="+3V1" gate="G$1" x="144.78" y="101.6" rot="R90"/>
-<instance part="SUPPLY5" gate="PE" x="246.38" y="66.04" rot="R90"/>
-<instance part="C5" gate="G$1" x="233.68" y="68.58" rot="R90"/>
-<instance part="C6" gate="G$1" x="233.68" y="60.96" rot="R90"/>
-<instance part="SUPPLY6" gate="PE" x="218.44" y="43.18" rot="R90"/>
+<instance part="STX-&gt;" gate="G$1" x="251.46" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="252.73" y="-21.59" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SRX&lt;-" gate="G$1" x="261.62" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="262.89" y="-21.59" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="+3V4" gate="G$1" x="162.56" y="38.1" smashed="yes">
+<attribute name="VALUE" x="160.02" y="33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY3" gate="PE" x="162.56" y="15.24" smashed="yes">
+<attribute name="VALUE" x="158.115" y="10.541" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V1" gate="G$1" x="144.78" y="101.6" smashed="yes" rot="R90">
+<attribute name="VALUE" x="149.86" y="99.06" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY5" gate="PE" x="251.46" y="66.04" smashed="yes" rot="R90">
+<attribute name="VALUE" x="256.159" y="61.595" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C5" gate="G$1" x="238.76" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="238.379" y="70.104" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="243.459" y="70.104" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C6" gate="G$1" x="238.76" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="238.379" y="62.484" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="243.459" y="62.484" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY6" gate="PE" x="218.44" y="43.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="223.139" y="38.735" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="ST1" gate="G$1" x="187.96" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="215.9" y="96.52" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="220.98" y="99.06" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="SWO" gate="G$1" x="200.66" y="-20.32" rot="R180"/>
-<instance part="L3" gate="G$1" x="139.7" y="25.4"/>
-<instance part="Z1" gate="G$1" x="281.94" y="33.02" rot="R180"/>
+<instance part="SWO" gate="G$1" x="200.66" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="201.93" y="-21.59" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="L3" gate="G$1" x="139.7" y="25.4" smashed="yes">
+<attribute name="NAME" x="129.5131" y="30.49345" size="1.782709375" layer="95"/>
+<attribute name="VALUE" x="129.5085" y="17.756340625" size="1.78353125" layer="96"/>
+</instance>
+<instance part="Z1" gate="G$1" x="281.94" y="33.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="284.8864" y="17.6784" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="286.4104" y="45.1358" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="P+1" gate="1" x="266.7" y="35.56" smashed="yes">
 <attribute name="VALUE" x="264.16" y="35.56" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY7" gate="PE" x="299.72" y="27.94"/>
-<instance part="+3V5" gate="G$1" x="266.7" y="27.94" rot="R90"/>
-<instance part="+3V6" gate="G$1" x="226.06" y="50.8" rot="R180"/>
-<instance part="+3V7" gate="G$1" x="203.2" y="30.48" rot="R180"/>
-<instance part="U$1" gate="G$1" x="266.7" y="73.66"/>
+<instance part="SUPPLY7" gate="PE" x="299.72" y="27.94" smashed="yes">
+<attribute name="VALUE" x="295.275" y="23.241" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="266.7" y="27.94" smashed="yes" rot="R90">
+<attribute name="VALUE" x="271.78" y="25.4" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="231.14" y="50.8" smashed="yes" rot="R180">
+<attribute name="VALUE" x="233.68" y="55.88" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="+3V7" gate="G$1" x="203.2" y="30.48" smashed="yes" rot="R180">
+<attribute name="VALUE" x="205.74" y="35.56" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="U$1" gate="G$1" x="266.7" y="73.66" smashed="yes">
+<attribute name="NAME" x="262.89" y="76.2" size="1.778" layer="95"/>
+<attribute name="VALUE" x="262.89" y="69.85" size="1.778" layer="96"/>
+</instance>
+<instance part="N1" gate="G$1" x="233.68" y="134.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="238.76" y="119.38" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="238.76" y="152.4" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY8" gate="PE" x="261.62" y="154.94" smashed="yes" rot="R180">
+<attribute name="VALUE" x="266.065" y="159.639" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V8" gate="G$1" x="269.24" y="116.84" smashed="yes" rot="R180">
+<attribute name="VALUE" x="271.78" y="121.92" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SJ1" gate="1" x="259.08" y="124.46" smashed="yes">
+<attribute name="NAME" x="256.54" y="127" size="1.778" layer="95"/>
+<attribute name="VALUE" x="256.54" y="120.65" size="1.778" layer="96"/>
+</instance>
+<instance part="COIL1" gate="G$1" x="287.02" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="297.18" y="133.35" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="327.66" y="148.59" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2001,14 +2348,14 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="60.96" x2="241.3" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="60.96" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="60.96" x2="246.38" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="60.96" x2="246.38" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="66.04" x2="241.3" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="66.04" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="PE" pin="PE"/>
-<wire x1="243.84" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
-<junction x="241.3" y="66.04"/>
+<wire x1="248.92" y1="66.04" x2="246.38" y2="66.04" width="0.1524" layer="91"/>
+<junction x="246.38" y="66.04"/>
 </segment>
 <segment>
 <wire x1="203.2" y1="50.8" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
@@ -2024,6 +2371,12 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <pinref part="SUPPLY7" gate="PE" pin="PE"/>
 <pinref part="Z1" gate="G$1" pin="P$1"/>
 <wire x1="299.72" y1="30.48" x2="292.1" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="N1" gate="G$1" pin="VSS"/>
+<wire x1="248.92" y1="144.78" x2="261.62" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="144.78" x2="261.62" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="PE" pin="PE"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -2060,21 +2413,21 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="60.96" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="68.58" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="68.58" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="66.04" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="66.04" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
-<junction x="226.06" y="66.04"/>
-<wire x1="215.9" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="76.2" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
-<junction x="226.06" y="68.58"/>
+<wire x1="236.22" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="68.58" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="66.04" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="66.04" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
+<junction x="231.14" y="66.04"/>
+<wire x1="215.9" y1="76.2" x2="231.14" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="76.2" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
+<junction x="231.14" y="68.58"/>
 <pinref part="ST1" gate="G$1" pin="VDD"/>
 <pinref part="ST1" gate="G$1" pin="VDDA/VREF"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<wire x1="226.06" y1="53.34" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
-<junction x="226.06" y="60.96"/>
+<wire x1="231.14" y1="53.34" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
+<junction x="231.14" y="60.96"/>
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
@@ -2087,6 +2440,16 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <wire x1="198.12" y1="35.56" x2="203.2" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="35.56" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="N1" gate="G$1" pin="VP_REG"/>
+<wire x1="248.92" y1="129.54" x2="269.24" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<wire x1="269.24" y1="119.38" x2="269.24" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="1" pin="2"/>
+<wire x1="269.24" y1="124.46" x2="269.24" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="124.46" x2="269.24" y2="124.46" width="0.1524" layer="91"/>
+<junction x="269.24" y="124.46"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -2234,12 +2597,81 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="ST1" gate="G$1" pin="PA0"/>
-<wire x1="215.9" y1="78.74" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="78.74" x2="231.14" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="78.74" x2="233.68" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="78.74" x2="233.68" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="254" y1="76.2" x2="254" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="254" y1="73.66" x2="261.62" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="N1" gate="G$1" pin="SCLK"/>
+<pinref part="ST1" gate="G$1" pin="PA5"/>
+<wire x1="218.44" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="139.7" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="N1" gate="G$1" pin="MOSI"/>
+<pinref part="ST1" gate="G$1" pin="PA7"/>
+<wire x1="218.44" y1="134.62" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="134.62" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="N1" gate="G$1" pin="MISO"/>
+<pinref part="ST1" gate="G$1" pin="PA6"/>
+<wire x1="218.44" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="129.54" x2="193.04" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="SJ1" gate="1" pin="1"/>
+<pinref part="N1" gate="G$1" pin="VP_IO"/>
+<wire x1="254" y1="124.46" x2="248.92" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AMS_CS" class="0">
+<segment>
+<pinref part="N1" gate="G$1" pin="SS"/>
+<wire x1="218.44" y1="144.78" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
+<label x="208.28" y="147.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ST1" gate="G$1" pin="PC15"/>
+<wire x1="215.9" y1="71.12" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
+<label x="218.44" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="N1" gate="G$1" pin="IRQ"/>
+<pinref part="ST1" gate="G$1" pin="PB0"/>
+<wire x1="218.44" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="124.46" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="N1" gate="G$1" pin="LC2"/>
+<wire x1="248.92" y1="139.7" x2="274.32" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="139.7" x2="274.32" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="COIL1" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="147.32" x2="287.02" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="N1" gate="G$1" pin="LC1"/>
+<wire x1="248.92" y1="134.62" x2="274.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="134.62" x2="274.32" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="COIL1" gate="G$1" pin="1"/>
+<wire x1="287.02" y1="132.08" x2="274.32" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -2307,8 +2739,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyYjdlZTY2" projecturn="a.cGVyc29uYWw6dWUyYjdlZTY2IzIwMTgwNDI5MTI5NzYxOTgx" f3durn="urn:adsk.wipprod:dm.lineage:weNIOFNJQ7WQdbs-7Cwz6Q" pcbguid="f3b1db15-27e8-4af3-8bdd-a250920546ab" lastpulledtime="2018-08-19T19:01:10Z" lastsyncedchangeguid="b77bf11b-61d3-ad3a-3a00-83fcb809a553"/>
 <plain>
-<text x="68.9" y="48.6" size="1.4224" layer="21">Solo</text>
-<text x="69.1" y="58.9" size="1.4224" layer="21">v1.2</text>
+<text x="62.2" y="47.05" size="1.4224" layer="21">Solo</text>
+<text x="62.6" y="60.15" size="1.4224" layer="21">v1.3</text>
 <hole x="62" y="51.75" drill="0.5"/>
 <wire x1="60.55" y1="61.75" x2="69.55" y2="61.75" width="0.1524" layer="48"/>
 <wire x1="76" y1="52.9" x2="76" y2="56.6" width="0.1524" layer="48"/>
@@ -2361,14 +2793,16 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="CL-505S-X-SD-T" urn="urn:adsk.eagle:footprint:4878738/2" locally_modified="yes" library_version="49" library_locally_modified="yes">
+<package name="CL-505S-X-SD-T" urn="urn:adsk.eagle:footprint:4878738/4" library_version="57">
+<description>CL-505S-X-SD-T</description>
 <smd name="P$2" x="0.85" y="0.85" dx="0.4" dy="0.4" layer="1"/>
 <smd name="P$1" x="0.85" y="0" dx="0.4" dy="0.4" layer="1"/>
 <smd name="P$4" x="0" y="0" dx="0.4" dy="0.4" layer="1"/>
 <smd name="P$3" x="0" y="0.85" dx="0.4" dy="0.4" layer="1"/>
 <text x="-0.4" y="1.4" size="0.4" layer="21">&gt;NAME</text>
+<circle x="1.2" y="1.2" radius="0.1" width="0.127" layer="21"/>
 </package>
-<package name="QFN32" urn="urn:adsk.eagle:footprint:13977/1" library_version="22" library_locally_modified="yes">
+<package name="QFN32" urn="urn:adsk.eagle:footprint:6434393/2" library_version="57">
 <description>&lt;b&gt;QFN 32&lt;/b&gt; 5 x 5 mm&lt;p&gt;
 Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="-2.45" y1="2.45" x2="2.45" y2="2.45" width="0.1016" layer="51"/>
@@ -2381,42 +2815,42 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="2.45" y1="2.45" x2="2.45" y2="2.05" width="0.1016" layer="21"/>
 <wire x1="2.45" y1="-2.05" x2="2.45" y2="-2.45" width="0.1016" layer="21"/>
 <wire x1="2.45" y1="-2.45" x2="2.05" y2="-2.45" width="0.1016" layer="21"/>
-<wire x1="-2.05" y1="-2.45" x2="-2.45" y2="-2.45" width="0.1016" layer="21"/>
-<wire x1="-2.45" y1="-2.45" x2="-2.45" y2="-2.05" width="0.1016" layer="21"/>
-<circle x="-2.175" y="2.175" radius="0.15" width="0" layer="21"/>
+<wire x1="-2.05" y1="-2.45" x2="-2.45" y2="-2.4" width="0.1016" layer="21"/>
+<wire x1="-2.45" y1="-2.4" x2="-2.45" y2="-2.05" width="0.1016" layer="21"/>
+<circle x="-2.425" y="2.475" radius="0.3" width="0" layer="21"/>
 <smd name="EXP" x="0" y="0" dx="3.2" dy="3.2" layer="1" roundness="20" stop="no" cream="no"/>
-<smd name="1" x="-2.3" y="1.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="2" x="-2.3" y="1.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="3" x="-2.3" y="0.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="4" x="-2.3" y="0.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="5" x="-2.3" y="-0.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="6" x="-2.3" y="-0.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="7" x="-2.3" y="-1.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="8" x="-2.3" y="-1.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
-<smd name="9" x="-1.75" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="10" x="-1.25" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="11" x="-0.75" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="12" x="-0.25" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="13" x="0.25" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="14" x="0.75" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="15" x="1.25" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="16" x="1.75" y="-2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
-<smd name="17" x="2.3" y="-1.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="18" x="2.3" y="-1.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="19" x="2.3" y="-0.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="20" x="2.3" y="-0.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="21" x="2.3" y="0.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="22" x="2.3" y="0.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="23" x="2.3" y="1.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="24" x="2.3" y="1.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
-<smd name="25" x="1.75" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="26" x="1.25" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="27" x="0.75" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="28" x="0.25" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="29" x="-0.25" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="30" x="-0.75" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="31" x="-1.25" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
-<smd name="32" x="-1.75" y="2.3" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="1" x="-2.35" y="1.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="2" x="-2.35" y="1.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="3" x="-2.35" y="0.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="4" x="-2.35" y="0.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="5" x="-2.35" y="-0.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="6" x="-2.35" y="-0.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="7" x="-2.35" y="-1.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="8" x="-2.35" y="-1.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
+<smd name="9" x="-1.75" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="10" x="-1.25" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="11" x="-0.75" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="12" x="-0.25" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="13" x="0.25" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="14" x="0.75" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="15" x="1.25" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="16" x="1.75" y="-2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R90" stop="no" cream="no"/>
+<smd name="17" x="2.35" y="-1.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="18" x="2.35" y="-1.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="19" x="2.35" y="-0.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="20" x="2.35" y="-0.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="21" x="2.35" y="0.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="22" x="2.35" y="0.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="23" x="2.35" y="1.25" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="24" x="2.35" y="1.75" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R180" stop="no" cream="no"/>
+<smd name="25" x="1.75" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="26" x="1.25" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="27" x="0.75" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="28" x="0.25" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="29" x="-0.25" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="30" x="-0.75" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="31" x="-1.25" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
+<smd name="32" x="-1.75" y="2.35" dx="0.6" dy="0.3" layer="1" roundness="30" rot="R270" stop="no" cream="no"/>
 <text x="-4.05" y="-4.35" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-3.8" y="3.25" size="1.27" layer="25">&gt;NAME</text>
 <rectangle x1="-0.3" y1="1.1" x2="0.3" y2="1.4" layer="31"/>
@@ -2437,7 +2871,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <rectangle x1="0.7" y1="-0.4" x2="1.3" y2="-0.1" layer="31"/>
 <rectangle x1="0.7" y1="-0.9" x2="1.3" y2="-0.6" layer="31"/>
 <rectangle x1="0.7" y1="-1.4" x2="1.3" y2="-1.1" layer="31"/>
-<rectangle x1="-2.5" y1="0.25" x2="-0.25" y2="2.5" layer="51"/>
+<rectangle x1="-2.55" y1="0.3" x2="-0.3" y2="2.55" layer="51"/>
 <polygon width="0.5" layer="29">
 <vertex x="-1.325" y="1.175"/>
 <vertex x="-1.175" y="1.325"/>
@@ -2453,11 +2887,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="1.825"/>
-<vertex x="-2.125" y="1.825"/>
-<vertex x="-2.075" y="1.775"/>
-<vertex x="-2.075" y="1.675"/>
-<vertex x="-2.525" y="1.675"/>
+<vertex x="-2.575" y="1.825"/>
+<vertex x="-2.175" y="1.825"/>
+<vertex x="-2.125" y="1.775"/>
+<vertex x="-2.125" y="1.675"/>
+<vertex x="-2.575" y="1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="1.35"/>
@@ -2466,10 +2900,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="1.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="1.325"/>
-<vertex x="-2.075" y="1.325"/>
-<vertex x="-2.075" y="1.175"/>
-<vertex x="-2.525" y="1.175"/>
+<vertex x="-2.575" y="1.325"/>
+<vertex x="-2.125" y="1.325"/>
+<vertex x="-2.125" y="1.175"/>
+<vertex x="-2.575" y="1.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="0.85"/>
@@ -2478,10 +2912,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="0.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="0.825"/>
-<vertex x="-2.075" y="0.825"/>
-<vertex x="-2.075" y="0.675"/>
-<vertex x="-2.525" y="0.675"/>
+<vertex x="-2.575" y="0.825"/>
+<vertex x="-2.125" y="0.825"/>
+<vertex x="-2.125" y="0.675"/>
+<vertex x="-2.575" y="0.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="0.35"/>
@@ -2490,10 +2924,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="0.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="0.325"/>
-<vertex x="-2.075" y="0.325"/>
-<vertex x="-2.075" y="0.175"/>
-<vertex x="-2.525" y="0.175"/>
+<vertex x="-2.575" y="0.325"/>
+<vertex x="-2.125" y="0.325"/>
+<vertex x="-2.125" y="0.175"/>
+<vertex x="-2.575" y="0.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="-0.15"/>
@@ -2502,10 +2936,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="-0.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-0.175"/>
-<vertex x="-2.075" y="-0.175"/>
-<vertex x="-2.075" y="-0.325"/>
-<vertex x="-2.525" y="-0.325"/>
+<vertex x="-2.575" y="-0.175"/>
+<vertex x="-2.125" y="-0.175"/>
+<vertex x="-2.125" y="-0.325"/>
+<vertex x="-2.575" y="-0.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="-0.65"/>
@@ -2514,10 +2948,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="-0.85"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-0.675"/>
-<vertex x="-2.075" y="-0.675"/>
-<vertex x="-2.075" y="-0.825"/>
-<vertex x="-2.525" y="-0.825"/>
+<vertex x="-2.575" y="-0.675"/>
+<vertex x="-2.125" y="-0.675"/>
+<vertex x="-2.125" y="-0.825"/>
+<vertex x="-2.575" y="-0.825"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="-1.15"/>
@@ -2526,10 +2960,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="-1.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-1.175"/>
-<vertex x="-2.075" y="-1.175"/>
-<vertex x="-2.075" y="-1.325"/>
-<vertex x="-2.525" y="-1.325"/>
+<vertex x="-2.575" y="-1.175"/>
+<vertex x="-2.125" y="-1.175"/>
+<vertex x="-2.125" y="-1.325"/>
+<vertex x="-2.575" y="-1.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-2.55" y="-1.85"/>
@@ -2539,11 +2973,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-2.55" y="-1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-1.825"/>
-<vertex x="-2.125" y="-1.825"/>
-<vertex x="-2.075" y="-1.775"/>
-<vertex x="-2.075" y="-1.675"/>
-<vertex x="-2.525" y="-1.675"/>
+<vertex x="-2.575" y="-1.825"/>
+<vertex x="-2.175" y="-1.825"/>
+<vertex x="-2.125" y="-1.775"/>
+<vertex x="-2.125" y="-1.675"/>
+<vertex x="-2.575" y="-1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-1.85" y="-2.55"/>
@@ -2553,11 +2987,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-1.65" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.825" y="-2.525"/>
-<vertex x="-1.825" y="-2.125"/>
-<vertex x="-1.775" y="-2.075"/>
-<vertex x="-1.675" y="-2.075"/>
-<vertex x="-1.675" y="-2.525"/>
+<vertex x="-1.825" y="-2.575"/>
+<vertex x="-1.825" y="-2.175"/>
+<vertex x="-1.775" y="-2.125"/>
+<vertex x="-1.675" y="-2.125"/>
+<vertex x="-1.675" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-1.35" y="-2.55"/>
@@ -2566,10 +3000,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-1.15" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.325" y="-2.525"/>
-<vertex x="-1.325" y="-2.075"/>
-<vertex x="-1.175" y="-2.075"/>
-<vertex x="-1.175" y="-2.525"/>
+<vertex x="-1.325" y="-2.575"/>
+<vertex x="-1.325" y="-2.125"/>
+<vertex x="-1.175" y="-2.125"/>
+<vertex x="-1.175" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-0.85" y="-2.55"/>
@@ -2578,10 +3012,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-0.65" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.825" y="-2.525"/>
-<vertex x="-0.825" y="-2.075"/>
-<vertex x="-0.675" y="-2.075"/>
-<vertex x="-0.675" y="-2.525"/>
+<vertex x="-0.825" y="-2.575"/>
+<vertex x="-0.825" y="-2.125"/>
+<vertex x="-0.675" y="-2.125"/>
+<vertex x="-0.675" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-0.35" y="-2.55"/>
@@ -2590,10 +3024,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-0.15" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.325" y="-2.525"/>
-<vertex x="-0.325" y="-2.075"/>
-<vertex x="-0.175" y="-2.075"/>
-<vertex x="-0.175" y="-2.525"/>
+<vertex x="-0.325" y="-2.575"/>
+<vertex x="-0.325" y="-2.125"/>
+<vertex x="-0.175" y="-2.125"/>
+<vertex x="-0.175" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="0.15" y="-2.55"/>
@@ -2602,10 +3036,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.35" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.175" y="-2.525"/>
-<vertex x="0.175" y="-2.075"/>
-<vertex x="0.325" y="-2.075"/>
-<vertex x="0.325" y="-2.525"/>
+<vertex x="0.175" y="-2.575"/>
+<vertex x="0.175" y="-2.125"/>
+<vertex x="0.325" y="-2.125"/>
+<vertex x="0.325" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="0.65" y="-2.55"/>
@@ -2614,10 +3048,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.85" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.675" y="-2.525"/>
-<vertex x="0.675" y="-2.075"/>
-<vertex x="0.825" y="-2.075"/>
-<vertex x="0.825" y="-2.525"/>
+<vertex x="0.675" y="-2.575"/>
+<vertex x="0.675" y="-2.125"/>
+<vertex x="0.825" y="-2.125"/>
+<vertex x="0.825" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="1.15" y="-2.55"/>
@@ -2626,10 +3060,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="1.35" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.175" y="-2.525"/>
-<vertex x="1.175" y="-2.075"/>
-<vertex x="1.325" y="-2.075"/>
-<vertex x="1.325" y="-2.525"/>
+<vertex x="1.175" y="-2.575"/>
+<vertex x="1.175" y="-2.125"/>
+<vertex x="1.325" y="-2.125"/>
+<vertex x="1.325" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="1.85" y="-2.55"/>
@@ -2639,11 +3073,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="1.65" y="-2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.825" y="-2.525"/>
-<vertex x="1.825" y="-2.125"/>
-<vertex x="1.775" y="-2.075"/>
-<vertex x="1.675" y="-2.075"/>
-<vertex x="1.675" y="-2.525"/>
+<vertex x="1.825" y="-2.575"/>
+<vertex x="1.825" y="-2.175"/>
+<vertex x="1.775" y="-2.125"/>
+<vertex x="1.675" y="-2.125"/>
+<vertex x="1.675" y="-2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="-1.85"/>
@@ -2653,11 +3087,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="-1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-1.825"/>
-<vertex x="2.125" y="-1.825"/>
-<vertex x="2.075" y="-1.775"/>
-<vertex x="2.075" y="-1.675"/>
-<vertex x="2.525" y="-1.675"/>
+<vertex x="2.575" y="-1.825"/>
+<vertex x="2.175" y="-1.825"/>
+<vertex x="2.125" y="-1.775"/>
+<vertex x="2.125" y="-1.675"/>
+<vertex x="2.575" y="-1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="-1.35"/>
@@ -2666,10 +3100,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="-1.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-1.325"/>
-<vertex x="2.075" y="-1.325"/>
-<vertex x="2.075" y="-1.175"/>
-<vertex x="2.525" y="-1.175"/>
+<vertex x="2.575" y="-1.325"/>
+<vertex x="2.125" y="-1.325"/>
+<vertex x="2.125" y="-1.175"/>
+<vertex x="2.575" y="-1.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="-0.85"/>
@@ -2678,10 +3112,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="-0.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-0.825"/>
-<vertex x="2.075" y="-0.825"/>
-<vertex x="2.075" y="-0.675"/>
-<vertex x="2.525" y="-0.675"/>
+<vertex x="2.575" y="-0.825"/>
+<vertex x="2.125" y="-0.825"/>
+<vertex x="2.125" y="-0.675"/>
+<vertex x="2.575" y="-0.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="-0.35"/>
@@ -2690,10 +3124,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="-0.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-0.325"/>
-<vertex x="2.075" y="-0.325"/>
-<vertex x="2.075" y="-0.175"/>
-<vertex x="2.525" y="-0.175"/>
+<vertex x="2.575" y="-0.325"/>
+<vertex x="2.125" y="-0.325"/>
+<vertex x="2.125" y="-0.175"/>
+<vertex x="2.575" y="-0.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="0.15"/>
@@ -2702,10 +3136,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="0.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="0.175"/>
-<vertex x="2.075" y="0.175"/>
-<vertex x="2.075" y="0.325"/>
-<vertex x="2.525" y="0.325"/>
+<vertex x="2.575" y="0.175"/>
+<vertex x="2.125" y="0.175"/>
+<vertex x="2.125" y="0.325"/>
+<vertex x="2.575" y="0.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="0.65"/>
@@ -2714,10 +3148,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="0.85"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="0.675"/>
-<vertex x="2.075" y="0.675"/>
-<vertex x="2.075" y="0.825"/>
-<vertex x="2.525" y="0.825"/>
+<vertex x="2.575" y="0.675"/>
+<vertex x="2.125" y="0.675"/>
+<vertex x="2.125" y="0.825"/>
+<vertex x="2.575" y="0.825"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="1.15"/>
@@ -2726,10 +3160,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="1.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="1.175"/>
-<vertex x="2.075" y="1.175"/>
-<vertex x="2.075" y="1.325"/>
-<vertex x="2.525" y="1.325"/>
+<vertex x="2.575" y="1.175"/>
+<vertex x="2.125" y="1.175"/>
+<vertex x="2.125" y="1.325"/>
+<vertex x="2.575" y="1.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="2.55" y="1.85"/>
@@ -2739,11 +3173,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="2.55" y="1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="1.825"/>
-<vertex x="2.125" y="1.825"/>
-<vertex x="2.075" y="1.775"/>
-<vertex x="2.075" y="1.675"/>
-<vertex x="2.525" y="1.675"/>
+<vertex x="2.575" y="1.825"/>
+<vertex x="2.175" y="1.825"/>
+<vertex x="2.125" y="1.775"/>
+<vertex x="2.125" y="1.675"/>
+<vertex x="2.575" y="1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="1.85" y="2.55"/>
@@ -2753,11 +3187,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="1.65" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.825" y="2.525"/>
-<vertex x="1.825" y="2.125"/>
-<vertex x="1.775" y="2.075"/>
-<vertex x="1.675" y="2.075"/>
-<vertex x="1.675" y="2.525"/>
+<vertex x="1.825" y="2.575"/>
+<vertex x="1.825" y="2.175"/>
+<vertex x="1.775" y="2.125"/>
+<vertex x="1.675" y="2.125"/>
+<vertex x="1.675" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="1.35" y="2.55"/>
@@ -2766,10 +3200,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="1.15" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.325" y="2.525"/>
-<vertex x="1.325" y="2.075"/>
-<vertex x="1.175" y="2.075"/>
-<vertex x="1.175" y="2.525"/>
+<vertex x="1.325" y="2.575"/>
+<vertex x="1.325" y="2.125"/>
+<vertex x="1.175" y="2.125"/>
+<vertex x="1.175" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="0.85" y="2.55"/>
@@ -2778,10 +3212,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.65" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.825" y="2.525"/>
-<vertex x="0.825" y="2.075"/>
-<vertex x="0.675" y="2.075"/>
-<vertex x="0.675" y="2.525"/>
+<vertex x="0.825" y="2.575"/>
+<vertex x="0.825" y="2.125"/>
+<vertex x="0.675" y="2.125"/>
+<vertex x="0.675" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="0.35" y="2.55"/>
@@ -2790,10 +3224,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.15" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.325" y="2.525"/>
-<vertex x="0.325" y="2.075"/>
-<vertex x="0.175" y="2.075"/>
-<vertex x="0.175" y="2.525"/>
+<vertex x="0.325" y="2.575"/>
+<vertex x="0.325" y="2.125"/>
+<vertex x="0.175" y="2.125"/>
+<vertex x="0.175" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-0.15" y="2.55"/>
@@ -2802,10 +3236,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-0.35" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.175" y="2.525"/>
-<vertex x="-0.175" y="2.075"/>
-<vertex x="-0.325" y="2.075"/>
-<vertex x="-0.325" y="2.525"/>
+<vertex x="-0.175" y="2.575"/>
+<vertex x="-0.175" y="2.125"/>
+<vertex x="-0.325" y="2.125"/>
+<vertex x="-0.325" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-0.65" y="2.55"/>
@@ -2814,10 +3248,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-0.85" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.675" y="2.525"/>
-<vertex x="-0.675" y="2.075"/>
-<vertex x="-0.825" y="2.075"/>
-<vertex x="-0.825" y="2.525"/>
+<vertex x="-0.675" y="2.575"/>
+<vertex x="-0.675" y="2.125"/>
+<vertex x="-0.825" y="2.125"/>
+<vertex x="-0.825" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-1.15" y="2.55"/>
@@ -2826,10 +3260,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-1.35" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.175" y="2.525"/>
-<vertex x="-1.175" y="2.075"/>
-<vertex x="-1.325" y="2.075"/>
-<vertex x="-1.325" y="2.525"/>
+<vertex x="-1.175" y="2.575"/>
+<vertex x="-1.175" y="2.125"/>
+<vertex x="-1.325" y="2.125"/>
+<vertex x="-1.325" y="2.575"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="-1.85" y="2.55"/>
@@ -2839,14 +3273,14 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-1.65" y="2.55"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.825" y="2.525"/>
-<vertex x="-1.825" y="2.125"/>
-<vertex x="-1.775" y="2.075"/>
-<vertex x="-1.675" y="2.075"/>
-<vertex x="-1.675" y="2.525"/>
+<vertex x="-1.825" y="2.575"/>
+<vertex x="-1.825" y="2.175"/>
+<vertex x="-1.775" y="2.125"/>
+<vertex x="-1.675" y="2.125"/>
+<vertex x="-1.675" y="2.575"/>
 </polygon>
 </package>
-<package name="REG_NCP114AMX330TCG" urn="urn:adsk.eagle:footprint:5621085/1" library_version="28">
+<package name="REG_NCP114AMX330TCG" urn="urn:adsk.eagle:footprint:5621085/2" library_version="57">
 <polygon width="0.001" layer="1">
 <vertex x="-0.475" y="0.65"/>
 <vertex x="-0.475" y="0.22"/>
@@ -2929,7 +3363,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-0.475" y="-0.05"/>
 <vertex x="-0.525" y="-0.05"/>
 </polygon>
-<circle x="-0.635" y="-0.689" radius="0.025" width="0.05" layer="21"/>
+<circle x="-0.64" y="-0.648" radius="0.0508" width="0.1016" layer="21"/>
 <wire x1="-0.5" y1="0.5" x2="-0.5" y2="-0.5" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.5" x2="0.5" y2="-0.5" width="0.1" layer="51"/>
 <wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.1" layer="51"/>
@@ -2938,7 +3372,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="-0.762" y1="-0.889" x2="0.762" y2="-0.889" width="0.05" layer="39"/>
 <wire x1="0.762" y1="-0.889" x2="0.762" y2="0.889" width="0.05" layer="39"/>
 <wire x1="0.762" y1="0.889" x2="-0.762" y2="0.889" width="0.05" layer="39"/>
-<text x="-0.74228125" y="0.972990625" size="0.305740625" layer="25">&gt;NAME</text>
+<text x="-0.74228125" y="0.972990625" size="0.6" layer="25">&gt;NAME</text>
 <text x="-0.742921875" y="-1.2449" size="0.306003125" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.351734375" y1="-0.351734375" x2="0.35" y2="0.35" layer="29" rot="R45"/>
 <smd name="5" x="0" y="0" dx="0.58" dy="0.58" layer="1" rot="R45" stop="no"/>
@@ -2955,7 +3389,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <smd name="P$5" x="0" y="1.7" dx="0.4" dy="0.5" layer="1"/>
 <text x="-0.5" y="1.8" size="0.4064" layer="25">&gt;NAME</text>
 </package>
-<package name="DOME-BL-12MM" urn="urn:adsk.eagle:footprint:5648518/2" library_version="47" library_locally_modified="yes">
+<package name="DOME-BL-12MM" urn="urn:adsk.eagle:footprint:5648518/3" library_version="57">
 <circle x="0" y="0" radius="1.4" width="0.1" layer="1"/>
 <circle x="0" y="0" radius="1.39895" width="0.1" layer="1"/>
 <circle x="0" y="0" radius="1.3038375" width="0.1524" layer="29"/>
@@ -3303,8 +3737,38 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="5.6" y="3.8"/>
 <vertex x="3.8" y="5.6"/>
 </polygon>
-<smd name="P$1" x="-4.1" y="0" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$2" x="0.2" y="4.5" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$1" x="-4.1" y="0" dx="1.27" dy="0.635" layer="1" stop="no" cream="no"/>
+<smd name="P$2" x="0.2" y="4.5" dx="1.27" dy="0.635" layer="1" stop="no" cream="no"/>
+</package>
+<package name="MLPD3X3" urn="urn:adsk.eagle:footprint:5825737/2" library_version="57">
+<smd name="P$1" x="0" y="0" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$2" x="0.5" y="0" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$3" x="1" y="0" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$4" x="1.5" y="0" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$5" x="2" y="0" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$6" x="2" y="-3" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$7" x="1.5" y="-3" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$8" x="1" y="-3" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$9" x="0.5" y="-3" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$10" x="0" y="-3" dx="0.6" dy="0.35" layer="1" rot="R90"/>
+<smd name="P$11" x="1" y="-1.5" dx="1.65" dy="2.38" layer="1" rot="R90"/>
+<text x="-0.5" y="0.5" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.5" y="-4" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
+<package name="MOLEX_NFC_COIL1" urn="urn:adsk.eagle:footprint:7114965/3" library_version="57">
+<description>Molex NFC coil, PN: 1462360101</description>
+<wire x1="15.24" y1="0" x2="0.24" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.24" y1="0" x2="0.24" y2="25" width="0.1524" layer="21"/>
+<wire x1="0.24" y1="25" x2="8.74" y2="25" width="0.1524" layer="21"/>
+<wire x1="8.74" y1="25" x2="15.24" y2="25" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="25" x2="15.24" y2="0" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="25" x2="15.24" y2="30" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="30" x2="8.74" y2="30" width="0.1524" layer="21"/>
+<wire x1="8.74" y1="30" x2="8.74" y2="25" width="0.1524" layer="21"/>
+<text x="10.43" y="23.5" size="0.8128" layer="26">&gt;NAME</text>
+<text x="10.43" y="22" size="0.8128" layer="28">&gt;VALUE</text>
+<smd name="P$1" x="13.43" y="28.5" dx="2.2" dy="3.1" layer="1" rot="R180"/>
+<smd name="P$2" x="10.73" y="28.5" dx="2.2" dy="3.1" layer="1" rot="R180"/>
 </package>
 </packages>
 <packages3d>
@@ -3326,21 +3790,20 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="C0402"/>
 </packageinstances>
 </package3d>
-<package3d name="CL-505S-X-SD-T" urn="urn:adsk.eagle:package:4878740/4" locally_modified="yes" type="box" library_version="49" library_locally_modified="yes">
+<package3d name="CL-505S-X-SD-T" urn="urn:adsk.eagle:package:4878740/6" type="box" library_version="57">
+<description>CL-505S-X-SD-T</description>
 <packageinstances>
 <packageinstance name="CL-505S-X-SD-T"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN50P500X500X50-32" urn="urn:adsk.eagle:package:4245373/4" type="model" library_version="49" library_locally_modified="yes">
-<description>32-QFN, 0.50 mm pitch, 5.00 X 5.00 X 0.50 mm body
-&lt;p&gt;32-pin QFN package with 0.50 mm pitch with body size 5.00 X 5.00 X 0.50 mm&lt;/p&gt;</description>
+<package3d name="QFN50P500X500X50-32" urn="urn:adsk.eagle:package:4245373/6" type="model" library_version="57">
+<description>&lt;b&gt;QFN 32&lt;/b&gt; 5 x 5 mm&lt;p&gt;
+Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstances>
 <packageinstance name="QFN32"/>
 </packageinstances>
 </package3d>
-<package3d name="DFN100X100X60-4" urn="urn:adsk.eagle:package:5621121/2" type="model" library_version="28">
-<description>DFN4, 1.00 X 1.00 X 0.60 mm body
-&lt;p&gt;DFN4 package with body size 1.00 X 1.00 X 0.60 mm&lt;/p&gt;</description>
+<package3d name="DFN100X100X60-4" urn="urn:adsk.eagle:package:5621121/3" type="model" library_version="57">
 <packageinstances>
 <packageinstance name="REG_NCP114AMX330TCG"/>
 </packageinstances>
@@ -3350,9 +3813,54 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="BZA900A"/>
 </packageinstances>
 </package3d>
-<package3d name="DOME-BL-12MM" urn="urn:adsk.eagle:package:5648519/4" type="model" library_version="47" library_locally_modified="yes">
+<package3d name="DOME-BL-12MM" urn="urn:adsk.eagle:package:5648519/5" type="model" library_version="57">
 <packageinstances>
 <packageinstance name="DOME-BL-12MM"/>
+</packageinstances>
+</package3d>
+<package3d name="MLPD3X3" urn="urn:adsk.eagle:package:5825738/2" type="box" library_version="57">
+<packageinstances>
+<packageinstance name="MLPD3X3"/>
+</packageinstances>
+</package3d>
+<package3d name="MOLEX_NFC_COIL1" urn="urn:adsk.eagle:package:7114966/5" type="model" library_version="57">
+<description>Molex NFC coil, PN: 1462360101</description>
+<packageinstances>
+<packageinstance name="MOLEX_NFC_COIL1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ" urn="urn:adsk.eagle:footprint:15432/1" library_version="1">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SJ" urn="urn:adsk.eagle:package:15471/1" type="box" library_version="1">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJ"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3551,13 +4059,13 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="C0402" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".1u" x="55.35" y="59.41" smashed="yes">
-<attribute name="NAME" x="55.365" y="60.095" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="56.615" y="59.205" size="0.6096" layer="27"/>
+<element name="C1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="C0402" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".1u" x="54.85" y="60.36" smashed="yes">
+<attribute name="NAME" x="54.865" y="61.045" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="56.115" y="60.155" size="0.6096" layer="27"/>
 </element>
-<element name="C2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="C0402" package3d_urn="urn:adsk.eagle:package:4245806/7" value="4.7u" x="55.29" y="58.39" smashed="yes">
-<attribute name="NAME" x="58.805" y="58.275" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="56.755" y="58.185" size="0.6096" layer="27"/>
+<element name="C2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="C0402" package3d_urn="urn:adsk.eagle:package:4245806/7" value="4.7u" x="54.89" y="58.99" smashed="yes">
+<attribute name="NAME" x="58.405" y="58.875" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="56.355" y="58.785" size="0.6096" layer="27"/>
 </element>
 <element name="C3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="C0402" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".1u" x="50.73" y="56.465" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.265" y="57.73" size="0.6096" layer="25" rot="R180"/>
@@ -3583,13 +4091,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.385" y="58.916" size="0.6096" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="51.785" y="58.138" size="0.0254" layer="28" rot="MR0"/>
 </element>
-<element name="3V3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="B1,27" package3d_urn="urn:adsk.eagle:package:4245792/4" value="TEST_POINT" x="48.05" y="48.3" smashed="yes" rot="MR0">
-<attribute name="NAME" x="48.985" y="49.066" size="0.6096" layer="26" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="48.185" y="48.038" size="0.0254" layer="28" rot="MR0"/>
+<element name="3V3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="B1,27" package3d_urn="urn:adsk.eagle:package:4245792/4" value="TEST_POINT" x="48.35" y="47.75" smashed="yes" rot="MR0">
+<attribute name="NAME" x="49.285" y="48.516" size="0.6096" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="48.485" y="47.488" size="0.0254" layer="28" rot="MR0"/>
 </element>
-<element name="SWDIO" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="B1,27" package3d_urn="urn:adsk.eagle:package:4245792/4" value="TEST_POINT" x="50.8" y="47.95" smashed="yes" rot="MR0">
-<attribute name="NAME" x="52.235" y="48.866" size="0.6096" layer="26" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="51.435" y="47.188" size="0.0254" layer="28" rot="MR0"/>
+<element name="SWDIO" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="B1,27" package3d_urn="urn:adsk.eagle:package:4245792/4" value="TEST_POINT" x="51" y="47.85" smashed="yes" rot="MR0">
+<attribute name="NAME" x="52.435" y="48.766" size="0.6096" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="51.635" y="47.088" size="0.0254" layer="28" rot="MR0"/>
 </element>
 <element name="SWCLK" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="B1,27" package3d_urn="urn:adsk.eagle:package:4245792/4" value="TEST_POINT" x="53.35" y="47.75" smashed="yes" rot="MR0">
 <attribute name="NAME" x="57.385" y="47.166" size="0.6096" layer="26" ratio="10" rot="MR0"/>
@@ -3599,7 +4107,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.435" y="50.415" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="54.135" y="51.255" size="0.6096" layer="27" rot="R180"/>
 </element>
-<element name="L1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="CL-505S-X-SD-T" package3d_urn="urn:adsk.eagle:package:4878740/4" value="EAST1616RGBA3-LED-RGBCL-505S-X-SD-T" x="64.8" y="54.7" smashed="yes" rot="R180">
+<element name="L1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="CL-505S-X-SD-T" package3d_urn="urn:adsk.eagle:package:4878740/6" value="EAST1616RGBA3-LED-RGBCL-505S-X-SD-T" x="64.8" y="54.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.65" y="55.5" size="0.4" layer="21" rot="R180"/>
 </element>
 <element name="STX-&gt;" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="B1,27" package3d_urn="urn:adsk.eagle:package:4245792/4" value="TEST_POINT" x="54.1" y="51.3" smashed="yes" rot="MR0">
@@ -3612,13 +4120,13 @@ design rules under a new name.</description>
 </element>
 <element name="C5" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="C0402" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".1u" x="55.95" y="51.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.285" y="51.815" size="0.6096" layer="25" rot="R180"/>
-<attribute name="VALUE" x="58.735" y="52.655" size="0.6096" layer="27" rot="R180"/>
+<attribute name="VALUE" x="59.235" y="52.455" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="C6" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="C0402" package3d_urn="urn:adsk.eagle:package:4245806/7" value="4.7u" x="55.95" y="50.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.435" y="50.365" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="57.385" y="49.505" size="0.6096" layer="27" rot="R180"/>
 </element>
-<element name="ST1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="QFN32" package3d_urn="urn:adsk.eagle:package:4245373/4" value="STM32L432KCU6" x="54.9" y="54.55" smashed="yes" rot="R180">
+<element name="ST1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="QFN32" package3d_urn="urn:adsk.eagle:package:4245373/6" value="STM32L432KCU6" x="54.9" y="54.55" smashed="yes" rot="R180">
 <attribute name="NAME" x="54.5" y="57.85" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="58.95" y="58.9" size="1.27" layer="27" rot="R180" display="off"/>
 </element>
@@ -3626,7 +4134,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.985" y="50.016" size="0.6096" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="56.735" y="48.188" size="0.0254" layer="28" rot="MR0"/>
 </element>
-<element name="L3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="REG_NCP114AMX330TCG" package3d_urn="urn:adsk.eagle:package:5621121/2" value="NCP114AMX330TCG" x="52.85" y="58.75" smashed="yes" rot="R90">
+<element name="L3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="REG_NCP114AMX330TCG" package3d_urn="urn:adsk.eagle:package:5621121/3" value="NCP114AMX330TCG" x="52.85" y="58.75" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Unavailable" x="52.85" y="58.75" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" CMOS Low Dropout Regulator _LDO_, 300 mA 3.3V, Active Discharge " x="52.85" y="58.75" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="52.85" y="58.75" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
@@ -3636,10 +4144,24 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="52.85" y="58.75" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="54.842921875" y="60.6949" size="0.306003125" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Z1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="BZA900A" package3d_urn="urn:adsk.eagle:package:5621120/4" value="BZA900A-ESD-ZENERS" x="50.6" y="53" smashed="yes">
-<attribute name="NAME" x="50.8" y="53.55" size="0.4064" layer="25"/>
+<element name="Z1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="BZA900A" package3d_urn="urn:adsk.eagle:package:5621120/4" value="BZA900A-ESD-ZENERS" x="50.55" y="53" smashed="yes">
+<attribute name="NAME" x="50.75" y="53.55" size="0.4064" layer="25"/>
 </element>
-<element name="U$1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="DOME-BL-12MM" package3d_urn="urn:adsk.eagle:package:5648519/4" value="DOME_BUTTON12MM" x="64.4" y="54.25" smashed="yes"/>
+<element name="U$1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="DOME-BL-12MM" package3d_urn="urn:adsk.eagle:package:5648519/5" value="DOME_BUTTON12MM" x="64.4" y="54.25" smashed="yes"/>
+<element name="N1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="MLPD3X3" package3d_urn="urn:adsk.eagle:package:5825738/2" value="AMS3956" x="73.85" y="59.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="71.95" y="60.3" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="69.85" y="60.4" size="0.6096" layer="27" rot="R270"/>
+</element>
+<element name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="73.15" y="50.05" smashed="yes" rot="R180">
+<attribute name="NAME" x="74.201" y="48.707" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="72.7499" y="50.05" size="0.02" layer="27" rot="R180"/>
+</element>
+<element name="COIL1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="MOLEX_NFC_COIL1" package3d_urn="urn:adsk.eagle:package:7114966/5" value="MOLEX_NFC_COIL_1462360101" x="46" y="46.45" smashed="yes" rot="MR90">
+<attribute name="LINK" value="https://www.mouser.com/ProductDetail/538-146236-0101" x="46" y="46.45" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="1462360101" x="46" y="46.45" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="71.35" y="57.13" size="0.8128" layer="25" rot="MR90"/>
+<attribute name="VALUE" x="68" y="56.88" size="0.8128" layer="27" rot="MR90" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="+5V">
@@ -3648,7 +4170,7 @@ design rules under a new name.</description>
 <contactref element="+5V" pad="TP"/>
 <contactref element="L3" pad="4"/>
 <contactref element="L3" pad="3"/>
-<wire x1="54.75" y1="59.41" x2="54.69" y2="59.400003125" width="0.2032" layer="1"/>
+<wire x1="54.25" y1="60.36" x2="54.19" y2="60.350003125" width="0.2032" layer="1"/>
 <wire x1="52.35" y1="59.075" x2="52.35" y2="59.1" width="0.1524" layer="1"/>
 <wire x1="52.35" y1="59.1" x2="52.35" y2="59.1334125" width="0.1524" layer="1"/>
 <wire x1="52.35" y1="59.0334125" x2="52.35" y2="59.075" width="0.1524" layer="1"/>
@@ -3662,25 +4184,24 @@ design rules under a new name.</description>
 <wire x1="52.35" y1="59.075" x2="52.325" y2="59.1" width="0.254" layer="1"/>
 <wire x1="52.325" y1="59.1" x2="51.3" y2="59.1" width="0.254" layer="1"/>
 <via x="51.15" y="58.95" extent="1-16" drill="0.35"/>
-<wire x1="54.75" y1="59.41" x2="54.64" y2="59.35" width="0.254" layer="1"/>
-<wire x1="54.64" y1="59.35" x2="54.69" y2="58.39" width="0.254" layer="1"/>
-<wire x1="52.35" y1="59.055253125" x2="52.35" y2="59.45" width="0.254" layer="1"/>
-<wire x1="52.35" y1="59.45" x2="52.65" y2="59.75" width="0.254" layer="1"/>
-<wire x1="52.65" y1="59.75" x2="52.7" y2="59.7" width="0.254" layer="1"/>
-<wire x1="54.41" y1="59.7" x2="54.75" y2="59.41" width="0.254" layer="1"/>
-<wire x1="52.7" y1="59.7" x2="54.41" y2="59.7" width="0.254" layer="1"/>
+<wire x1="54.25" y1="60.36" x2="54.25" y2="59.03" width="0.254" layer="1"/>
+<wire x1="54.29" y1="58.99" x2="54.25" y2="59.03" width="0.254" layer="1"/>
+<wire x1="52.35" y1="59.1" x2="52.35" y2="59.9" width="0.254" layer="1"/>
+<wire x1="52.35" y1="59.9" x2="53.05" y2="60.6" width="0.254" layer="1"/>
+<wire x1="54.25" y1="60.36" x2="54.01" y2="60.6" width="0.254" layer="1"/>
+<wire x1="54.01" y1="60.6" x2="53.05" y2="60.6" width="0.254" layer="1"/>
 <contactref element="Z1" pad="P$1"/>
-<via x="50.05" y="52.55" extent="1-16" drill="0.3"/>
+<via x="49.95" y="52.5" extent="1-16" drill="0.3"/>
 <wire x1="51.3" y1="58.8" x2="51.15" y2="58.95" width="0.254" layer="16"/>
-<wire x1="50.05" y1="52.55" x2="50.65" y2="53.15" width="0.254" layer="16"/>
+<wire x1="49.95" y1="52.5" x2="50.6" y2="53.15" width="0.254" layer="16"/>
 <wire x1="51.1144" y1="55.0144" x2="51.1144" y2="58.9144" width="0.254" layer="16"/>
-<wire x1="50.65" y1="53.15" x2="50.95" y2="53.15" width="0.254" layer="16"/>
+<wire x1="50.6" y1="53.15" x2="50.95" y2="53.15" width="0.254" layer="16"/>
 <wire x1="50.95" y1="53.15" x2="51.35" y2="53.55" width="0.254" layer="16"/>
 <wire x1="51.35" y1="53.55" x2="50.6" y2="54.3" width="0.254" layer="16"/>
 <wire x1="50.6" y1="54.3" x2="50.6" y2="54.5" width="0.254" layer="16"/>
 <wire x1="50.6" y1="54.5" x2="51.1144" y2="55.0144" width="0.254" layer="16"/>
-<wire x1="50.55" y1="53" x2="50.15" y2="52.55" width="0.254" layer="1"/>
-<wire x1="50.15" y1="52.55" x2="50.05" y2="52.55" width="0.254" layer="1"/>
+<wire x1="50.5" y1="53" x2="50.05555625" y2="52.5" width="0.254" layer="1"/>
+<wire x1="50.05555625" y1="52.5" x2="49.95" y2="52.5" width="0.254" layer="1"/>
 <wire x1="51.15" y1="58.95" x2="51.1144" y2="58.9144" width="0.254" layer="16"/>
 <wire x1="51.3" y1="59.1" x2="51.15" y2="58.95" width="0.254" layer="1"/>
 <wire x1="51.15" y1="58.9" x2="51.15" y2="58.95" width="0.1524" layer="16"/>
@@ -3690,11 +4211,19 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C3" pad="2"/>
+<polygon width="0.1016" layer="1" isolate="0.254">
+<vertex x="35.9" y="56.8"/>
+<vertex x="35.9" y="59.1"/>
+<vertex x="44.1" y="59.1"/>
+<vertex x="44.1" y="64.8"/>
+<vertex x="76.8" y="64.8"/>
+<vertex x="76.8" y="45.7"/>
+<vertex x="45.2" y="45.7"/>
+<vertex x="45.2" y="49.4"/>
+<vertex x="44.2" y="49.4"/>
+<vertex x="44.2" y="56.8"/>
+</polygon>
 <contactref element="GND" pad="TP"/>
-<via x="67.6" y="47.9" extent="1-16" drill="0.35"/>
-<via x="67.8" y="60.65" extent="1-16" drill="0.35"/>
-<via x="63.4" y="60.65" extent="1-16" drill="0.35"/>
-<via x="63" y="47.45" extent="1-16" drill="0.35"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="ST1" pad="16"/>
@@ -3717,9 +4246,9 @@ design rules under a new name.</description>
 <wire x1="54.4" y1="55.05" x2="54.4" y2="53.8" width="0.254" layer="1"/>
 <via x="54.4" y="53.8" extent="1-16" drill="0.35"/>
 <wire x1="56.65" y1="52.6" x2="55.2" y2="54.05" width="0.1524" layer="1"/>
-<wire x1="56.65" y1="52.25" x2="56.65" y2="52.6" width="0.1524" layer="1"/>
+<wire x1="56.65" y1="52.2" x2="56.65" y2="52.6" width="0.1524" layer="1"/>
 <wire x1="55.2" y1="54.05" x2="55.2" y2="54.25" width="0.1524" layer="1"/>
-<wire x1="53.15" y1="56.85" x2="53.1714" y2="56.8286" width="0.1524" layer="1"/>
+<wire x1="53.15" y1="56.9" x2="53.1714" y2="56.8286" width="0.1524" layer="1"/>
 <wire x1="53.1714" y1="56.8286" x2="53.1714" y2="56.38166875" width="0.1524" layer="1"/>
 <wire x1="53.1714" y1="56.38166875" x2="53.23166875" y2="56.3214" width="0.1524" layer="1"/>
 <wire x1="53.23166875" y1="56.3214" x2="53.2786" y2="56.3214" width="0.1524" layer="1"/>
@@ -3729,6 +4258,33 @@ design rules under a new name.</description>
 <wire x1="55.3" y1="50.65" x2="55.35" y2="51.1" width="0.254" layer="1"/>
 <wire x1="55.35" y1="50.25" x2="55.3" y2="50.65" width="0.1524" layer="1"/>
 <via x="55.3" y="50.65" extent="1-16" drill="0.35"/>
+<contactref element="N1" pad="P$5"/>
+<contactref element="N1" pad="P$11"/>
+<wire x1="72.35" y1="58.9" x2="73.35" y2="57.9" width="0.3048" layer="1"/>
+<wire x1="73.35" y1="57.9" x2="73.85" y2="57.9" width="0.3048" layer="1"/>
+<via x="62.7" y="59" extent="1-16" drill="0.35"/>
+<via x="64.3" y="59" extent="1-16" drill="0.35"/>
+<via x="65.95" y="59" extent="1-16" drill="0.35"/>
+<via x="62.65" y="49.45" extent="1-16" drill="0.35"/>
+<via x="64.5" y="49.35" extent="1-16" drill="0.35"/>
+<via x="66.15" y="49.4" extent="1-16" drill="0.35"/>
+<wire x1="53.4" y1="59.125" x2="53.4" y2="59.95" width="0.3048" layer="1"/>
+<via x="53.4" y="59.95" extent="1-16" drill="0.35"/>
+<wire x1="53.35" y1="59.075" x2="53.4" y2="59.125" width="0.1524" layer="1"/>
+<wire x1="55.49" y1="58.99" x2="55.9464" y2="59.4464" width="0.1524" layer="1"/>
+<wire x1="55.9464" y1="59.4464" x2="55.9464" y2="59.7" width="0.1524" layer="1"/>
+<via x="55.9464" y="59.7" extent="1-16" drill="0.35"/>
+<wire x1="55.9464" y1="59.7" x2="55.9464" y2="59.8636" width="0.1524" layer="1"/>
+<wire x1="55.9464" y1="59.8636" x2="55.45" y2="60.36" width="0.1524" layer="1"/>
+<via x="71.85" y="58.4" extent="1-16" drill="0.35"/>
+<wire x1="72.35" y1="58.9" x2="72.85" y2="59.4" width="0.1524" layer="1"/>
+<wire x1="72.35" y1="58.9" x2="71.85" y2="59.4" width="0.1524" layer="1"/>
+<via x="71.85" y="59.4" extent="1-16" drill="0.35"/>
+<wire x1="72.35" y1="58.9" x2="71.85" y2="58.4" width="0.1524" layer="1"/>
+<via x="71.85" y="58.4" extent="1-16" drill="0.35"/>
+<via x="51.8" y="60.85" extent="1-16" drill="0.35"/>
+<via x="50.95" y="60.85" extent="1-16" drill="0.35"/>
+<via x="50.65" y="50.05" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+3V3">
 <contactref element="3V3" pad="TP"/>
@@ -3743,12 +4299,11 @@ design rules under a new name.</description>
 <contactref element="ST1" pad="1"/>
 <contactref element="ST1" pad="5"/>
 <wire x1="57.2" y1="51.2" x2="57.15" y2="51.2" width="0.2032" layer="1"/>
-<wire x1="58.1" y1="52.45" x2="58.025" y2="52.525" width="0.2032" layer="1"/>
 <wire x1="58.025" y1="52.525" x2="57.75" y2="52.8" width="0.2032" layer="1"/>
-<wire x1="57.75" y1="52.8" x2="57.2" y2="52.8" width="0.2032" layer="1"/>
-<wire x1="57.2" y1="54.8" x2="57.95" y2="54.8" width="0.2032" layer="1"/>
-<wire x1="57.95" y1="54.8" x2="58.1" y2="54.65" width="0.2032" layer="1"/>
-<wire x1="58.1" y1="54.65" x2="58.1" y2="52.45" width="0.2032" layer="1"/>
+<wire x1="57.75" y1="52.8" x2="57.25" y2="52.8" width="0.2032" layer="1"/>
+<wire x1="57.25" y1="54.8" x2="57.95" y2="54.8" width="0.2032" layer="1"/>
+<wire x1="57.95" y1="54.8" x2="58.7" y2="54.05" width="0.2032" layer="1"/>
+<wire x1="58.7" y1="52.85" x2="58.7" y2="54.05" width="0.2032" layer="1"/>
 <via x="53.5" y="49.15" extent="1-16" drill="0.35"/>
 <wire x1="56.82875625" y1="47.6356" x2="57.5" y2="48.30684375" width="0.254" layer="16"/>
 <wire x1="53.5" y1="49.1" x2="54.9644" y2="47.6356" width="0.254" layer="16"/>
@@ -3759,10 +4314,10 @@ design rules under a new name.</description>
 <wire x1="52.95" y1="49.7" x2="53" y2="50.2" width="0.254" layer="1"/>
 <wire x1="49.75" y1="49.15" x2="52.65" y2="49.15" width="0.254" layer="16"/>
 <wire x1="52.65" y1="49.15" x2="53.5" y2="49.15" width="0.254" layer="16"/>
-<wire x1="48.9" y1="48.3" x2="49.75" y2="49.15" width="0.254" layer="16"/>
+<wire x1="48.35" y1="47.75" x2="49.75" y2="49.15" width="0.254" layer="16"/>
 <wire x1="51.29" y1="55.56" x2="51.34" y2="56.425" width="0.254" layer="1"/>
 <wire x1="51.545" y1="56.3" x2="51.33" y2="56.465" width="0.254" layer="1"/>
-<wire x1="51.545" y1="56.3" x2="52.6" y2="56.3" width="0.254" layer="1"/>
+<wire x1="51.545" y1="56.3" x2="52.55" y2="56.3" width="0.254" layer="1"/>
 <wire x1="51.465" y1="56.465" x2="52.6" y2="57.6" width="0.254" layer="1"/>
 <wire x1="52.85" y1="57.85" x2="53.2" y2="57.85" width="0.254" layer="1"/>
 <wire x1="53.2" y1="57.85" x2="53.35" y2="58" width="0.254" layer="1"/>
@@ -3775,14 +4330,13 @@ design rules under a new name.</description>
 <wire x1="51.8" y1="57.6" x2="52.6" y2="57.6" width="0.254" layer="1"/>
 <wire x1="52.6" y1="57.6" x2="52.85" y2="57.85" width="0.254" layer="1"/>
 <contactref element="Z1" pad="P$5"/>
-<wire x1="51.240009375" y1="55.340009375" x2="51.34" y2="55.382028125" width="0.254" layer="1"/>
+<wire x1="51.15376875" y1="55.30376875" x2="51.34" y2="55.382028125" width="0.254" layer="1"/>
 <wire x1="51.34" y1="55.382028125" x2="51.29" y2="55.56" width="0.254" layer="1"/>
 <wire x1="51.34" y1="56.425" x2="51.33" y2="56.465" width="0.254" layer="1"/>
-<wire x1="48.05" y1="48.3" x2="48.9" y2="48.3" width="0.254" layer="16"/>
 <wire x1="51.33" y1="56.465" x2="51.465" y2="56.465" width="0.254" layer="1"/>
-<wire x1="50.6" y1="54.7" x2="51.240009375" y2="55.340009375" width="0.254" layer="1"/>
+<wire x1="50.55" y1="54.7" x2="51.15376875" y2="55.30376875" width="0.254" layer="1"/>
 <contactref element="ST1" pad="31"/>
-<wire x1="56.15" y1="52.25" x2="56.0857" y2="52.1857" width="0.1524" layer="1"/>
+<wire x1="56.15" y1="52.2" x2="56.0857" y2="52.1857" width="0.1524" layer="1"/>
 <wire x1="57.15" y1="51.2" x2="58.025" y2="52.075" width="0.254" layer="1"/>
 <wire x1="58.025" y1="52.075" x2="58.025" y2="52.525" width="0.254" layer="1"/>
 <wire x1="56.7" y1="51.2" x2="56.8" y2="51.3" width="0.254" layer="1"/>
@@ -3791,24 +4345,49 @@ design rules under a new name.</description>
 <wire x1="56.55" y1="51.1" x2="57.7" y2="51.1" width="0.254" layer="1"/>
 <wire x1="57.7" y1="51.1" x2="58.15" y2="50.65" width="0.254" layer="1"/>
 <wire x1="56.55" y1="50.25" x2="56.55" y2="51.1" width="0.254" layer="1"/>
-<wire x1="56.15" y1="52.25" x2="56.15" y2="51.95" width="0.1524" layer="1"/>
+<wire x1="56.15" y1="52.2" x2="56.15" y2="51.95" width="0.1524" layer="1"/>
 <wire x1="56.15" y1="51.95" x2="56.8" y2="51.3" width="0.1524" layer="1"/>
 <wire x1="56.55" y1="51.1" x2="56.65" y2="51.15" width="0.254" layer="1"/>
 <wire x1="53.5" y1="49.15" x2="53.5" y2="49.1" width="0.254" layer="16"/>
 <wire x1="57.5" y1="50" x2="58.15" y2="50.65" width="0.254" layer="16"/>
+<contactref element="N1" pad="P$2"/>
+<contactref element="SJ1" pad="2"/>
+<wire x1="58.55" y1="52.6" x2="58.6" y2="52.6" width="0.3048" layer="1"/>
+<wire x1="58.55" y1="52.6" x2="58.025" y2="52.075" width="0.3048" layer="1"/>
+<wire x1="58.6" y1="52.6" x2="58.6" y2="52.75" width="0.3048" layer="1"/>
+<wire x1="58.6" y1="52.75" x2="58.7" y2="52.85" width="0.3048" layer="1"/>
+<wire x1="53.5" y1="49.15" x2="54.0452" y2="48.6048" width="0.3048" layer="1"/>
+<wire x1="54.0452" y1="48.6048" x2="54.0452" y2="48.59948125" width="0.3048" layer="1"/>
+<wire x1="54.0452" y1="48.59948125" x2="55.04468125" y2="47.6" width="0.3048" layer="1"/>
+<wire x1="55.04468125" y1="47.6" x2="71.25" y2="47.6" width="0.3048" layer="1"/>
+<wire x1="71.25" y1="47.6" x2="72.388" y2="48.738" width="0.3048" layer="1"/>
+<wire x1="72.388" y1="48.738" x2="72.388" y2="50.05" width="0.3048" layer="1"/>
+<wire x1="75.5928" y1="57.15" x2="75.5928" y2="58.76325" width="0.3048" layer="1"/>
+<wire x1="73.66688125" y1="57.1878" x2="71.23311875" y2="57.1878" width="0.3048" layer="1"/>
+<wire x1="71.23311875" y1="57.1878" x2="69.5122" y2="55.46688125" width="0.3048" layer="1"/>
+<wire x1="69.5122" y1="55.46688125" x2="69.5122" y2="53.03311875" width="0.3048" layer="1"/>
+<wire x1="75.5928" y1="57.15" x2="73.70468125" y2="57.15" width="0.3048" layer="1"/>
+<wire x1="73.70468125" y1="57.15" x2="73.66688125" y2="57.1878" width="0.3048" layer="1"/>
+<wire x1="72.388" y1="50.15731875" x2="72.388" y2="50.05" width="0.3048" layer="1"/>
+<wire x1="69.5122" y1="53.03311875" x2="72.388" y2="50.15731875" width="0.3048" layer="1"/>
+<wire x1="75.5928" y1="58.76325" x2="74.92625" y2="59.4298" width="0.254" layer="1"/>
+<wire x1="74.92625" y1="59.4298" x2="73.8798" y2="59.4298" width="0.254" layer="1"/>
+<wire x1="73.85" y1="59.4" x2="73.8798" y2="59.4298" width="0.254" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R1" pad="1"/>
 <contactref element="L1" pad="P$4"/>
 <wire x1="64.8" y1="54.7" x2="64.9" y2="54.7" width="0.1524" layer="1"/>
 <via x="64.8" y="54.7" extent="1-16" drill="0.3"/>
-<via x="65.9" y="48.15" extent="1-16" drill="0.2032"/>
-<wire x1="64.95" y1="54.7" x2="64.8" y2="54.7" width="0.2" layer="16"/>
+<via x="69.6" y="49.3" extent="1-16" drill="0.2032"/>
+<wire x1="67.25" y1="54.7" x2="64.8" y2="54.7" width="0.2" layer="16"/>
 <wire x1="54.2" y1="50.2" x2="56.25" y2="48.2" width="0.254" layer="1"/>
-<wire x1="56.25" y1="48.2" x2="65.85" y2="48.2" width="0.254" layer="1"/>
-<wire x1="65.9" y1="48.15" x2="65.9" y2="53.75" width="0.254" layer="16"/>
-<wire x1="65.9" y1="53.75" x2="64.95" y2="54.7" width="0.254" layer="16"/>
-<wire x1="65.85" y1="48.2" x2="65.9" y2="48.15" width="0.254" layer="1"/>
+<wire x1="56.25" y1="48.2" x2="68.55" y2="48.2" width="0.254" layer="1"/>
+<wire x1="69.9" y1="52.05" x2="69.9" y2="49.6" width="0.254" layer="16"/>
+<wire x1="69.6" y1="49.3" x2="69.9" y2="49.6" width="0.254" layer="16"/>
+<wire x1="69.9" y1="52.05" x2="67.25" y2="54.7" width="0.254" layer="16"/>
+<wire x1="68.55" y1="48.2" x2="68.55" y2="48.25" width="0.254" layer="1"/>
+<wire x1="68.55" y1="48.25" x2="69.6" y2="49.3" width="0.254" layer="1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="SWCLK" pad="TP"/>
@@ -3818,7 +4397,7 @@ design rules under a new name.</description>
 <wire x1="53.45" y1="47.9" x2="53.45" y2="48.35" width="0.1524" layer="1"/>
 <wire x1="53.45" y1="48.35" x2="52.4" y2="49.4" width="0.1524" layer="1"/>
 <wire x1="52.4" y1="49.4" x2="52.4" y2="52" width="0.1524" layer="1"/>
-<wire x1="52.6" y1="52.2" x2="52.6" y2="52.8" width="0.1524" layer="1"/>
+<wire x1="52.6" y1="52.2" x2="52.55" y2="52.8" width="0.1524" layer="1"/>
 <wire x1="52.4" y1="52" x2="52.6" y2="52.2" width="0.1524" layer="1"/>
 <wire x1="53.5" y1="47.9" x2="53.35" y2="47.75" width="0.254" layer="16"/>
 <wire x1="53.5" y1="47.9" x2="53.45" y2="47.9" width="0.254" layer="16"/>
@@ -3827,35 +4406,33 @@ design rules under a new name.</description>
 <contactref element="D+" pad="TP"/>
 <contactref element="ST1" pad="22"/>
 <contactref element="Z1" pad="P$3"/>
-<wire x1="51.65" y1="53.05" x2="51.9" y2="53.3" width="0.1524" layer="1"/>
-<wire x1="51.9" y1="53.3" x2="51.9" y2="53.8" width="0.1524" layer="1"/>
-<wire x1="51.9" y1="53.8" x2="52.6" y2="53.8" width="0.1524" layer="1"/>
-<wire x1="51.6286" y1="52.9935875" x2="51.6286" y2="51.4786" width="0.1524" layer="1"/>
+<wire x1="51.6" y1="53.05" x2="51.9" y2="53.35" width="0.1524" layer="1"/>
+<wire x1="51.9" y1="53.35" x2="51.9" y2="53.8" width="0.1524" layer="1"/>
+<wire x1="51.9" y1="53.8" x2="52.55" y2="53.8" width="0.1524" layer="1"/>
+<wire x1="51.6286" y1="52.99143125" x2="51.6286" y2="51.4786" width="0.1524" layer="1"/>
 <via x="51.4" y="51.25" extent="1-16" drill="0.35"/>
-<wire x1="51.65" y1="53" x2="51.6286" y2="52.9935875" width="0.1524" layer="1"/>
+<wire x1="51.6" y1="53" x2="51.6286" y2="52.99143125" width="0.1524" layer="1"/>
 <wire x1="51.6286" y1="51.4786" x2="51.4" y2="51.25" width="0.1524" layer="1"/>
 <wire x1="51.7" y1="51.25" x2="51.4" y2="51.25" width="0.254" layer="16"/>
-<wire x1="51.6786" y1="53.0286" x2="51.6786" y2="53.15" width="0.1524" layer="1"/>
-<wire x1="51.6786" y1="53.15" x2="51.6786" y2="53.2946875" width="0.1524" layer="1"/>
+<wire x1="51.6786" y1="53.0786" x2="51.6786" y2="53.2946875" width="0.1524" layer="1"/>
 <wire x1="51.6786" y1="53.2946875" x2="51.3232875" y2="53.65" width="0.1524" layer="1"/>
 <wire x1="51.3232875" y1="53.65" x2="50" y2="53.65" width="0.1524" layer="1"/>
-<wire x1="51.65" y1="53" x2="51.65" y2="53.05" width="0.1524" layer="1"/>
-<wire x1="51.65" y1="53" x2="51.6786" y2="53.0286" width="0.1524" layer="1"/>
-<wire x1="51.6786" y1="53.0286" x2="51.6786" y2="53.15" width="0.1524" layer="1"/>
+<wire x1="51.6" y1="53" x2="51.6" y2="53.05" width="0.1524" layer="1"/>
+<wire x1="51.6" y1="53" x2="51.6786" y2="53.0786" width="0.1524" layer="1"/>
 </signal>
 <signal name="D-">
 <contactref element="D-" pad="TP"/>
 <contactref element="ST1" pad="21"/>
 <contactref element="Z1" pad="P$4"/>
-<wire x1="51.859090625" y1="54.440909375" x2="52.19375" y2="54.3" width="0.1524" layer="1"/>
+<wire x1="51.772728125" y1="54.477271875" x2="52.19375" y2="54.3" width="0.1524" layer="1"/>
 <wire x1="51.45" y1="54.7" x2="50.827246875" y2="54.077246875" width="0.1524" layer="1"/>
 <wire x1="49.90254375" y1="54.077475" x2="50.827246875" y2="54.077246875" width="0.1524" layer="1"/>
 <via x="49.90254375" y="54.3274" extent="1-16" drill="0.3"/>
 <wire x1="49.90254375" y1="54.3274" x2="49.90254375" y2="55.10254375" width="0.1524" layer="16"/>
 <wire x1="49.90254375" y1="55.10254375" x2="50.2" y2="55.4" width="0.1524" layer="16"/>
-<wire x1="52.19375" y1="54.3" x2="52.6" y2="54.3" width="0.1524" layer="1"/>
-<wire x1="51.6" y1="54.7" x2="51.859090625" y2="54.440909375" width="0.1524" layer="1"/>
-<wire x1="51.6" y1="54.7" x2="51.45" y2="54.7" width="0.1524" layer="1"/>
+<wire x1="52.19375" y1="54.3" x2="52.55" y2="54.3" width="0.1524" layer="1"/>
+<wire x1="51.55" y1="54.7" x2="51.772728125" y2="54.477271875" width="0.1524" layer="1"/>
+<wire x1="51.55" y1="54.7" x2="51.45" y2="54.7" width="0.1524" layer="1"/>
 <wire x1="49.90254375" y1="54.3274" x2="49.90254375" y2="54.077475" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$4">
@@ -3864,9 +4441,10 @@ design rules under a new name.</description>
 <signal name="STX-&gt;">
 <contactref element="STX-&gt;" pad="TP"/>
 <contactref element="ST1" pad="29"/>
-<wire x1="55.15" y1="52.25" x2="55.0286" y2="52.1286" width="0.1524" layer="1"/>
-<wire x1="55.0286" y1="52.1286" x2="55.0286" y2="51.88166875" width="0.1524" layer="1"/>
-<wire x1="55.0286" y1="51.88166875" x2="54.398465625" y2="51.251534375" width="0.1524" layer="1"/>
+<wire x1="55.15" y1="52.2" x2="55.0286" y2="52.1286" width="0.1524" layer="1"/>
+<wire x1="55.0286" y1="52.1286" x2="55.0286" y2="51.83166875" width="0.1524" layer="1"/>
+<wire x1="55.0286" y1="51.83166875" x2="54.448465625" y2="51.251534375" width="0.1524" layer="1"/>
+<wire x1="54.448465625" y1="51.251534375" x2="54.398465625" y2="51.251534375" width="0.1524" layer="1"/>
 <wire x1="54.29693125" y1="51.15" x2="54.398465625" y2="51.251534375" width="0.1524" layer="1"/>
 <via x="54.398465625" y="51.251534375" extent="1-16" drill="0.3"/>
 <wire x1="54.1" y1="51.3" x2="54.148465625" y2="51.251534375" width="0.1524" layer="16"/>
@@ -3875,11 +4453,11 @@ design rules under a new name.</description>
 <signal name="SRX&lt;-">
 <contactref element="SRX&lt;-" pad="TP"/>
 <contactref element="ST1" pad="30"/>
-<wire x1="55.65" y1="52.25" x2="55.6714" y2="52.2286" width="0.1524" layer="1"/>
+<wire x1="55.65" y1="52.2" x2="55.6714" y2="52.2286" width="0.1524" layer="1"/>
 <via x="58.9" y="49.25" extent="1-16" drill="0.3"/>
-<wire x1="55.6714" y1="51.94754375" x2="55.9952" y2="51.62374375" width="0.1524" layer="1"/>
-<wire x1="55.9952" y1="51.62374375" x2="55.9952" y2="49.8815125" width="0.1524" layer="1"/>
-<wire x1="55.6714" y1="52.2286" x2="55.6714" y2="51.94754375" width="0.1524" layer="1"/>
+<wire x1="55.6714" y1="51.89754375" x2="55.9952" y2="51.57374375" width="0.1524" layer="1"/>
+<wire x1="55.9952" y1="51.57374375" x2="55.9952" y2="49.8815125" width="0.1524" layer="1"/>
+<wire x1="55.6714" y1="52.2286" x2="55.6714" y2="51.89754375" width="0.1524" layer="1"/>
 <wire x1="55.9952" y1="49.8815125" x2="56.6267125" y2="49.25" width="0.1524" layer="1"/>
 <wire x1="56.6267125" y1="49.25" x2="58.9" y2="49.25" width="0.1524" layer="1"/>
 <wire x1="58.9" y1="49.25" x2="59.5" y2="49.85" width="0.1524" layer="16"/>
@@ -3888,22 +4466,24 @@ design rules under a new name.</description>
 <signal name="SWDIO">
 <contactref element="ST1" pad="23"/>
 <contactref element="SWDIO" pad="TP"/>
-<wire x1="52.6" y1="53.3" x2="52.5786" y2="53.2786" width="0.1524" layer="1"/>
-<wire x1="52.5786" y1="53.2786" x2="52.33166875" y2="53.2786" width="0.1524" layer="1"/>
-<wire x1="52.33166875" y1="53.2786" x2="52.0714" y2="53.01833125" width="0.1524" layer="1"/>
-<wire x1="50.8" y1="47.95" x2="50.8" y2="48" width="0.1524" layer="16"/>
-<wire x1="52.0714" y1="53.01833125" x2="52.0714" y2="49.2214" width="0.1524" layer="1"/>
-<wire x1="52.0714" y1="49.2214" x2="50.8" y2="47.95" width="0.1524" layer="1"/>
-<via x="50.8" y="47.95" extent="1-16" drill="0.35"/>
+<wire x1="52.55" y1="53.3" x2="52.5786" y2="53.2786" width="0.1524" layer="1"/>
+<wire x1="52.5786" y1="53.2786" x2="52.28166875" y2="53.2786" width="0.1524" layer="1"/>
+<wire x1="52.28166875" y1="53.2786" x2="52.0214" y2="53.01833125" width="0.1524" layer="1"/>
+<wire x1="51" y1="48" x2="51" y2="48.05" width="0.1524" layer="16"/>
+<wire x1="52.0214" y1="53.01833125" x2="52.0214" y2="49.0214" width="0.1524" layer="1"/>
+<wire x1="52.0214" y1="49.0214" x2="51" y2="48" width="0.1524" layer="1"/>
+<via x="51" y="48" extent="1-16" drill="0.35"/>
+<wire x1="51" y1="47.85" x2="51" y2="48" width="0.1524" layer="16"/>
 </signal>
 <signal name="SWO">
 <contactref element="ST1" pad="26"/>
 <contactref element="SWO" pad="TP"/>
 <wire x1="53.6214" y1="52.2214" x2="53.6214" y2="52.03166875" width="0.1524" layer="1"/>
 <wire x1="53.6214" y1="52.03166875" x2="53.65" y2="52.00306875" width="0.1524" layer="1"/>
-<wire x1="53.65" y1="52.25" x2="53.6214" y2="52.2214" width="0.1524" layer="1"/>
-<wire x1="53.65" y1="52.25" x2="53.65" y2="49.85" width="0.1524" layer="1"/>
-<wire x1="53.65" y1="49.85" x2="54.65" y2="48.85" width="0.1524" layer="1"/>
+<wire x1="53.65" y1="52.2" x2="53.6214" y2="52.2214" width="0.1524" layer="1"/>
+<wire x1="53.65" y1="52.2" x2="53.65" y2="49.8" width="0.1524" layer="1"/>
+<wire x1="54.6" y1="48.85" x2="54.65" y2="48.85" width="0.1524" layer="1"/>
+<wire x1="54.6" y1="48.85" x2="53.65" y2="49.8" width="0.1524" layer="1"/>
 <via x="54.65" y="48.85" extent="1-16" drill="0.3"/>
 <wire x1="54.65" y1="48.85" x2="56" y2="48.85" width="0.1524" layer="16"/>
 <wire x1="56" y1="48.85" x2="56.1" y2="48.95" width="0.1524" layer="16"/>
@@ -3911,7 +4491,7 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="L1" pad="P$2"/>
 <contactref element="ST1" pad="8"/>
-<wire x1="57.2" y1="56.3" x2="57.95" y2="56.3" width="0.1524" layer="1"/>
+<wire x1="57.25" y1="56.3" x2="57.95" y2="56.3" width="0.1524" layer="1"/>
 <wire x1="57.95" y1="56.3" x2="58.15" y2="56.5" width="0.1524" layer="1"/>
 <via x="58.15" y="56.5" extent="1-16" drill="0.3"/>
 <wire x1="58.15" y1="56.5" x2="59.8" y2="56.5" width="0.1524" layer="16"/>
@@ -3931,12 +4511,12 @@ design rules under a new name.</description>
 <wire x1="57.6" y1="57.75" x2="60.9" y2="57.75" width="0.1524" layer="16"/>
 <wire x1="60.9" y1="57.75" x2="63.95" y2="54.7" width="0.1524" layer="16"/>
 <via x="63.95" y="54.7" extent="1-16" drill="0.3"/>
-<wire x1="56.65" y1="56.85" x2="56.65" y2="57.3" width="0.1524" layer="1"/>
+<wire x1="56.65" y1="56.9" x2="56.65" y2="57.3" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="ST1" pad="7"/>
 <contactref element="L1" pad="P$3"/>
-<wire x1="57.2" y1="55.8" x2="58.45" y2="55.8" width="0.1524" layer="1"/>
+<wire x1="57.25" y1="55.8" x2="58.45" y2="55.8" width="0.1524" layer="1"/>
 <wire x1="58.45" y1="55.8" x2="58.5" y2="55.75" width="0.1524" layer="1"/>
 <via x="58.5" y="55.75" extent="1-16" drill="0.3"/>
 <wire x1="58.5" y1="55.75" x2="61.3" y2="52.95" width="0.1524" layer="16"/>
@@ -3947,7 +4527,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$5">
 <contactref element="ST1" pad="6"/>
-<wire x1="57.2" y1="55.3" x2="57.2214" y2="55.2786" width="0.1524" layer="1"/>
+<wire x1="57.25" y1="55.3" x2="57.2214" y2="55.2786" width="0.1524" layer="1"/>
 <wire x1="57.2214" y1="55.2786" x2="58.11833125" y2="55.2786" width="0.1524" layer="1"/>
 <wire x1="58.42693125" y1="54.97" x2="58.9738" y2="54.97" width="0.1524" layer="1"/>
 <wire x1="58.11833125" y1="55.2786" x2="58.42693125" y2="54.97" width="0.1524" layer="1"/>
@@ -3962,6 +4542,121 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="P$1"/>
 <wire x1="60.3" y1="54.25" x2="59.6938" y2="54.25" width="0.1524" layer="1"/>
 <wire x1="59.6938" y1="54.25" x2="59.673" y2="54.2708" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="N1" pad="P$7"/>
+<contactref element="ST1" pad="11"/>
+<wire x1="70.85" y1="58.4" x2="70.7536" y2="58.4964" width="0.1524" layer="1"/>
+<wire x1="68.50165625" y1="60.3234" x2="58.81563125" y2="60.3234" width="0.1524" layer="1"/>
+<wire x1="70.7536" y1="58.4964" x2="70.32865625" y2="58.4964" width="0.1524" layer="1"/>
+<wire x1="70.32865625" y1="58.4964" x2="68.50165625" y2="60.3234" width="0.1524" layer="1"/>
+<wire x1="58.81563125" y1="60.3234" x2="55.65" y2="57.15776875" width="0.1524" layer="1"/>
+<wire x1="55.65" y1="57.15776875" x2="55.65" y2="56.9" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$9">
+<contactref element="N1" pad="P$8"/>
+<contactref element="ST1" pad="13"/>
+<wire x1="70.85" y1="58.9" x2="70.7536" y2="58.9964" width="0.1524" layer="1"/>
+<wire x1="68.6279125" y1="60.6282" x2="58.189375" y2="60.6282" width="0.1524" layer="1"/>
+<wire x1="70.7536" y1="58.9964" x2="70.2597125" y2="58.9964" width="0.1524" layer="1"/>
+<wire x1="70.2597125" y1="58.9964" x2="68.6279125" y2="60.6282" width="0.1524" layer="1"/>
+<wire x1="57.861175" y1="60.3" x2="56.95" y2="60.3" width="0.1524" layer="1"/>
+<wire x1="56.95" y1="60.3" x2="56.5" y2="59.85" width="0.1524" layer="1"/>
+<wire x1="58.189375" y1="60.6282" x2="57.861175" y2="60.3" width="0.1524" layer="1"/>
+<wire x1="55.9346875" y1="58.4614" x2="55.6614" y2="58.4614" width="0.1524" layer="1"/>
+<wire x1="56.5" y1="59.0267125" x2="55.9346875" y2="58.4614" width="0.1524" layer="1"/>
+<wire x1="54.65" y1="57.45" x2="54.65" y2="56.9" width="0.1524" layer="1"/>
+<wire x1="56.5" y1="59.85" x2="56.5" y2="59.0267125" width="0.1524" layer="1"/>
+<wire x1="55.6614" y1="58.4614" x2="54.65" y2="57.45" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$10">
+<contactref element="N1" pad="P$9"/>
+<contactref element="ST1" pad="12"/>
+<wire x1="70.85" y1="59.4" x2="70.28716875" y2="59.4" width="0.1524" layer="1"/>
+<wire x1="70.28716875" y1="59.4" x2="68.75416875" y2="60.933" width="0.1524" layer="1"/>
+<wire x1="68.75416875" y1="60.933" x2="58.06311875" y2="60.933" width="0.1524" layer="1"/>
+<wire x1="58.06311875" y1="60.933" x2="57.76431875" y2="60.6342" width="0.1524" layer="1"/>
+<wire x1="57.76431875" y1="60.6342" x2="56.3512875" y2="60.6342" width="0.1524" layer="1"/>
+<via x="56.3512875" y="60.6342" extent="1-16" drill="0.35"/>
+<wire x1="56.3512875" y1="60.6342" x2="57.1658" y2="60.6342" width="0.1524" layer="16"/>
+<wire x1="57.1658" y1="60.6342" x2="57.2" y2="60.6" width="0.1524" layer="16"/>
+<wire x1="57.2" y1="60.6" x2="57.2" y2="59.7" width="0.1524" layer="16"/>
+<via x="57.2" y="59.7" extent="1-16" drill="0.35"/>
+<wire x1="57.2" y1="59.7" x2="56.8048" y2="59.3048" width="0.1524" layer="1"/>
+<wire x1="56.8048" y1="59.3048" x2="56.8048" y2="58.90045625" width="0.1524" layer="1"/>
+<wire x1="56.8048" y1="58.90045625" x2="56.06094375" y2="58.1566" width="0.1524" layer="1"/>
+<wire x1="56.06094375" y1="58.1566" x2="55.9566" y2="58.1566" width="0.1524" layer="1"/>
+<wire x1="55.9566" y1="58.1566" x2="55.15" y2="57.35" width="0.1524" layer="1"/>
+<wire x1="55.15" y1="57.35" x2="55.15" y2="56.9" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$7">
+<contactref element="SJ1" pad="1"/>
+<contactref element="N1" pad="P$1"/>
+<wire x1="73.912" y1="50.05" x2="73.912" y2="51.313225" width="0.4064" layer="1"/>
+<wire x1="73.912" y1="51.313225" x2="73.9243875" y2="51.3256125" width="0.4064" layer="1"/>
+<via x="73.9243875" y="51.3256125" extent="1-16" drill="0.35"/>
+<via x="70.9" y="60.55" extent="1-16" drill="0.35"/>
+<wire x1="71.24364375" y1="51.3376" x2="69.5376" y2="53.04364375" width="0.254" layer="16"/>
+<wire x1="69.5376" y1="53.04364375" x2="69.5376" y2="55.45635625" width="0.254" layer="16"/>
+<wire x1="69.5376" y1="55.45635625" x2="70.9" y2="56.81875625" width="0.254" layer="16"/>
+<wire x1="70.9" y1="56.81875625" x2="70.9" y2="60.55" width="0.254" layer="16"/>
+<wire x1="73.9243875" y1="51.3256125" x2="73.9124" y2="51.3376" width="0.254" layer="16"/>
+<wire x1="73.9124" y1="51.3376" x2="71.24364375" y2="51.3376" width="0.254" layer="16"/>
+<wire x1="70.9" y1="60.55" x2="73.2" y2="60.55" width="0.254" layer="1"/>
+<wire x1="73.2" y1="60.55" x2="73.85" y2="59.9" width="0.254" layer="1"/>
+</signal>
+<signal name="AMS_CS">
+<contactref element="N1" pad="P$6"/>
+<contactref element="ST1" pad="3"/>
+<wire x1="70.85" y1="57.9" x2="69.1" y2="56.15" width="0.1524" layer="1"/>
+<wire x1="69.1" y1="56.15" x2="69.1" y2="51.95" width="0.1524" layer="1"/>
+<wire x1="69.1" y1="51.95" x2="69.25" y2="51.8" width="0.1524" layer="1"/>
+<via x="69.25" y="51.8" extent="1-16" drill="0.35"/>
+<wire x1="67.1192875" y1="51.5706" x2="66.6807125" y2="51.5706" width="0.1524" layer="16"/>
+<wire x1="69.25" y1="51.8" x2="67.3486875" y2="51.8" width="0.1524" layer="16"/>
+<wire x1="61.4513125" y1="51.95" x2="60.95" y2="51.95" width="0.1524" layer="16"/>
+<wire x1="67.3486875" y1="51.8" x2="67.1192875" y2="51.5706" width="0.1524" layer="16"/>
+<wire x1="61.7807125" y1="52.2794" x2="61.4513125" y2="51.95" width="0.1524" layer="16"/>
+<wire x1="66.6807125" y1="51.5706" x2="65.9719125" y2="52.2794" width="0.1524" layer="16"/>
+<wire x1="65.9719125" y1="52.2794" x2="61.7807125" y2="52.2794" width="0.1524" layer="16"/>
+<wire x1="59.15" y1="53.75" x2="58.121" y2="53.75" width="0.1524" layer="16"/>
+<via x="58.121" y="53.75" extent="1-16" drill="0.35"/>
+<wire x1="60.95" y1="51.95" x2="59.15" y2="53.75" width="0.1524" layer="16"/>
+<wire x1="58.121" y1="53.75" x2="58.071" y2="53.8" width="0.1524" layer="1"/>
+<wire x1="58.071" y1="53.8" x2="57.25" y2="53.8" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$11">
+<contactref element="N1" pad="P$10"/>
+<contactref element="ST1" pad="14"/>
+<wire x1="70.85" y1="59.9" x2="70.218225" y2="59.9" width="0.1524" layer="1"/>
+<wire x1="68.880425" y1="61.2378" x2="70.218225" y2="59.9" width="0.1524" layer="1"/>
+<wire x1="54.15" y1="57.7" x2="54.15" y2="56.9" width="0.1524" layer="1"/>
+<wire x1="54.15" y1="57.7" x2="54.8614" y2="58.4114" width="0.1524" layer="1"/>
+<wire x1="54.8614" y1="58.4114" x2="54.8614" y2="60.9114" width="0.1524" layer="1"/>
+<wire x1="54.8614" y1="60.9114" x2="55.1878" y2="61.2378" width="0.1524" layer="1"/>
+<wire x1="55.1878" y1="61.2378" x2="68.880425" y2="61.2378" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="N1" pad="P$4"/>
+<contactref element="COIL1" pad="P$2"/>
+<via x="74.7" y="57.95" extent="1-16" drill="0.35"/>
+<wire x1="73.85" y1="58.4" x2="73.9464" y2="58.3036" width="0.1524" layer="1"/>
+<wire x1="73.9464" y1="58.3036" x2="74.2446875" y2="58.3036" width="0.1524" layer="1"/>
+<wire x1="74.65" y1="58" x2="74.7" y2="57.95" width="0.1524" layer="1"/>
+<wire x1="74.65" y1="58" x2="74.5482875" y2="58" width="0.1524" layer="1"/>
+<wire x1="74.2446875" y1="58.3036" x2="74.5482875" y2="58" width="0.1524" layer="1"/>
+<wire x1="74.7" y1="57.95" x2="74.65" y2="57.9" width="0.1524" layer="16"/>
+<wire x1="74.65" y1="57.9" x2="74.65" y2="57.33" width="0.1524" layer="16"/>
+<wire x1="74.65" y1="57.33" x2="74.5" y2="57.18" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$13">
+<contactref element="N1" pad="P$3"/>
+<contactref element="COIL1" pad="P$1"/>
+<wire x1="74.7" y1="58.8" x2="73.95" y2="58.8" width="0.1524" layer="1"/>
+<wire x1="73.85" y1="58.9" x2="73.95" y2="58.8" width="0.1524" layer="1"/>
+<via x="74.7" y="58.8" extent="1-16" drill="0.35"/>
+<wire x1="74.7" y1="58.8" x2="74.5" y2="59" width="0.1524" layer="16"/>
+<wire x1="74.5" y1="59" x2="74.5" y2="59.88" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -3985,7 +4680,6 @@ design rules under a new name.</description>
 <approved hash="5,1,7291bc73b5599e39"/>
 <approved hash="5,1,d21128e6e57811a9"/>
 <approved hash="5,1,ec5d3e66be5447c0"/>
-<approved hash="19,16,b98abbfc45324744"/>
 <approved hash="3,1,bccbbccb3f4c3f4c"/>
 <approved hash="3,1,620d620d9d809d80"/>
 <approved hash="3,1,df30df3020b720b7"/>
@@ -4042,8 +4736,6 @@ design rules under a new name.</description>
 <approved hash="19,1,27beea7e5aa7035b"/>
 <approved hash="19,1,5cda069ac5266efd"/>
 <approved hash="19,1,2c4b84dde4b91eb3"/>
-<approved hash="19,1,b6d89ee3f6c62732"/>
-<approved hash="19,1,f7c77bb97c0e09bf"/>
 <approved hash="19,1,fca0820db6dcb87c"/>
 <approved hash="19,1,b64716d210c63217"/>
 <approved hash="19,1,b64716d210c63217"/>
