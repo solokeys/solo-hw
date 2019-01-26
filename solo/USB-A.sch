@@ -138,7 +138,7 @@
 <text x="-0.4" y="1.4" size="0.4" layer="21">&gt;NAME</text>
 <circle x="1.2" y="1.2" radius="0.1" width="0.127" layer="21"/>
 </package>
-<package name="QFN32" urn="urn:adsk.eagle:footprint:6434393/2" library_version="57">
+<package name="QFN32" urn="urn:adsk.eagle:footprint:6434393/3" library_version="62">
 <description>&lt;b&gt;QFN 32&lt;/b&gt; 5 x 5 mm&lt;p&gt;
 Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="-2.45" y1="2.45" x2="2.45" y2="2.45" width="0.1016" layer="51"/>
@@ -154,7 +154,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="-2.05" y1="-2.45" x2="-2.45" y2="-2.4" width="0.1016" layer="21"/>
 <wire x1="-2.45" y1="-2.4" x2="-2.45" y2="-2.05" width="0.1016" layer="21"/>
 <circle x="-2.425" y="2.475" radius="0.3" width="0" layer="21"/>
-<smd name="EXP" x="0" y="0" dx="3.2" dy="3.2" layer="1" roundness="20" stop="no" cream="no"/>
+<smd name="EXP" x="0" y="0" dx="0.2" dy="0.2" layer="1" roundness="20" stop="no" cream="no"/>
 <smd name="1" x="-2.35" y="1.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
 <smd name="2" x="-2.35" y="1.25" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
 <smd name="3" x="-2.35" y="0.75" dx="0.6" dy="0.3" layer="1" roundness="30" stop="no" cream="no"/>
@@ -614,6 +614,12 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-1.775" y="2.125"/>
 <vertex x="-1.675" y="2.125"/>
 <vertex x="-1.675" y="2.575"/>
+</polygon>
+<polygon width="0.127" layer="1" spacing="0.6" pour="hatch">
+<vertex x="-1.5" y="1.5"/>
+<vertex x="1.5" y="1.5"/>
+<vertex x="1.5" y="-1.5"/>
+<vertex x="-1.5" y="-1.5"/>
 </polygon>
 </package>
 <package name="REG_NCP114AMX330TCG" urn="urn:adsk.eagle:footprint:5621085/2" library_version="57">
@@ -1210,21 +1216,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.7" y="-2.7"/>
 </polygon>
 </package>
-<package name="MOLEX_NFC_COIL1" urn="urn:adsk.eagle:footprint:7114965/3" library_version="57">
-<description>Molex NFC coil, PN: 1462360101</description>
-<wire x1="15.24" y1="0" x2="0.24" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.24" y1="0" x2="0.24" y2="25" width="0.1524" layer="21"/>
-<wire x1="0.24" y1="25" x2="8.74" y2="25" width="0.1524" layer="21"/>
-<wire x1="8.74" y1="25" x2="15.24" y2="25" width="0.1524" layer="21"/>
-<wire x1="15.24" y1="25" x2="15.24" y2="0" width="0.1524" layer="21"/>
-<wire x1="15.24" y1="25" x2="15.24" y2="30" width="0.1524" layer="21"/>
-<wire x1="15.24" y1="30" x2="8.74" y2="30" width="0.1524" layer="21"/>
-<wire x1="8.74" y1="30" x2="8.74" y2="25" width="0.1524" layer="21"/>
-<text x="10.43" y="23.5" size="0.8128" layer="26">&gt;NAME</text>
-<text x="10.43" y="22" size="0.8128" layer="28">&gt;VALUE</text>
-<smd name="P$1" x="13.43" y="28.5" dx="2.2" dy="3.1" layer="1" rot="R180"/>
-<smd name="P$2" x="10.73" y="28.5" dx="2.2" dy="3.1" layer="1" rot="R180"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="USB_TRACES" urn="urn:adsk.eagle:package:4245369/9" type="box" library_version="40">
@@ -1261,7 +1252,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="CL-505S-X-SD-T"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN50P500X500X50-32" urn="urn:adsk.eagle:package:4245373/6" type="model" library_version="57">
+<package3d name="QFN50P500X500X50-32" urn="urn:adsk.eagle:package:4245373/7" type="model" library_version="62">
 <description>&lt;b&gt;QFN 32&lt;/b&gt; 5 x 5 mm&lt;p&gt;
 Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstances>
@@ -1292,12 +1283,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <package3d name="MLPD3X3" urn="urn:adsk.eagle:package:5825738/4" type="box" library_version="61">
 <packageinstances>
 <packageinstance name="MLPD3X3"/>
-</packageinstances>
-</package3d>
-<package3d name="MOLEX_NFC_COIL1" urn="urn:adsk.eagle:package:7114966/5" type="model" library_version="57">
-<description>Molex NFC coil, PN: 1462360101</description>
-<packageinstances>
-<packageinstance name="MOLEX_NFC_COIL1"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1553,20 +1538,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <text x="-5.08" y="15.24" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="MOLEX_NFC_COIL" urn="urn:adsk.eagle:symbol:7114964/1" library_version="56" library_locally_modified="yes">
-<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<text x="2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USB_TRACES" urn="urn:adsk.eagle:component:4245374/10" prefix="U" library_version="40">
@@ -1683,7 +1654,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32L432KCU6" urn="urn:adsk.eagle:component:5621128/4" prefix="ST" library_version="57">
+<deviceset name="STM32L432KCU6" urn="urn:adsk.eagle:component:5621128/5" prefix="ST" library_version="62">
 <gates>
 <gate name="G$1" symbol="STM32L432KCU6" x="0" y="0"/>
 </gates>
@@ -1725,7 +1696,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <connect gate="G$1" pin="VSS3" pad="EXP"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4245373/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4245373/7"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1839,28 +1810,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOLEX_NFC_COIL_1462360101" urn="urn:adsk.eagle:component:7114967/4" prefix="COIL" library_version="57">
-<gates>
-<gate name="G$1" symbol="MOLEX_NFC_COIL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MOLEX_NFC_COIL1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7114966/5"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="LINK" value="https://www.mouser.com/ProductDetail/538-146236-0101" constant="no"/>
-<attribute name="MPN" value="1462360101" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -1998,7 +1947,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C11" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".1u"/>
 <part name="C12" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value="4.7u"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
-<part name="ST2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="STM32L432KCU6" device="" package3d_urn="urn:adsk.eagle:package:4245373/6"/>
+<part name="ST2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="STM32L432KCU6" device="" package3d_urn="urn:adsk.eagle:package:4245373/7"/>
 <part name="SWO1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="TEST_POINT" device="" package3d_urn="urn:adsk.eagle:package:4245792/4"/>
 <part name="L4" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="NCP114AMX330TCG" device="" package3d_urn="urn:adsk.eagle:package:5621121/3"/>
 <part name="Z2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="BZA900A-ESD-ZENERS" device="" package3d_urn="urn:adsk.eagle:package:5621120/4"/>
@@ -2011,7 +1960,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="N2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="AMS3956" device="" package3d_urn="urn:adsk.eagle:package:5825738/4"/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
 <part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="COIL2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="MOLEX_NFC_COIL_1462360101" device="" package3d_urn="urn:adsk.eagle:package:7114966/5"/>
+<part name="MID" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".1u"/>
+<part name="C2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".1u"/>
+<part name="C3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".1u"/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -2167,9 +2120,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="+3V16" gate="G$1" x="292.1" y="134.62" smashed="yes" rot="R180">
 <attribute name="VALUE" x="294.64" y="139.7" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="COIL2" gate="G$1" x="312.42" y="157.48" smashed="yes">
-<attribute name="NAME" x="302.26" y="163.83" size="1.778" layer="95"/>
-<attribute name="VALUE" x="294.64" y="168.91" size="1.778" layer="96"/>
+<instance part="MID" gate="G$1" x="314.96" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="313.436" y="157.099" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="313.436" y="162.179" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C2" gate="G$1" x="314.96" y="172.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="313.436" y="172.339" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="313.436" y="177.419" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C3" gate="G$1" x="317.5" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="315.976" y="141.859" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="315.976" y="146.939" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY1" gate="PE" x="317.5" y="134.62" smashed="yes">
+<attribute name="VALUE" x="313.055" y="129.921" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY2" gate="PE" x="314.96" y="182.88" smashed="yes" rot="R180">
+<attribute name="VALUE" x="319.405" y="187.579" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -2340,6 +2307,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="271.78" y1="162.56" x2="284.48" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="162.56" x2="284.48" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="PE" pin="PE"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="SUPPLY2" gate="PE" pin="PE"/>
+<wire x1="314.96" y1="177.8" x2="314.96" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="SUPPLY1" gate="PE" pin="PE"/>
+<wire x1="317.5" y1="139.7" x2="317.5" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -2566,8 +2543,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="N2" gate="G$1" pin="LC2"/>
 <wire x1="271.78" y1="157.48" x2="297.18" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="157.48" x2="297.18" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="COIL2" gate="G$1" pin="1"/>
-<wire x1="297.18" y1="165.1" x2="312.42" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="165.1" x2="314.96" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="MID" gate="G$1" pin="2"/>
+<wire x1="314.96" y1="162.56" x2="314.96" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="314.96" y1="170.18" x2="314.96" y2="165.1" width="0.1524" layer="91"/>
+<junction x="314.96" y="165.1"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -2575,8 +2556,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="N2" gate="G$1" pin="LC1"/>
 <wire x1="271.78" y1="152.4" x2="297.18" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="152.4" x2="297.18" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="COIL2" gate="G$1" pin="2"/>
-<wire x1="297.18" y1="149.86" x2="312.42" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="149.86" x2="314.96" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="MID" gate="G$1" pin="1"/>
+<wire x1="314.96" y1="149.86" x2="314.96" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="314.96" y1="149.86" x2="314.96" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="147.32" x2="317.5" y2="147.32" width="0.1524" layer="91"/>
+<junction x="314.96" y="149.86"/>
 </segment>
 </net>
 <net name="AMS_IRQ" class="0">
