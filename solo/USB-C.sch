@@ -1724,14 +1724,14 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <text x="-3.15" y="1.05" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.35" y="-2.45" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="CL-505S-X-SD-T" urn="urn:adsk.eagle:footprint:4878738/5" library_version="78">
+<package name="CL-505S-X-SD-T" urn="urn:adsk.eagle:footprint:4878738/6" library_version="79">
 <description>CL-505S-X-SD-T</description>
 <smd name="P$2" x="0.85" y="0.85" dx="0.4" dy="0.4" layer="1"/>
 <smd name="P$1" x="0.85" y="0" dx="0.4" dy="0.4" layer="1"/>
 <smd name="P$4" x="0" y="0" dx="0.4" dy="0.4" layer="1"/>
 <smd name="P$3" x="0" y="0.85" dx="0.4" dy="0.4" layer="1"/>
 <text x="-0.4" y="1.4" size="0.4" layer="21">&gt;NAME</text>
-<circle x="1.2508" y="-0.4002" radius="0.1" width="0.2032" layer="21"/>
+<circle x="1.2990625" y="1.271121875" radius="0.1" width="0.2032" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -1801,7 +1801,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="EAST1616RGBA3-RGB-LED"/>
 </packageinstances>
 </package3d>
-<package3d name="CL-505S-X-SD-T" urn="urn:adsk.eagle:package:4878740/7" type="box" library_version="78">
+<package3d name="CL-505S-X-SD-T" urn="urn:adsk.eagle:package:4878740/8" type="box" library_version="79">
 <description>CL-505S-X-SD-T</description>
 <packageinstances>
 <packageinstance name="CL-505S-X-SD-T"/>
@@ -2334,7 +2334,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RGB_LED_1X1" urn="urn:adsk.eagle:component:4245376/10" prefix="L" library_version="78">
+<deviceset name="RGB_LED_1X1" urn="urn:adsk.eagle:component:4245376/11" prefix="L" library_version="79">
 <description>EAST1616RGBA3</description>
 <gates>
 <gate name="G$1" symbol="LED-RGB" x="0" y="-2.54"/>
@@ -2364,7 +2364,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <connect gate="G$1" pin="CRED" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4878740/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4878740/8"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2434,7 +2434,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <part name="C7" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value="4.7u"/>
 <part name="C8" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value="4.7u"/>
 <part name="C9" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value="4.7u"/>
-<part name="L1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="RGB_LED_1X1" device="CL-505S-X-SD-T" package3d_urn="urn:adsk.eagle:package:4878740/7"/>
+<part name="L1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="RGB_LED_1X1" device="CL-505S-X-SD-T" package3d_urn="urn:adsk.eagle:package:4878740/8"/>
 </parts>
 <sheets>
 <sheet>
@@ -2945,29 +2945,29 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="ST1" gate="G$1" pin="PA2"/>
-<wire x1="154.94" y1="-2.54" x2="154.94" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="-5.08" x2="144.78" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="-2.54" x2="154.94" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="CGREEN"/>
+<wire x1="154.94" y1="-5.08" x2="154.94" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="CRED"/>
+<wire x1="154.94" y1="7.62" x2="167.64" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="ST1" gate="G$1" pin="PA3"/>
 <wire x1="129.54" y1="15.24" x2="129.54" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="CRED"/>
-<wire x1="167.64" y1="7.62" x2="149.86" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="7.62" x2="149.86" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="CBLUE"/>
+<wire x1="149.86" y1="15.24" x2="149.86" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="2.54" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="ST1" gate="G$1" pin="PA1"/>
 <wire x1="144.78" y1="-7.62" x2="160.02" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="CBLUE"/>
-<wire x1="167.64" y1="2.54" x2="160.02" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="2.54" x2="160.02" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="CGREEN"/>
+<wire x1="167.64" y1="-2.54" x2="160.02" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-2.54" x2="160.02" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
