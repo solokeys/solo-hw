@@ -411,7 +411,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="QFN32" urn="urn:adsk.eagle:footprint:6434393/4" library_version="66">
+<package name="QFN32" urn="urn:adsk.eagle:footprint:6434393/5" library_version="82">
 <description>&lt;b&gt;QFN 32&lt;/b&gt; 5 x 5 mm&lt;p&gt;
 Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="-2.45" y1="2.45" x2="2.45" y2="2.45" width="0.1016" layer="51"/>
@@ -481,6 +481,24 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <rectangle x1="0.7" y1="-0.9" x2="1.3" y2="-0.6" layer="31"/>
 <rectangle x1="0.7" y1="-1.4" x2="1.3" y2="-1.1" layer="31"/>
 <rectangle x1="-2.55" y1="0.3" x2="-0.3" y2="2.55" layer="51"/>
+<rectangle x1="-0.3" y1="1.1" x2="0.3" y2="1.4" layer="1"/>
+<rectangle x1="-0.3" y1="0.6" x2="0.3" y2="0.9" layer="1"/>
+<rectangle x1="-0.3" y1="0.1" x2="0.3" y2="0.4" layer="1"/>
+<rectangle x1="-0.3" y1="-0.4" x2="0.3" y2="-0.1" layer="1"/>
+<rectangle x1="-0.3" y1="-0.9" x2="0.3" y2="-0.6" layer="1"/>
+<rectangle x1="-0.3" y1="-1.4" x2="0.3" y2="-1.1" layer="1"/>
+<rectangle x1="-1.3" y1="1.1" x2="-0.7" y2="1.4" layer="1"/>
+<rectangle x1="-1.3" y1="0.6" x2="-0.7" y2="0.9" layer="1"/>
+<rectangle x1="-1.3" y1="0.1" x2="-0.7" y2="0.4" layer="1"/>
+<rectangle x1="-1.3" y1="-0.4" x2="-0.7" y2="-0.1" layer="1"/>
+<rectangle x1="-1.3" y1="-0.9" x2="-0.7" y2="-0.6" layer="1"/>
+<rectangle x1="-1.3" y1="-1.4" x2="-0.7" y2="-1.1" layer="1"/>
+<rectangle x1="0.7" y1="1.1" x2="1.3" y2="1.4" layer="1"/>
+<rectangle x1="0.7" y1="0.6" x2="1.3" y2="0.9" layer="1"/>
+<rectangle x1="0.7" y1="0.1" x2="1.3" y2="0.4" layer="1"/>
+<rectangle x1="0.7" y1="-0.4" x2="1.3" y2="-0.1" layer="1"/>
+<rectangle x1="0.7" y1="-0.9" x2="1.3" y2="-0.6" layer="1"/>
+<rectangle x1="0.7" y1="-1.4" x2="1.3" y2="-1.1" layer="1"/>
 <polygon width="0.5" layer="29">
 <vertex x="-1.325" y="1.175"/>
 <vertex x="-1.175" y="1.325"/>
@@ -1470,7 +1488,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <smd name="P$1" x="-4.1" y="0" dx="1.27" dy="0.635" layer="1" stop="no" cream="no"/>
 <smd name="P$2" x="-0.3" y="4.3" dx="0.5" dy="0.5" layer="1" stop="no" cream="no"/>
 </package>
-<package name="MLPD3X3" urn="urn:adsk.eagle:footprint:5825737/7" library_version="77">
+<package name="MLPD3X3" urn="urn:adsk.eagle:footprint:5825737/8" library_version="82">
 <smd name="P5" x="0" y="-2.54" dx="0.6" dy="0.35" layer="1" rot="R180"/>
 <smd name="P4" x="0" y="-2.04" dx="0.6" dy="0.35" layer="1" rot="R180"/>
 <smd name="P3" x="0" y="-1.54" dx="0.6" dy="0.35" layer="1" rot="R180"/>
@@ -1497,6 +1515,13 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.7" y="-2.7"/>
 </polygon>
 <circle x="-0.5588" y="0.2286" radius="0.1626375" width="0.3556" layer="25"/>
+<rectangle x1="1.4" y1="-2.6" x2="1.6" y2="-0.5" layer="31"/>
+<rectangle x1="0.7" y1="-0.8" x2="1.3" y2="-0.6" layer="31"/>
+<rectangle x1="1.7" y1="-0.8" x2="2.3" y2="-0.6" layer="31"/>
+<rectangle x1="0.7" y1="-1.6" x2="1.3" y2="-1.3" layer="31"/>
+<rectangle x1="1.8" y1="-1.6" x2="2.3" y2="-1.3" layer="31"/>
+<rectangle x1="0.7" y1="-2.3" x2="1.3" y2="-2.1" layer="31"/>
+<rectangle x1="1.8" y1="-2.3" x2="2.3" y2="-2.1" layer="31"/>
 </package>
 <package name="WüRTH_632712000112" urn="urn:adsk.eagle:footprint:9339181/5" library_version="75">
 <smd name="A12" x="0.154525" y="1.01879375" dx="0.2" dy="1.2" layer="1"/>
@@ -1758,7 +1783,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="C0402"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN50P500X500X50-32" urn="urn:adsk.eagle:package:4245373/8" type="model" library_version="66">
+<package3d name="QFN50P500X500X50-32" urn="urn:adsk.eagle:package:4245373/9" type="model" library_version="82">
 <description>&lt;b&gt;QFN 32&lt;/b&gt; 5 x 5 mm&lt;p&gt;
 Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstances>
@@ -1786,7 +1811,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="DOME-BL-12MM"/>
 </packageinstances>
 </package3d>
-<package3d name="MLPD3X3" urn="urn:adsk.eagle:package:5825738/7" type="box" library_version="77">
+<package3d name="MLPD3X3" urn="urn:adsk.eagle:package:5825738/8" type="box" library_version="82">
 <packageinstances>
 <packageinstance name="MLPD3X3"/>
 </packageinstances>
@@ -2174,7 +2199,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32L432KCU6" urn="urn:adsk.eagle:component:5621128/6" prefix="ST" library_version="66">
+<deviceset name="STM32L432KCU6" urn="urn:adsk.eagle:component:5621128/7" prefix="ST" library_version="82">
 <gates>
 <gate name="G$1" symbol="STM32L432KCU6" x="0" y="0"/>
 </gates>
@@ -2216,7 +2241,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <connect gate="G$1" pin="VSS3" pad="EXP"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4245373/8"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4245373/9"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2307,7 +2332,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AMS3956" urn="urn:adsk.eagle:component:5825739/9" prefix="N" library_version="77">
+<deviceset name="AMS3956" urn="urn:adsk.eagle:component:5825739/10" prefix="N" library_version="82">
 <gates>
 <gate name="G$1" symbol="AS3956" x="0" y="0"/>
 </gates>
@@ -2326,7 +2351,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <connect gate="G$1" pin="VSS" pad="P$11 P5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5825738/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5825738/8"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2416,7 +2441,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <part name="C6" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".1u"/>
 <part name="C13" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value="4.7u"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
-<part name="ST1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="STM32L432KCU6" device="" package3d_urn="urn:adsk.eagle:package:4245373/8"/>
+<part name="ST1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="STM32L432KCU6" device="" package3d_urn="urn:adsk.eagle:package:4245373/9"/>
 <part name="L3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="NCP114AMX330TCG" device="" package3d_urn="urn:adsk.eagle:package:5621121/4"/>
 <part name="Z1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="BZA900A-ESD-ZENERS" device="" package3d_urn="urn:adsk.eagle:package:5621120/4"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -2425,7 +2450,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="DOME_BUTTON" device="12MM" package3d_urn="urn:adsk.eagle:package:5648519/9"/>
-<part name="N1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="AMS3956" device="" package3d_urn="urn:adsk.eagle:package:5825738/7"/>
+<part name="N1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="AMS3956" device="" package3d_urn="urn:adsk.eagle:package:5825738/8"/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C15" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/7" value=".5p"/>
@@ -2443,7 +2468,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <instances>
 <instance part="USBC1" gate="G$1" x="-35.56" y="12.7" smashed="yes">
 <attribute name="NAME" x="-43.18" y="30.48" size="1.27" layer="95" font="vector"/>
-<attribute name="VALUE" x="-45.72" y="-17.78" size="1.27" layer="96" font="vector"/>
+<attribute name="VALUE" x="-43.18" y="-15.24" size="1.27" layer="96" font="vector"/>
 </instance>
 <instance part="R2" gate="G$1" x="-76.2" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="-72.39" y="11.2014" size="1.778" layer="95" rot="R180"/>

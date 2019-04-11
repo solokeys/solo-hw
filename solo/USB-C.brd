@@ -61,7 +61,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjdlZTY2" projecturn="a.cGVyc29uYWw6dWUyYjdlZTY2IzIwMTgwNDI5MTI5NzYxOTgx" f3durn="urn:adsk.wipprod:dm.lineage:weNIOFNJQ7WQdbs-7Cwz6Q" pcbguid="f3b1db15-27e8-4af3-8bdd-a250920546ab" lastpulledtime="2018-08-19T19:01:10Z" lastsyncedchangeguid="52de892d-cd7b-379f-df74-80031018e186"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjdlZTY2" projecturn="a.cGVyc29uYWw6dWUyYjdlZTY2IzIwMTgwNDI5MTI5NzYxOTgx" f3durn="urn:adsk.wipprod:dm.lineage:weNIOFNJQ7WQdbs-7Cwz6Q" pcbguid="f3b1db15-27e8-4af3-8bdd-a250920546ab" lastpulledtime="2018-08-19T19:01:10Z" lastsyncedchangeguid="e43287a0-70b2-a1c7-38e4-c51bef507e14"/>
 <plain>
 <rectangle x1="46.4" y1="58.4" x2="49.2" y2="59.2" layer="29"/>
 <rectangle x1="46.4" y1="49.4" x2="49.2" y2="50.1" layer="29"/>
@@ -141,7 +141,7 @@
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="QFN32" urn="urn:adsk.eagle:footprint:6434393/4" library_version="66">
+<package name="QFN32" urn="urn:adsk.eagle:footprint:6434393/5" library_version="82">
 <description>&lt;b&gt;QFN 32&lt;/b&gt; 5 x 5 mm&lt;p&gt;
 Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="-2.45" y1="2.45" x2="2.45" y2="2.45" width="0.1016" layer="51"/>
@@ -211,6 +211,24 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <rectangle x1="0.7" y1="-0.9" x2="1.3" y2="-0.6" layer="31"/>
 <rectangle x1="0.7" y1="-1.4" x2="1.3" y2="-1.1" layer="31"/>
 <rectangle x1="-2.55" y1="0.3" x2="-0.3" y2="2.55" layer="51"/>
+<rectangle x1="-0.3" y1="1.1" x2="0.3" y2="1.4" layer="1"/>
+<rectangle x1="-0.3" y1="0.6" x2="0.3" y2="0.9" layer="1"/>
+<rectangle x1="-0.3" y1="0.1" x2="0.3" y2="0.4" layer="1"/>
+<rectangle x1="-0.3" y1="-0.4" x2="0.3" y2="-0.1" layer="1"/>
+<rectangle x1="-0.3" y1="-0.9" x2="0.3" y2="-0.6" layer="1"/>
+<rectangle x1="-0.3" y1="-1.4" x2="0.3" y2="-1.1" layer="1"/>
+<rectangle x1="-1.3" y1="1.1" x2="-0.7" y2="1.4" layer="1"/>
+<rectangle x1="-1.3" y1="0.6" x2="-0.7" y2="0.9" layer="1"/>
+<rectangle x1="-1.3" y1="0.1" x2="-0.7" y2="0.4" layer="1"/>
+<rectangle x1="-1.3" y1="-0.4" x2="-0.7" y2="-0.1" layer="1"/>
+<rectangle x1="-1.3" y1="-0.9" x2="-0.7" y2="-0.6" layer="1"/>
+<rectangle x1="-1.3" y1="-1.4" x2="-0.7" y2="-1.1" layer="1"/>
+<rectangle x1="0.7" y1="1.1" x2="1.3" y2="1.4" layer="1"/>
+<rectangle x1="0.7" y1="0.6" x2="1.3" y2="0.9" layer="1"/>
+<rectangle x1="0.7" y1="0.1" x2="1.3" y2="0.4" layer="1"/>
+<rectangle x1="0.7" y1="-0.4" x2="1.3" y2="-0.1" layer="1"/>
+<rectangle x1="0.7" y1="-0.9" x2="1.3" y2="-0.6" layer="1"/>
+<rectangle x1="0.7" y1="-1.4" x2="1.3" y2="-1.1" layer="1"/>
 <polygon width="0.5" layer="29">
 <vertex x="-1.325" y="1.175"/>
 <vertex x="-1.175" y="1.325"/>
@@ -1048,7 +1066,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <smd name="P$1" x="-4.1" y="0" dx="1.27" dy="0.635" layer="1" stop="no" cream="no"/>
 <smd name="P$2" x="-0.3" y="4.3" dx="0.5" dy="0.5" layer="1" stop="no" cream="no"/>
 </package>
-<package name="MLPD3X3" urn="urn:adsk.eagle:footprint:5825737/7" library_version="77">
+<package name="MLPD3X3" urn="urn:adsk.eagle:footprint:5825737/8" library_version="82">
 <smd name="P5" x="0" y="-2.54" dx="0.6" dy="0.35" layer="1" rot="R180"/>
 <smd name="P4" x="0" y="-2.04" dx="0.6" dy="0.35" layer="1" rot="R180"/>
 <smd name="P3" x="0" y="-1.54" dx="0.6" dy="0.35" layer="1" rot="R180"/>
@@ -1075,6 +1093,13 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="0.7" y="-2.7"/>
 </polygon>
 <circle x="-0.5588" y="0.2286" radius="0.1626375" width="0.3556" layer="25"/>
+<rectangle x1="1.4" y1="-2.6" x2="1.6" y2="-0.5" layer="31"/>
+<rectangle x1="0.7" y1="-0.8" x2="1.3" y2="-0.6" layer="31"/>
+<rectangle x1="1.7" y1="-0.8" x2="2.3" y2="-0.6" layer="31"/>
+<rectangle x1="0.7" y1="-1.6" x2="1.3" y2="-1.3" layer="31"/>
+<rectangle x1="1.8" y1="-1.6" x2="2.3" y2="-1.3" layer="31"/>
+<rectangle x1="0.7" y1="-2.3" x2="1.3" y2="-2.1" layer="31"/>
+<rectangle x1="1.8" y1="-2.3" x2="2.3" y2="-2.1" layer="31"/>
 </package>
 <package name="WüRTH_632712000112" urn="urn:adsk.eagle:footprint:9339181/5" library_version="75">
 <smd name="A12" x="0.154525" y="1.01879375" dx="0.2" dy="1.2" layer="1"/>
@@ -1316,7 +1341,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="C0402"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN50P500X500X50-32" urn="urn:adsk.eagle:package:4245373/8" type="model" library_version="66">
+<package3d name="QFN50P500X500X50-32" urn="urn:adsk.eagle:package:4245373/9" type="model" library_version="82">
 <description>&lt;b&gt;QFN 32&lt;/b&gt; 5 x 5 mm&lt;p&gt;
 Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstances>
@@ -1338,7 +1363,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="DOME-BL-12MM"/>
 </packageinstances>
 </package3d>
-<package3d name="MLPD3X3" urn="urn:adsk.eagle:package:5825738/7" type="box" library_version="77">
+<package3d name="MLPD3X3" urn="urn:adsk.eagle:package:5825738/8" type="box" library_version="82">
 <packageinstances>
 <packageinstance name="MLPD3X3"/>
 </packageinstances>
@@ -1603,7 +1628,7 @@ design rules under a new name.</description>
 <element name="C13" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="C0402" package3d_urn="urn:adsk.eagle:package:4245806/7" value="4.7u" x="26.5" y="42.99" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.185" y="43.015" size="0.6096" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="ST1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="QFN32" package3d_urn="urn:adsk.eagle:package:4245373/8" value="STM32L432KCU6" x="25.45" y="47.29" smashed="yes" rot="R180">
+<element name="ST1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="QFN32" package3d_urn="urn:adsk.eagle:package:4245373/9" value="STM32L432KCU6" x="25.45" y="47.29" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.34" y="50.72" size="0.6096" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="29.5" y="51.64" size="1.27" layer="27" rot="R180" display="off"/>
 </element>
@@ -1621,7 +1646,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="21.1" y="46.28" size="0.7" layer="25" ratio="14"/>
 </element>
 <element name="U$1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="DOME-BL-12MM" package3d_urn="urn:adsk.eagle:package:5648519/9" value="DOME_BUTTON12MM" x="34.95" y="46.99" smashed="yes"/>
-<element name="N1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="MLPD3X3" package3d_urn="urn:adsk.eagle:package:5825738/7" value="AMS3956" x="43.986" y="49.53" smashed="yes" rot="R180">
+<element name="N1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="MLPD3X3" package3d_urn="urn:adsk.eagle:package:5825738/8" value="AMS3956" x="43.986" y="49.53" smashed="yes" rot="R180">
 <attribute name="NAME" x="41.97" y="52.696" size="0.8" layer="25" ratio="15"/>
 <attribute name="VALUE" x="44.256" y="48.92" size="0.6096" layer="27" ratio="15" rot="R180"/>
 </element>
@@ -2224,11 +2249,9 @@ design rules under a new name.</description>
 <contactref element="N1" pad="P8"/>
 <contactref element="ST1" pad="13"/>
 <wire x1="40.986" y1="51.07" x2="40.946" y2="51.03" width="0.1524" layer="1"/>
-<wire x1="40.946" y1="51.03" x2="39.866" y2="51.03" width="0.1524" layer="1"/>
-<wire x1="39.866" y1="51.03" x2="39.8632" y2="51.0272" width="0.1524" layer="1"/>
-<wire x1="39.8632" y1="51.0272" x2="39.40335" y2="51.0272" width="0.1524" layer="1"/>
-<wire x1="39.40335" y1="51.0272" x2="36.98055" y2="53.45" width="0.1524" layer="1"/>
-<wire x1="36.98055" y1="53.45" x2="29.73145" y2="53.45" width="0.1524" layer="1"/>
+<wire x1="40.946" y1="51.03" x2="40.01055" y2="51.03" width="0.1524" layer="1"/>
+<wire x1="40.01055" y1="51.03" x2="37.59055" y2="53.45" width="0.1524" layer="1"/>
+<wire x1="37.59055" y1="53.45" x2="29.73145" y2="53.45" width="0.1524" layer="1"/>
 <wire x1="29.73145" y1="53.45" x2="29.09" y2="52.80855" width="0.1524" layer="1"/>
 <wire x1="29.09" y1="52.80855" x2="29.09" y2="52.0606875" width="0.1524" layer="1"/>
 <wire x1="26.6716" y1="51.5516" x2="25.2" y2="50.08" width="0.1524" layer="1"/>
@@ -2239,9 +2262,9 @@ design rules under a new name.</description>
 <signal name="MISO">
 <contactref element="N1" pad="P9"/>
 <contactref element="ST1" pad="12"/>
-<wire x1="39.2721625" y1="50.62" x2="39.986" y2="50.62" width="0.1524" layer="1"/>
-<wire x1="39.2721625" y1="50.62" x2="36.7447625" y2="53.1474" width="0.1524" layer="1"/>
-<wire x1="36.7447625" y1="53.1474" x2="29.8174" y2="53.1474" width="0.1524" layer="1"/>
+<wire x1="39.9821625" y1="50.62" x2="39.986" y2="50.62" width="0.1524" layer="1"/>
+<wire x1="39.9821625" y1="50.62" x2="37.4547625" y2="53.1474" width="0.1524" layer="1"/>
+<wire x1="37.4547625" y1="53.1474" x2="29.8174" y2="53.1474" width="0.1524" layer="1"/>
 <wire x1="29.8174" y1="53.1474" x2="29.425" y2="52.755" width="0.1524" layer="1"/>
 <wire x1="29.425" y1="52.755" x2="29.425" y2="51.985" width="0.1524" layer="1"/>
 <wire x1="29.425" y1="51.985" x2="28.7076" y2="51.2676" width="0.1524" layer="1"/>
@@ -2311,12 +2334,6 @@ design rules under a new name.</description>
 <contactref element="N1" pad="P10"/>
 <wire x1="39.57" y1="49.44" x2="40.2" y2="50.07" width="0.1524" layer="1"/>
 <wire x1="40.2" y1="50.07" x2="40.986" y2="50.07" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$11">
-<wire x1="42.25" y1="54.3952" x2="42.25" y2="54.7" width="0" layer="19" extent="2-2"/>
-</signal>
-<signal name="N$12">
-<wire x1="42.25" y1="39.9096" x2="42.25" y2="39.6048" width="0" layer="19" extent="2-2"/>
 </signal>
 <signal name="N$7">
 <wire x1="42.25" y1="54.7" x2="20.55" y2="54.7" width="0.15" layer="16"/>
