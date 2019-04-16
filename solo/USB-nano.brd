@@ -3,7 +3,7 @@
 <eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
@@ -25,7 +25,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -35,9 +35,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -106,6 +106,8 @@ Outlines at 0.001mm</text>
 <wire x1="13.36143125" y1="15.52736875" x2="-1.241409375" y2="15.52736875" width="0.1" layer="49"/>
 <wire x1="9.474609375" y1="10.67963125" x2="9.474609375" y2="20.140459375" width="0.1" layer="49"/>
 <text x="2.65" y="19.95" size="0.6096" layer="26" font="vector" ratio="16" rot="MR0">v0.1</text>
+<rectangle x1="9.9" y1="20" x2="10.15" y2="21.05" layer="42"/>
+<rectangle x1="9.9" y1="9.7" x2="10.3" y2="11.05" layer="42"/>
 </plain>
 <libraries>
 <library name="efm-fido" urn="urn:adsk.eagle:library:4245354">
@@ -817,11 +819,59 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-3.35" y="-4.375"/>
 </polygon>
 </package>
-<package name="SOMU_CAPACITIVE_TOUCH_PAD" urn="urn:adsk.eagle:footprint:10401337/1" locally_modified="yes" library_version="92" library_locally_modified="yes">
-<smd name="SENSE" x="1" y="0" dx="6" dy="4" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="P$1" x="1" y="0" dx="6" dy="4" layer="16" rot="R90" stop="no" cream="no"/>
-<rectangle x1="-1" y1="-3" x2="3" y2="3" layer="30"/>
-<rectangle x1="-1" y1="-3" x2="3" y2="3" layer="29"/>
+<package name="SOMU_CAPACITIVE_TOUCH_PAD" urn="urn:adsk.eagle:footprint:10401337/4" library_version="96">
+<smd name="SENSE" x="18.563" y="3.122" dx="2" dy="2" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$1" x="18.563" y="3.122" dx="2" dy="2" layer="16" rot="R90" stop="no" cream="no"/>
+<smd name="SENSE2" x="18.552" y="5.849" dx="2" dy="2" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$2" x="18.552" y="5.849" dx="2" dy="2" layer="16" rot="R90" stop="no" cream="no"/>
+<polygon width="0.001" layer="30">
+<vertex x="19.77731875" y="-0.30236875" curve="-72.467776"/>
+<vertex x="17.07731875" y="3.382140625"/>
+<vertex x="17.07731875" y="4.37263125"/>
+<vertex x="19.77731875" y="4.37263125"/>
+</polygon>
+<polygon width="0.001" layer="30">
+<vertex x="19.77731875" y="4.57263125"/>
+<vertex x="17.07731875" y="4.57263125"/>
+<vertex x="17.07731875" y="5.56311875" curve="-72.467834"/>
+<vertex x="19.77731875" y="9.24763125"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="19.77731875" y="4.57263125"/>
+<vertex x="17.07731875" y="4.57263125"/>
+<vertex x="17.07731875" y="5.56311875" curve="-72.467834"/>
+<vertex x="19.77731875" y="9.24763125"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="19.77731875" y="-0.30236875" curve="-72.467776"/>
+<vertex x="17.07731875" y="3.382140625"/>
+<vertex x="17.07731875" y="4.37263125"/>
+<vertex x="19.77731875" y="4.37263125"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="19.77731875" y="-0.30236875" curve="-72.467776"/>
+<vertex x="17.07731875" y="3.382140625"/>
+<vertex x="17.07731875" y="4.37263125"/>
+<vertex x="19.77731875" y="4.37263125"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="19.77731875" y="4.57263125"/>
+<vertex x="17.07731875" y="4.57263125"/>
+<vertex x="17.07731875" y="5.56311875" curve="-72.467834"/>
+<vertex x="19.77731875" y="9.24763125"/>
+</polygon>
+<polygon width="0.001" layer="16">
+<vertex x="19.77731875" y="4.57263125"/>
+<vertex x="17.07731875" y="4.57263125"/>
+<vertex x="17.07731875" y="5.56311875" curve="-72.467834"/>
+<vertex x="19.77731875" y="9.24763125"/>
+</polygon>
+<polygon width="0.001" layer="16">
+<vertex x="17.07731875" y="4.37263125"/>
+<vertex x="17.07731875" y="3.382140625" curve="72.467776"/>
+<vertex x="19.77731875" y="-0.30236875"/>
+<vertex x="19.77731875" y="4.37263125"/>
+</polygon>
 </package>
 </packages>
 <packages3d>
@@ -866,7 +916,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="USB_TRACES_NANO"/>
 </packageinstances>
 </package3d>
-<package3d name="SOMU_CAPACITIVE_TOUCH_PAD" urn="urn:adsk.eagle:package:10401338/2" locally_modified="yes" type="box" library_version="92" library_locally_modified="yes">
+<package3d name="SOMU_CAPACITIVE_TOUCH_PAD" urn="urn:adsk.eagle:package:10401338/5" type="box" library_version="96">
 <packageinstances>
 <packageinstance name="SOMU_CAPACITIVE_TOUCH_PAD"/>
 </packageinstances>
@@ -1127,7 +1177,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.668" y="9.495" size="1.27" layer="25" rot="R180" display="off"/>
 <attribute name="VALUE" x="7.318" y="21.875" size="1.27" layer="27" rot="R180" display="off"/>
 </element>
-<element name="S1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="SOMU_CAPACITIVE_TOUCH_PAD" package3d_urn="urn:adsk.eagle:package:10401338/2" value="TOUCH_SENSOR" x="11.22" y="18.62" smashed="yes"/>
 <element name="R2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="R0402" package3d_urn="urn:adsk.eagle:package:4245807/8" value="1k 1%" x="4.72" y="11.68" smashed="yes" rot="MR90">
 <attribute name="NAME" x="6.305" y="10.765" size="0.6096" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="2.815" y="11.045" size="1.27" layer="28" rot="MR90" display="off"/>
@@ -1136,11 +1185,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="0.955" y="11.015" size="0.6096" layer="26" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="1.455" y="13.405" size="1.27" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="S2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="SOMU_CAPACITIVE_TOUCH_PAD" package3d_urn="urn:adsk.eagle:package:10401338/2" value="TOUCH_SENSOR" x="11.23" y="12.42" smashed="yes"/>
 <element name="R3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="R0402" package3d_urn="urn:adsk.eagle:package:4245807/8" value="1k 1%" x="3.9" y="11.68" smashed="yes" rot="MR90">
 <attribute name="NAME" x="3.435" y="10.415" size="0.6096" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="1.995" y="11.045" size="1.27" layer="28" rot="MR90" display="off"/>
 </element>
+<element name="S1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" package="SOMU_CAPACITIVE_TOUCH_PAD" package3d_urn="urn:adsk.eagle:package:10401338/5" value="TOUCH_SENSOR" x="30" y="20" smashed="yes" rot="R180"/>
 </elements>
 <signals>
 <signal name="PE">
@@ -1436,20 +1485,24 @@ design rules under a new name.</description>
 <contactref element="ST2" pad="6"/>
 </signal>
 <signal name="N$2">
-<contactref element="S1" pad="P$1"/>
-<contactref element="S1" pad="SENSE"/>
 <contactref element="R2" pad="1"/>
 <wire x1="4.72" y1="11.055" x2="4.9172375" y2="11.055" width="0.1524" layer="16"/>
 <wire x1="4.9172375" y1="11.055" x2="5.1530375" y2="10.8192" width="0.1524" layer="16"/>
 <wire x1="5.1530375" y1="10.8192" x2="8.0571" y2="10.8192" width="0.1524" layer="16"/>
 <wire x1="8.0571" y1="10.8192" x2="9.9712" y2="12.7333" width="0.1524" layer="16"/>
 <wire x1="9.9712" y1="12.7333" x2="9.9712" y2="16.6512" width="0.1524" layer="16"/>
-<wire x1="9.9712" y1="16.6512" x2="11.1" y2="17.78" width="0.1524" layer="16"/>
-<wire x1="11.1" y1="17.78" x2="11.1" y2="18.13" width="0.1524" layer="16"/>
-<wire x1="12.22" y1="18.62" x2="11.2146375" y2="18.135" width="0.1524" layer="16"/>
-<wire x1="11.2146375" y1="18.135" x2="11.1" y2="18.60095" width="0.1524" layer="16"/>
-<wire x1="12.22" y1="18.62" x2="12.22" y2="18.62" width="0" layer="19" extent="1-16"/>
-<wire x1="11.1" y1="18.13" x2="11.2146375" y2="18.135" width="0" layer="19" extent="16-16"/>
+<contactref element="S1" pad="P$1"/>
+<contactref element="S1" pad="SENSE"/>
+<wire x1="11.103146875" y1="18.20956875" x2="11.1059875" y2="18.206728125" width="0.1524" layer="16"/>
+<wire x1="10.39278125" y1="17.07278125" x2="10.39278125" y2="17.811346875" width="0.1524" layer="16"/>
+<wire x1="10.39278125" y1="17.811346875" x2="10.791003125" y2="18.20956875" width="0.1524" layer="16"/>
+<wire x1="10.791003125" y1="18.20956875" x2="11.103146875" y2="18.20956875" width="0.1524" layer="16"/>
+<wire x1="11.1059875" y1="18.206728125" x2="11.357540625" y2="18.206728125" width="0.1524" layer="16"/>
+<wire x1="11.357540625" y1="18.206728125" x2="11.772815625" y2="17.791453125" width="0.1524" layer="16"/>
+<wire x1="11.772815625" y1="17.791453125" x2="11.772815625" y2="17.4715875" width="0.1524" layer="16"/>
+<wire x1="9.9712" y1="16.6512" x2="10.39278125" y2="17.07278125" width="0.1524" layer="16"/>
+<wire x1="11.437" y1="16.878" x2="11.437" y2="16.878" width="0" layer="19" extent="1-16"/>
+<wire x1="11.772815625" y1="17.4715875" x2="11.437" y2="16.878" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="C1" pad="2"/>
@@ -1464,8 +1517,6 @@ design rules under a new name.</description>
 <wire x1="4.35" y1="12.675" x2="4.35" y2="13.11" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$5">
-<contactref element="S2" pad="P$1"/>
-<contactref element="S2" pad="SENSE"/>
 <contactref element="R3" pad="1"/>
 <wire x1="3.9" y1="11.055" x2="3.91855" y2="11.055" width="0.1524" layer="16"/>
 <wire x1="3.91855" y1="11.055" x2="4.40835" y2="10.5652" width="0.1524" layer="16"/>
@@ -1473,12 +1524,19 @@ design rules under a new name.</description>
 <wire x1="10.538840625" y1="12.918840625" x2="10.65810625" y2="13.106609375" width="0.1524" layer="16"/>
 <wire x1="10.65810625" y1="13.106609375" x2="10.8" y2="13.33" width="0.1524" layer="16"/>
 <wire x1="10.8" y1="13.33" x2="10.8" y2="13.0841375" width="0.1524" layer="16"/>
-<wire x1="8.1852" y1="10.5652" x2="10.65810625" y2="13.03810625" width="0.1524" layer="16"/>
+<wire x1="8.1852" y1="10.5652" x2="10.185" y2="12.565" width="0.1524" layer="16"/>
+<wire x1="10.4651625" y1="12.8451625" x2="10.65810625" y2="13.03810625" width="0.1524" layer="16"/>
 <wire x1="10.65810625" y1="13.03810625" x2="10.65810625" y2="13.106609375" width="0.1524" layer="16"/>
-<wire x1="12.23" y1="12.42" x2="11.73" y2="12.6008" width="0.1524" layer="16"/>
-<wire x1="11.73" y1="12.6008" x2="11.45" y2="11.73" width="0.1524" layer="16"/>
-<wire x1="12.23" y1="12.42" x2="12.23" y2="12.42" width="0" layer="19" extent="1-16"/>
-<wire x1="10.8" y1="13.0841375" x2="11.73" y2="12.6008" width="0" layer="19" extent="16-16"/>
+<contactref element="S1" pad="SENSE2"/>
+<contactref element="S1" pad="P$2"/>
+<wire x1="11.597046875" y1="13.087509375" x2="11.597046875" y2="13.0943375" width="0.1524" layer="16"/>
+<wire x1="11.3547" y1="12.8451625" x2="11.597046875" y2="13.087509375" width="0.1524" layer="16"/>
+<wire x1="10.185" y1="12.565" x2="10.4651625" y2="12.8451625" width="0.1524" layer="16"/>
+<wire x1="10.4651625" y1="12.8451625" x2="11.3547" y2="12.8451625" width="0.1524" layer="16"/>
+<wire x1="11.597046875" y1="13.0943375" x2="11.5283" y2="13.163084375" width="0.1524" layer="16"/>
+<wire x1="11.5283" y1="13.163084375" x2="11.5283" y2="14.0707" width="0.1524" layer="16"/>
+<wire x1="11.5283" y1="14.0707" x2="11.448" y2="14.151" width="0.1524" layer="16"/>
+<wire x1="11.448" y1="14.151" x2="11.448" y2="14.151" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="R3" pad="2"/>
@@ -1494,12 +1552,8 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="4,1,6122f8c468e37208"/>
-<approved hash="4,1,1253b1dd2a9b332d"/>
 <approved hash="4,1,389f96bb4f022a40"/>
 <approved hash="4,1,4ad6d6555cebbf8c"/>
-<approved hash="4,16,1253b1dd2a9b332d"/>
-<approved hash="4,16,6122f8c468e37208"/>
 <approved hash="4,16,389f96bb4f022a40"/>
 <approved hash="4,16,4ad6d6555cebbf8c"/>
 <approved hash="19,16,0020009b8e9d8e26"/>
@@ -1509,47 +1563,15 @@ design rules under a new name.</description>
 <approved hash="19,16,202020959e939e26"/>
 <approved hash="19,16,7020708596839626"/>
 <approved hash="21,19,dea45ea45ca65b29"/>
-<approved hash="21,19,fffdfdfffdfffffd"/>
-<approved hash="21,19,fefdfcfffcfffefd"/>
-<approved hash="21,19,4cb84ebacebaccb8"/>
-<approved hash="21,19,d515d3142f1628e9"/>
 <approved hash="5,16,602611029190b2e1"/>
 <approved hash="5,16,caeef771271e4e67"/>
-<approved hash="4,1,8434044f2397eeec"/>
-<approved hash="4,1,7678d3c390f4784f"/>
-<approved hash="4,1,38fa34764641604c"/>
-<approved hash="4,1,eed59f6a09e0d973"/>
-<approved hash="4,1,152084653568274b"/>
-<approved hash="4,1,1fa1ad8ee0a22326"/>
-<approved hash="4,1,ac9633655582450b"/>
-<approved hash="4,1,417f760dead0fea2"/>
-<approved hash="4,1,5f38365134de7eb7"/>
-<approved hash="4,16,eaed2d4a3854f6c8"/>
-<approved hash="4,16,8434044f2397eeec"/>
-<approved hash="4,16,7678d3c390f4784f"/>
 <approved hash="4,16,b16830d7a7ec96c7"/>
 <approved hash="4,16,0e69e6ab6e4ec990"/>
 <approved hash="4,16,3ac597e4bee41d08"/>
-<approved hash="4,16,881a575bb387937d"/>
-<approved hash="4,16,102a317fea30934a"/>
-<approved hash="4,16,38fa34764641604c"/>
-<approved hash="4,16,eed59f6a09e0d973"/>
-<approved hash="4,16,152084653568274b"/>
-<approved hash="4,16,1fa1ad8ee0a22326"/>
-<approved hash="4,16,c291a9a53f269b70"/>
-<approved hash="4,16,ac9633655582450b"/>
-<approved hash="4,16,3bcc099862f65460"/>
-<approved hash="4,16,481329b16bbbfc67"/>
-<approved hash="4,16,67246d647a877da7"/>
-<approved hash="4,16,4a5b624bfb8fe052"/>
-<approved hash="4,16,417f760dead0fea2"/>
-<approved hash="4,16,5f38365134de7eb7"/>
 <approved hash="4,16,6f0fabd8391b7ecd"/>
-<approved hash="4,16,f1b062345708ffdd"/>
 <approved hash="4,16,b84213aaf49a9eae"/>
 <approved hash="4,16,d15129a7b67d4c1a"/>
 <approved hash="4,16,3bfa983010b91b0f"/>
-<approved hash="4,1,c291a9a53f269b70"/>
 </errors>
 </board>
 </drawing>

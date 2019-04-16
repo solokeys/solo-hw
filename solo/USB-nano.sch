@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -786,11 +786,59 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="-3.35" y="-4.375"/>
 </polygon>
 </package>
-<package name="SOMU_CAPACITIVE_TOUCH_PAD" urn="urn:adsk.eagle:footprint:10401337/1" locally_modified="yes" library_version="92" library_locally_modified="yes">
-<smd name="SENSE" x="1" y="0" dx="6" dy="4" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="P$1" x="1" y="0" dx="6" dy="4" layer="16" rot="R90" stop="no" cream="no"/>
-<rectangle x1="-1" y1="-3" x2="3" y2="3" layer="30"/>
-<rectangle x1="-1" y1="-3" x2="3" y2="3" layer="29"/>
+<package name="SOMU_CAPACITIVE_TOUCH_PAD" urn="urn:adsk.eagle:footprint:10401337/4" library_version="96">
+<smd name="SENSE" x="18.563" y="3.122" dx="2" dy="2" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$1" x="18.563" y="3.122" dx="2" dy="2" layer="16" rot="R90" stop="no" cream="no"/>
+<smd name="SENSE2" x="18.552" y="5.849" dx="2" dy="2" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$2" x="18.552" y="5.849" dx="2" dy="2" layer="16" rot="R90" stop="no" cream="no"/>
+<polygon width="0.001" layer="30">
+<vertex x="19.77731875" y="-0.30236875" curve="-72.467776"/>
+<vertex x="17.07731875" y="3.382140625"/>
+<vertex x="17.07731875" y="4.37263125"/>
+<vertex x="19.77731875" y="4.37263125"/>
+</polygon>
+<polygon width="0.001" layer="30">
+<vertex x="19.77731875" y="4.57263125"/>
+<vertex x="17.07731875" y="4.57263125"/>
+<vertex x="17.07731875" y="5.56311875" curve="-72.467834"/>
+<vertex x="19.77731875" y="9.24763125"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="19.77731875" y="4.57263125"/>
+<vertex x="17.07731875" y="4.57263125"/>
+<vertex x="17.07731875" y="5.56311875" curve="-72.467834"/>
+<vertex x="19.77731875" y="9.24763125"/>
+</polygon>
+<polygon width="0.001" layer="29">
+<vertex x="19.77731875" y="-0.30236875" curve="-72.467776"/>
+<vertex x="17.07731875" y="3.382140625"/>
+<vertex x="17.07731875" y="4.37263125"/>
+<vertex x="19.77731875" y="4.37263125"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="19.77731875" y="-0.30236875" curve="-72.467776"/>
+<vertex x="17.07731875" y="3.382140625"/>
+<vertex x="17.07731875" y="4.37263125"/>
+<vertex x="19.77731875" y="4.37263125"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="19.77731875" y="4.57263125"/>
+<vertex x="17.07731875" y="4.57263125"/>
+<vertex x="17.07731875" y="5.56311875" curve="-72.467834"/>
+<vertex x="19.77731875" y="9.24763125"/>
+</polygon>
+<polygon width="0.001" layer="16">
+<vertex x="19.77731875" y="4.57263125"/>
+<vertex x="17.07731875" y="4.57263125"/>
+<vertex x="17.07731875" y="5.56311875" curve="-72.467834"/>
+<vertex x="19.77731875" y="9.24763125"/>
+</polygon>
+<polygon width="0.001" layer="16">
+<vertex x="17.07731875" y="4.37263125"/>
+<vertex x="17.07731875" y="3.382140625" curve="72.467776"/>
+<vertex x="19.77731875" y="-0.30236875"/>
+<vertex x="19.77731875" y="4.37263125"/>
+</polygon>
 </package>
 </packages>
 <packages3d>
@@ -840,7 +888,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <packageinstance name="USB_TRACES_NANO"/>
 </packageinstances>
 </package3d>
-<package3d name="SOMU_CAPACITIVE_TOUCH_PAD" urn="urn:adsk.eagle:package:10401338/2" locally_modified="yes" type="box" library_version="92" library_locally_modified="yes">
+<package3d name="SOMU_CAPACITIVE_TOUCH_PAD" urn="urn:adsk.eagle:package:10401338/5" type="box" library_version="96">
 <packageinstances>
 <packageinstance name="SOMU_CAPACITIVE_TOUCH_PAD"/>
 </packageinstances>
@@ -1028,7 +1076,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <vertex x="1.27" y="5.842"/>
 </polygon>
 </symbol>
-<symbol name="ANTENNA" urn="urn:adsk.eagle:symbol:10401336/1" library_version="86" library_locally_modified="yes">
+<symbol name="ANTENNA" urn="urn:adsk.eagle:symbol:10401336/1" library_version="96">
 <wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
@@ -1234,17 +1282,19 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TOUCH_SENSOR" urn="urn:adsk.eagle:component:10401339/2" locally_modified="yes" prefix="S" library_version="92" library_locally_modified="yes">
+<deviceset name="TOUCH_SENSOR" urn="urn:adsk.eagle:component:10401339/6" prefix="S" library_version="96">
 <gates>
 <gate name="G$1" symbol="ANTENNA" x="0" y="5.08"/>
+<gate name="G$2" symbol="ANTENNA" x="10.16" y="5.08"/>
 </gates>
 <devices>
 <device name="" package="SOMU_CAPACITIVE_TOUCH_PAD">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1 SENSE"/>
+<connect gate="G$2" pin="1" pad="P$2 SENSE2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10401338/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10401338/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1385,12 +1435,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="L1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="RGB_LED_1X1" device="CL-505S-X-SD-T" package3d_urn="urn:adsk.eagle:package:4878740/9"/>
 <part name="U1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="USB_TRACES_NANO" device="" package3d_urn="urn:adsk.eagle:package:10400516/6"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
-<part name="S1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="TOUCH_SENSOR" device="" package3d_urn="urn:adsk.eagle:package:10401338/2"/>
 <part name="R2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:4245807/8" value="1k 1%"/>
 <part name="C1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:4245806/9" value="20u C0G"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="PE" device="" value="GND"/>
-<part name="S2" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="TOUCH_SENSOR" device="" package3d_urn="urn:adsk.eagle:package:10401338/2"/>
 <part name="R3" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:4245807/8" value="1k 1%"/>
+<part name="S1" library="efm-fido" library_urn="urn:adsk.eagle:library:4245354" deviceset="TOUCH_SENSOR" device="" package3d_urn="urn:adsk.eagle:package:10401338/5"/>
 </parts>
 <sheets>
 <sheet>
@@ -1495,9 +1544,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY4" gate="PE" x="81.28" y="134.62" smashed="yes" rot="R180">
 <attribute name="VALUE" x="85.725" y="139.319" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="S1" gate="G$1" x="154.94" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="157.48" y="44.45" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="R2" gate="G$1" x="154.94" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="153.4414" y="54.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="158.242" y="54.61" size="1.778" layer="96" rot="R90"/>
@@ -1509,12 +1555,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY1" gate="PE" x="185.42" y="35.56" smashed="yes">
 <attribute name="VALUE" x="180.975" y="30.861" size="1.778" layer="96"/>
 </instance>
-<instance part="S2" gate="G$1" x="165.1" y="35.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="167.64" y="34.29" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="R3" gate="G$1" x="165.1" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="163.6014" y="44.45" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="168.402" y="44.45" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="S1" gate="G$1" x="154.94" y="30.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="157.48" y="29.21" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="S1" gate="G$2" x="165.1" y="30.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="167.64" y="29.21" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -1778,9 +1827,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="50.8" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="35.56" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -1802,9 +1851,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="40.64" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="35.56" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$2" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
