@@ -25,3 +25,17 @@ USB-A
 
 USB-C
 ![](https://i.imgur.com/zEUAuZF.png)
+
+## 2.1V Solo Tap hardware
+
+Also the hardware used for all future Solo models.
+
+![](https://i.imgur.com/I11qiw0.jpg)
+
+![](https://i.imgur.com/bAC01NV.jpg)
+
+USB-A
+![](https://i.imgur.com/jkeU1wc.png)
+
+USB-C
+![](https://i.imgur.com/oVjM2IU.png)
