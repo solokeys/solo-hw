@@ -9,7 +9,7 @@ For schematic, BOM, and gerber information, see the releases.
 ## License
 Solo is fully open source. All hardware, unless otherwise noted, is dual licensed under [CERN OHL](LICENSE-CERN) and [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
 
-You may use Solo under the terms of either the CERN OHL 2.1 license or the CC BY-SA 4.0 license.
+You may use Solo under the terms of either the CERN OHL 1.2 license or the CC BY-SA 4.0 license.
 
 
 ## 1.2V Solo hardware
