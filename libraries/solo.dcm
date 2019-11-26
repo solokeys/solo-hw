@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LPC55S28JEV98K
+F NXP USA Inc.
+$ENDCMP
+#
+$CMP RGB_1x1-CL-505S-S-SD-T
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+#End Doc Library
