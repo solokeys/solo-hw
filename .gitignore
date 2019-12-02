@@ -14,3 +14,4 @@ CAMOutputs.zip
 *.net
 *.bck
 solo-A.step
+.DS_store

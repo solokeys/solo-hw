@@ -1,4 +1,4 @@
-(module AS3956_CSP (layer F.Cu) (tedit 5DDDBAB8)
+(module AS3956_CSP (layer F.Cu) (tedit 5DE59E81)
   (descr "RFID TAG R/W 13.56MHZ INLAY")
   (attr smd)
   (fp_text reference BGA12N40P4X3_180X141X34N (at -0.1872 -1.3532) (layer F.SilkS)
@@ -28,7 +28,7 @@
   (pad C3 smd circle (at 0.2 0.4) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (pad B4 smd circle (at 0.6 0) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (pad C4 smd circle (at 0.6 0.4) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
-  (model C:/Users/conor/Desktop/solo-hw/3d/AS3956-CSP.step
+  (model 3d/AS3956-CSP.step
     (offset (xyz -0.9 -0.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

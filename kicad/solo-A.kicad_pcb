@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5-0-10_14)")
 
   (general
     (thickness 1.6)
@@ -33,7 +33,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.1)
     (user_trace_width 0.1)
     (user_trace_width 0.1524)
     (user_trace_width 0.25)
@@ -486,7 +486,7 @@
       (net 28 +3V3))
     (pad N13 smd circle (at 3 3) (size 0.24 0.24) (layers F.Cu F.Paste F.Mask)
       (net 28 +3V3))
-    (model C:/Users/conor/Desktop/solo-hw/3d/lpc55.step
+    (model 3d/lpc55.step
       (offset (xyz -3.5 -3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -655,7 +655,7 @@
            (xy 0.18 -0.105) (xy 0.18 -0.075) (xy 0 0.105) (xy 0.18 -0.075) (xy 0 0.105)
            (xy -0.18 0.105) (xy -0.18 -0.105)) (width 0))
       ))
-    (model C:/Users/conor/Desktop/solo-hw/3d/tlv742p.step
+    (model 3d/tlv742p.step
       (offset (xyz -0.5 -0.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -698,7 +698,7 @@
       (net 68 "Net-(D2-Pad4)"))
     (pad 3 smd rect (at 0.8 -0.47 180) (size 0.8 0.55) (layers F.Cu F.Paste F.Mask)
       (net 73 /solo/Sheet5DDC9C58/R))
-    (model C:/Users/conor/Desktop/solo-hw/3d/EAST1616RGBB4.step
+    (model 3d/EAST1616RGBB4.step
       (offset (xyz -0.8 -0.75 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1215,7 +1215,7 @@
       (net 80 "Net-(N1-PadB4)"))
     (pad C4 smd circle (at 0.6 0.4 90) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask)
       (net 28 +3V3))
-    (model C:/Users/conor/Desktop/solo-hw/3d/AS3956-CSP.step
+    (model 3d/AS3956-CSP.step
       (offset (xyz -0.9 -0.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

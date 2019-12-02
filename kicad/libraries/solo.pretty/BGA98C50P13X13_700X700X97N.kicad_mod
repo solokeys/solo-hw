@@ -1,4 +1,4 @@
-(module BGA98C50P13X13_700X700X97N (layer F.Cu) (tedit 5DDDBAE3)
+(module BGA98C50P13X13_700X700X97N (layer F.Cu) (tedit 5DE59E8E)
   (attr smd)
   (fp_text reference BGA98C50P13X13_700X700X97N (at -1.01 -4.535) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.05)))
@@ -114,7 +114,7 @@
   (pad L13 smd circle (at 3 2) (size 0.24 0.24) (layers F.Cu F.Paste F.Mask))
   (pad M13 smd circle (at 3 2.5) (size 0.24 0.24) (layers F.Cu F.Paste F.Mask))
   (pad N13 smd circle (at 3 3) (size 0.24 0.24) (layers F.Cu F.Paste F.Mask))
-  (model C:/Users/conor/Desktop/solo-hw/3d/lpc55.step
+  (model 3d/lpc55.step
     (offset (xyz -3.5 -3.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
