@@ -61,10 +61,6 @@ Text HLabel 10100 1750 2    50   Input ~ 0
 SPI_MISO
 Text HLabel 10100 1850 2    50   Input ~ 0
 SPI_CLK
-Text HLabel 10100 2150 2    50   Input ~ 0
-BUTTON
-Text HLabel 10100 2250 2    50   Input ~ 0
-CAP_SENSE
 Text HLabel 10100 3000 2    50   Input ~ 0
 VERSION0
 Text HLabel 10100 3100 2    50   Input ~ 0
@@ -323,27 +319,23 @@ Wire Wire Line
 	8350 3950 8500 3950
 Text HLabel 10100 1950 2    50   Input ~ 0
 SPI_SS
-Text HLabel 9350 2100 2    50   Input ~ 0
+Text HLabel 9550 1450 2    50   Input ~ 0
 R
-Text HLabel 9350 2250 2    50   Input ~ 0
+Text HLabel 9550 1600 2    50   Input ~ 0
 G
-Text HLabel 9350 2400 2    50   Input ~ 0
+Text HLabel 9550 1750 2    50   Input ~ 0
 B
-Text Label 6000 6950 0    50   ~ 0
+Text Label 7200 1250 0    50   ~ 0
 SPI_MISO
-Text Label 6000 5350 0    50   ~ 0
+Text Label 7200 1150 0    50   ~ 0
 SPI_CLK
-Text Label 6000 4650 0    50   ~ 0
+Text Label 6000 5350 0    50   ~ 0
 SPI_SS
-Wire Wire Line
-	6000 6950 5800 6950
 Wire Wire Line
 	6000 5350 5800 5350
 Wire Wire Line
 	6000 4650 5800 4650
-Wire Wire Line
-	7150 950  7000 950 
-Text Label 7150 950  0    50   ~ 0
+Text Label 7200 1350 0    50   ~ 0
 SPI_MOSI
 Text Label 7300 2650 0    50   ~ 0
 SWCLK
@@ -351,16 +343,186 @@ Text Label 7300 2750 0    50   ~ 0
 SWO
 Text Label 7300 2550 0    50   ~ 0
 SWDIO
-Text Label 7200 650  0    50   ~ 0
+Text Label 8450 1000 0    50   ~ 0
 R
-Text Label 7200 2250 0    50   ~ 0
+Text Label 8450 1200 0    50   ~ 0
 G
-Text Label 7200 1450 0    50   ~ 0
+Text Label 8450 1100 0    50   ~ 0
 B
+Wire Wire Line
+	7200 1350 7000 1350
+Wire Wire Line
+	7200 1150 7000 1150
+Wire Wire Line
+	7200 1250 7000 1250
+Text HLabel 9150 2450 2    50   Input ~ 0
+SENSE1
+Text HLabel 9150 2550 2    50   Input ~ 0
+SENSE2
+Text HLabel 9150 2650 2    50   Input ~ 0
+SENSE3
+Text HLabel 9150 2800 2    50   Input ~ 0
+CHARGE1
+Text HLabel 9150 2900 2    50   Input ~ 0
+CHARGE2
+Text HLabel 9150 3000 2    50   Input ~ 0
+CHARGE3
+Text Notes 8500 2400 0    50   ~ 0
+Support 3 capacitive touch buttons.\nUses RC acquisition principle.  \nSee ST AN2927.
+Text Label 6050 6350 0    50   ~ 0
+SENSE1
+Text Label 7200 650  0    50   ~ 0
+SENSE2
+Text Label 7250 2250 0    50   ~ 0
+SENSE3
 Wire Wire Line
 	7200 650  7000 650 
 Wire Wire Line
-	7200 1450 7000 1450
+	7250 2250 7000 2250
+Text Label 7250 1950 0    50   ~ 0
+SENSE1
 Wire Wire Line
-	7200 2250 7000 2250
+	7250 1950 7000 1950
+Text Notes 7600 1950 0    50   ~ 0
+COMP input C
+Text Notes 6400 6350 0    50   ~ 0
+ADC channel 12
+Text Notes 7600 2250 0    50   ~ 0
+ADC channel 2
+Text Notes 7600 650  0    50   ~ 0
+ADC channel 3
+Text Label 7300 2850 0    50   ~ 0
+SENSE2
+Wire Wire Line
+	7250 3750 7000 3750
+Text Notes 7650 2850 0    50   ~ 0
+COMP input B
+Text Label 6800 5850 0    50   ~ 0
+SENSE3
+Wire Wire Line
+	7300 2850 7000 2850
+Text Notes 7100 5850 0    50   ~ 0
+COMP input A
+$Comp
+L power:GNDREF #PWR0121
+U 1 1 5E0F844F
+P 7300 1000
+F 0 "#PWR0121" H 7300 750 50  0001 C CNN
+F 1 "GNDREF" V 7305 872 50  0000 R CNN
+F 2 "" H 7300 1000 50  0001 C CNN
+F 3 "" H 7300 1000 50  0001 C CNN
+	1    7300 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 1000 7150 1000
+Wire Wire Line
+	7150 1000 7150 1050
+Wire Wire Line
+	7150 1050 7000 1050
+Text Notes 7750 1000 0    50   ~ 0
+routing
+$Comp
+L power:GNDREF #PWR0122
+U 1 1 5E1022A7
+P 5950 6850
+F 0 "#PWR0122" H 5950 6600 50  0001 C CNN
+F 1 "GNDREF" V 5955 6722 50  0000 R CNN
+F 2 "" H 5950 6850 50  0001 C CNN
+F 3 "" H 5950 6850 50  0001 C CNN
+	1    5950 6850
+	0    -1   -1   0   
+$EndComp
+Text Notes 6400 6850 0    50   ~ 0
+routing
+Wire Wire Line
+	5950 6850 5800 6850
+$Comp
+L power:GNDREF #PWR0123
+U 1 1 5E10999C
+P 6000 5950
+F 0 "#PWR0123" H 6000 5700 50  0001 C CNN
+F 1 "GNDREF" V 6005 5822 50  0000 R CNN
+F 2 "" H 6000 5950 50  0001 C CNN
+F 3 "" H 6000 5950 50  0001 C CNN
+	1    6000 5950
+	0    -1   -1   0   
+$EndComp
+Text Notes 6450 5950 0    50   ~ 0
+routing
+Wire Wire Line
+	6000 5950 5800 5950
+$Comp
+L power:GNDREF #PWR0124
+U 1 1 5E10D3B0
+P 6000 5750
+F 0 "#PWR0124" H 6000 5500 50  0001 C CNN
+F 1 "GNDREF" V 6005 5622 50  0000 R CNN
+F 2 "" H 6000 5750 50  0001 C CNN
+F 3 "" H 6000 5750 50  0001 C CNN
+	1    6000 5750
+	0    -1   -1   0   
+$EndComp
+Text Notes 6450 5750 0    50   ~ 0
+routing
+Wire Wire Line
+	6000 5750 5800 5750
+$Comp
+L power:GNDREF #PWR0125
+U 1 1 5E111255
+P 6000 4750
+F 0 "#PWR0125" H 6000 4500 50  0001 C CNN
+F 1 "GNDREF" V 6005 4622 50  0000 R CNN
+F 2 "" H 6000 4750 50  0001 C CNN
+F 3 "" H 6000 4750 50  0001 C CNN
+	1    6000 4750
+	0    -1   -1   0   
+$EndComp
+Text Notes 6450 4750 0    50   ~ 0
+routing
+Wire Wire Line
+	6000 4750 5800 4750
+$Comp
+L power:GNDREF #PWR0126
+U 1 1 5E114C5E
+P 7250 3150
+F 0 "#PWR0126" H 7250 2900 50  0001 C CNN
+F 1 "GNDREF" V 7255 3022 50  0000 R CNN
+F 2 "" H 7250 3150 50  0001 C CNN
+F 3 "" H 7250 3150 50  0001 C CNN
+	1    7250 3150
+	0    -1   -1   0   
+$EndComp
+Text Notes 7700 3150 0    50   ~ 0
+routing
+Wire Wire Line
+	7250 3150 7000 3150
+Wire Wire Line
+	6050 6350 5800 6350
+Wire Wire Line
+	6800 5850 5800 5850
+Text Label 6650 5350 0    50   ~ 0
+CHARGE1
+Text Label 6650 5450 0    50   ~ 0
+CHARGE2
+Wire Wire Line
+	5800 5650 6050 5650
+Wire Wire Line
+	6050 5650 6050 5550
+Wire Wire Line
+	6050 5550 6500 5550
+Wire Wire Line
+	6500 5550 6500 5450
+Wire Wire Line
+	6500 5350 6650 5350
+Wire Wire Line
+	6650 5450 6500 5450
+Connection ~ 6500 5450
+Wire Wire Line
+	6500 5450 6500 5350
+Text Label 6650 5550 0    50   ~ 0
+CHARGE3
+Wire Wire Line
+	6650 5550 6500 5550
+Connection ~ 6500 5550
 $EndSCHEMATC

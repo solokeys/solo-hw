@@ -29,7 +29,7 @@ U 1 1 5DF12341
 P 1400 2900
 F 0 "S1" H 1457 3367 50  0000 C CNN
 F 1 "USB" H 1457 3276 50  0000 C CNN
-F 2 "solo:USB-A" H 1550 2850 50  0001 C CNN
+F 2 "~" H 1550 2850 50  0001 C CNN
 F 3 " ~" H 1550 2850 50  0001 C CNN
 	1    1400 2900
 	1    0    0    -1  
@@ -67,9 +67,9 @@ Wire Wire Line
 Wire Wire Line
 	1400 3850 1400 3700
 Text Label 2550 3200 0    50   ~ 0
-D1+
+TOP_D+
 Text Label 2550 3300 0    50   ~ 0
-D1-
+TOP_D-
 Wire Wire Line
 	2550 3200 2050 3200
 Wire Wire Line
@@ -105,15 +105,11 @@ Connection ~ 2350 3300
 Wire Wire Line
 	1700 3000 1700 3300
 Wire Wire Line
-	1700 3300 2350 3300
-Wire Wire Line
 	1700 2900 1800 2900
-Wire Wire Line
-	1800 2900 1800 3200
 Wire Wire Line
 	1800 3200 2050 3200
 Wire Wire Line
-	1700 2700 2050 2700
+	1700 2700 1900 2700
 Wire Wire Line
 	2050 2800 2050 2700
 Connection ~ 2050 2700
@@ -166,9 +162,9 @@ Wire Wire Line
 Wire Wire Line
 	1400 5900 1400 5750
 Text Label 2550 4800 0    50   ~ 0
-D2+
+BOT_D+
 Text Label 2550 4900 0    50   ~ 0
-D2-
+BOT_D-
 Wire Wire Line
 	2550 4800 2050 4800
 Wire Wire Line
@@ -224,13 +220,13 @@ Connection ~ 2350 4300
 Wire Wire Line
 	2350 4300 2550 4300
 Text Label 3500 3500 2    50   ~ 0
-D1+
+TOP_D+
 Text Label 3500 3700 2    50   ~ 0
-D2+
+BOT_D+
 Text Label 3500 3800 2    50   ~ 0
-D1-
+TOP_D-
 Text Label 3500 4000 2    50   ~ 0
-D2-
+BOT_D-
 Wire Wire Line
 	3500 3500 3650 3500
 Wire Wire Line
@@ -343,4 +339,20 @@ Wire Wire Line
 	4050 3200 4050 3150
 Wire Wire Line
 	4050 3150 4250 3150
+Text Label 1000 3400 2    50   ~ 0
+TOP_5V
+Text Label 1900 2550 1    50   ~ 0
+TOP_GND
+Connection ~ 1900 2700
+Wire Wire Line
+	1900 2700 2050 2700
+Wire Wire Line
+	1800 2900 1800 3200
+Wire Wire Line
+	1000 3400 1400 3400
+Connection ~ 1400 3400
+Wire Wire Line
+	1900 2550 1900 2700
+Wire Wire Line
+	1700 3300 2350 3300
 $EndSCHEMATC
