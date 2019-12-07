@@ -325,7 +325,7 @@ Text HLabel 9550 1600 2    50   Input ~ 0
 G
 Text HLabel 9550 1750 2    50   Input ~ 0
 B
-Text Label 7200 1250 0    50   ~ 0
+Text Label 7200 750  0    50   ~ 0
 SPI_MISO
 Text Label 7200 1150 0    50   ~ 0
 SPI_CLK
@@ -335,8 +335,6 @@ Wire Wire Line
 	6000 5350 5800 5350
 Wire Wire Line
 	6000 4650 5800 4650
-Text Label 7200 1350 0    50   ~ 0
-SPI_MOSI
 Text Label 7300 2650 0    50   ~ 0
 SWCLK
 Text Label 7300 2750 0    50   ~ 0
@@ -350,11 +348,9 @@ G
 Text Label 8450 1100 0    50   ~ 0
 B
 Wire Wire Line
-	7200 1350 7000 1350
-Wire Wire Line
 	7200 1150 7000 1150
 Wire Wire Line
-	7200 1250 7000 1250
+	7200 750  7000 750 
 Text HLabel 9150 2450 2    50   Input ~ 0
 SENSE1
 Text HLabel 9150 2550 2    50   Input ~ 0
@@ -525,4 +521,38 @@ CHARGE3
 Wire Wire Line
 	6650 5550 6500 5550
 Connection ~ 6500 5550
+$Comp
+L power:GNDREF #PWR0120
+U 1 1 5E1AF97B
+P 7200 3550
+F 0 "#PWR0120" H 7200 3300 50  0001 C CNN
+F 1 "GNDREF" V 7205 3422 50  0000 R CNN
+F 2 "" H 7200 3550 50  0001 C CNN
+F 3 "" H 7200 3550 50  0001 C CNN
+	1    7200 3550
+	0    -1   -1   0   
+$EndComp
+Text Notes 7650 3550 0    50   ~ 0
+routing
+Wire Wire Line
+	7200 3550 7000 3550
+$Comp
+L power:GNDREF #PWR0127
+U 1 1 5E1B1E40
+P 7200 1750
+F 0 "#PWR0127" H 7200 1500 50  0001 C CNN
+F 1 "GNDREF" V 7205 1622 50  0000 R CNN
+F 2 "" H 7200 1750 50  0001 C CNN
+F 3 "" H 7200 1750 50  0001 C CNN
+	1    7200 1750
+	0    -1   -1   0   
+$EndComp
+Text Notes 7650 1750 0    50   ~ 0
+routing
+Wire Wire Line
+	7200 1750 7000 1750
+Wire Wire Line
+	7200 1350 7000 1350
+Text Label 7200 1350 0    50   ~ 0
+SPI_MOSI
 $EndSCHEMATC

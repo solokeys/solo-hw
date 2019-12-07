@@ -35,10 +35,10 @@ F 3 " ~" H 1550 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L solo:schottky_diode K3
+L solo:schottky_diode D4
 U 1 1 5DF2CE80
 P 2700 2700
-F 0 "K3" H 2700 2824 50  0000 C CNN
+F 0 "D4" H 2700 2824 50  0000 C CNN
 F 1 "schottky_diode" H 2700 2825 50  0001 C CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2750 2900 50  0001 C CNN
 F 3 "~" H 2700 2700 50  0001 C CNN
@@ -46,10 +46,10 @@ F 3 "~" H 2700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L solo:schottky_diode K1
+L solo:schottky_diode D3
 U 1 1 5DF2DB0A
 P 1400 3550
-F 0 "K1" V 1400 3471 50  0000 R CNN
+F 0 "D3" V 1400 3471 50  0000 R CNN
 F 1 "schottky_diode" V 1355 3471 50  0001 R CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 1450 3750 50  0001 C CNN
 F 3 "~" H 1400 3550 50  0001 C CNN
@@ -75,10 +75,10 @@ Wire Wire Line
 Wire Wire Line
 	2550 3300 2350 3300
 $Comp
-L solo:tvs_diode D3
+L solo:tvs_diode Z3
 U 1 1 5DF3E043
 P 2050 2950
-F 0 "D3" V 2050 2871 50  0000 R CNN
+F 0 "Z3" V 2050 2871 50  0000 R CNN
 F 1 "tvs_diode" V 2005 2871 50  0001 R CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2050 2950 50  0001 C CNN
 F 3 "~" H 2050 2950 50  0001 C CNN
@@ -89,10 +89,10 @@ Wire Wire Line
 	2050 3100 2050 3200
 Connection ~ 2050 3200
 $Comp
-L solo:tvs_diode D5
+L solo:tvs_diode Z5
 U 1 1 5DF45616
 P 2350 2950
-F 0 "D5" V 2350 2871 50  0000 R CNN
+F 0 "Z5" V 2350 2871 50  0000 R CNN
 F 1 "tvs_diode" V 2305 2871 50  0001 R CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2350 2950 50  0001 C CNN
 F 3 "~" H 2350 2950 50  0001 C CNN
@@ -132,10 +132,10 @@ F 3 " ~" H 1550 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L solo:schottky_diode K4
+L solo:schottky_diode D6
 U 1 1 5DF4DDAA
 P 2700 4300
-F 0 "K4" H 2700 4424 50  0000 C CNN
+F 0 "D6" H 2700 4424 50  0000 C CNN
 F 1 "schottky_diode" H 2700 4425 50  0001 C CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2750 4500 50  0001 C CNN
 F 3 "~" H 2700 4300 50  0001 C CNN
@@ -143,10 +143,10 @@ F 3 "~" H 2700 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L solo:schottky_diode K2
+L solo:schottky_diode D5
 U 1 1 5DF4DDB0
 P 1400 5600
-F 0 "K2" V 1400 5521 50  0000 R CNN
+F 0 "D5" V 1400 5521 50  0000 R CNN
 F 1 "schottky_diode" V 1355 5521 50  0001 R CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 1450 5800 50  0001 C CNN
 F 3 "~" H 1400 5600 50  0001 C CNN
@@ -170,10 +170,10 @@ Wire Wire Line
 Wire Wire Line
 	2550 4900 2350 4900
 $Comp
-L solo:tvs_diode D4
+L solo:tvs_diode Z4
 U 1 1 5DF4DDBF
 P 2050 4550
-F 0 "D4" V 2050 4471 50  0000 R CNN
+F 0 "Z4" V 2050 4471 50  0000 R CNN
 F 1 "tvs_diode" V 2005 4471 50  0001 R CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2050 4550 50  0001 C CNN
 F 3 "~" H 2050 4550 50  0001 C CNN
@@ -184,10 +184,10 @@ Wire Wire Line
 	2050 4700 2050 4800
 Connection ~ 2050 4800
 $Comp
-L solo:tvs_diode D6
+L solo:tvs_diode Z6
 U 1 1 5DF4DDC7
 P 2350 4550
-F 0 "D6" V 2350 4471 50  0000 R CNN
+F 0 "Z6" V 2350 4471 50  0000 R CNN
 F 1 "tvs_diode" V 2305 4471 50  0001 R CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2350 4550 50  0001 C CNN
 F 3 "~" H 2350 4550 50  0001 C CNN
