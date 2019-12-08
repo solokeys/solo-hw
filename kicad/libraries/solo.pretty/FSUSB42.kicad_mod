@@ -1,4 +1,4 @@
-(module FSUSB42 (layer F.Cu) (tedit 5DE9CFFB)
+(module FSUSB42 (layer F.Cu) (tedit 5DEC0B14)
   (attr smd)
   (fp_text reference UMLP10 (at 2.832 -1.108) (layer F.Fab)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -27,4 +27,9 @@
   (pad 6 smd rect (at 0.5685 0.2 180) (size 0.563 0.225) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -0.5685 0.2 180) (size 0.563 0.225) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.5185 -0.2 180) (size 0.663 0.225) (layers F.Cu F.Paste F.Mask))
+  (model 3d/FSUSB42.step
+    (offset (xyz -0.68 -0.91 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

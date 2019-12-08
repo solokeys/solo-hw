@@ -341,11 +341,11 @@ Text Label 7300 2750 0    50   ~ 0
 SWO
 Text Label 7300 2550 0    50   ~ 0
 SWDIO
-Text Label 8450 1000 0    50   ~ 0
+Text Label 11900 6250 0    50   ~ 0
 R
-Text Label 8450 1200 0    50   ~ 0
+Text Label 7250 2150 0    50   ~ 0
 G
-Text Label 8450 1100 0    50   ~ 0
+Text Label 7200 1450 0    50   ~ 0
 B
 Wire Wire Line
 	7200 1150 7000 1150
@@ -555,4 +555,12 @@ Wire Wire Line
 	7200 1350 7000 1350
 Text Label 7200 1350 0    50   ~ 0
 SPI_MOSI
+Wire Wire Line
+	7200 1450 7000 1450
+Wire Wire Line
+	7250 2150 7000 2150
+Text Label 6050 6250 0    50   ~ 0
+R
+Wire Wire Line
+	6050 6250 5800 6250
 $EndSCHEMATC
