@@ -14,19 +14,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5200 2150 3300 2100
+S 5450 2150 3300 2100
 U 5DDFB633
 F0 "solo" 50
 F1 "solo.sch" 50
-F2 "5V" I L 5200 3300 50 
-F3 "GND" I L 5200 3450 50 
-F4 "D+" I L 5200 3650 50 
-F5 "D-" I L 5200 3800 50 
-F6 "CAP1" I L 5200 2350 50 
-F7 "CAP2" I L 5200 2450 50 
-F8 "CAP3" I L 5200 2550 50 
-F9 "NFC+" I L 5200 2750 50 
-F10 "NFC-" I L 5200 2850 50 
+F2 "5V" I L 5450 3300 50 
+F3 "GND" I L 5450 3450 50 
+F4 "D+" I L 5450 3650 50 
+F5 "D-" I L 5450 3800 50 
+F6 "CAP1" I L 5450 2350 50 
+F7 "CAP2" I L 5450 2450 50 
+F8 "CAP3" I L 5450 2550 50 
+F9 "NFC+" I L 5450 2750 50 
+F10 "NFC-" I L 5450 2850 50 
 $EndSheet
 $Comp
 L solo:schottky_diode D3
@@ -100,22 +100,22 @@ Wire Wire Line
 	1350 4550 1450 4550
 Wire Wire Line
 	1450 4550 1450 4850
-Text Label 3500 3500 2    50   ~ 0
+Text Label 3500 3550 2    50   ~ 0
 TOP_D+
-Text Label 3500 3700 2    50   ~ 0
+Text Label 3500 3750 2    50   ~ 0
 BOT_D+
-Text Label 3500 3800 2    50   ~ 0
+Text Label 3500 3850 2    50   ~ 0
 TOP_D-
-Text Label 3500 4000 2    50   ~ 0
+Text Label 3500 4050 2    50   ~ 0
 BOT_D-
 Wire Wire Line
-	3500 3500 3650 3500
+	3500 3550 3650 3550
 Wire Wire Line
-	3500 3700 3650 3700
+	3500 3750 3650 3750
 Wire Wire Line
-	3650 3800 3500 3800
+	3650 3850 3500 3850
 Wire Wire Line
-	3500 4000 3650 4000
+	3500 4050 3650 4050
 $Comp
 L Device:R R?
 U 1 1 5DF57FC3
@@ -162,64 +162,52 @@ SEL
 Wire Wire Line
 	2300 5300 2000 5300
 Connection ~ 2000 5300
-Text Label 3500 3300 2    50   ~ 0
+Text Label 3500 3350 2    50   ~ 0
 SEL
 Wire Wire Line
-	3500 3300 3500 3400
+	3500 3350 3500 3450
 Wire Wire Line
-	3500 3400 3650 3400
-Text Label 4250 2950 0    50   ~ 0
+	3500 3450 3650 3450
+Text Label 4250 3000 0    50   ~ 0
 5V
-Text Label 3950 2950 0    50   ~ 0
+Text Label 3950 3000 0    50   ~ 0
 GND
 Wire Wire Line
-	3950 3200 3950 3100
+	3950 3250 3950 3150
 Wire Wire Line
-	4250 3150 4250 2950
-Text Label 4650 3300 2    50   ~ 0
+	4250 3200 4250 3000
+Text Label 4900 3300 2    50   ~ 0
 5V
-Text Label 4650 3450 2    50   ~ 0
+Text Label 4900 3450 2    50   ~ 0
 GND
-Wire Wire Line
-	4200 3600 4600 3600
-Wire Wire Line
-	4600 3600 4600 3650
-Wire Wire Line
-	4200 3900 4600 3900
-Wire Wire Line
-	4600 3900 4600 3800
 Text Notes 1550 6300 0    50   ~ 0
 Reversible USB-A.\nWhen S2 is plugged, SEL=5V/1 and D2 pair are selected.\nDefault to S1.
 Wire Wire Line
-	4650 3300 5200 3300
+	4900 3300 5450 3300
 Wire Wire Line
-	4650 3450 5200 3450
-Wire Wire Line
-	4600 3650 5200 3650
-Wire Wire Line
-	4600 3800 5200 3800
+	4900 3450 5450 3450
 $Comp
 L solo:FSUSB242 SW1
 U 1 1 5DFAAB25
-P 3750 3300
-F 0 "SW1" H 3925 2477 50  0000 C CNN
-F 1 "FSUSB242" H 3925 2386 50  0000 C CNN
-F 2 "solo:FSUSB42" H 3850 3400 50  0001 C CNN
-F 3 "" H 3850 3400 50  0001 C CNN
-	1    3750 3300
+P 3750 3350
+F 0 "SW1" H 3925 2527 50  0000 C CNN
+F 1 "FSUSB242" H 3925 2436 50  0000 C CNN
+F 2 "solo:FSUSB42" H 3850 3450 50  0001 C CNN
+F 3 "" H 3850 3450 50  0001 C CNN
+	1    3750 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 3200 4000 3100
+	4000 3250 4000 3150
 Wire Wire Line
-	4000 3100 3950 3100
-Connection ~ 3950 3100
+	4000 3150 3950 3150
+Connection ~ 3950 3150
 Wire Wire Line
-	3950 3100 3950 2950
+	3950 3150 3950 3000
 Wire Wire Line
-	4050 3200 4050 3150
+	4050 3250 4050 3200
 Wire Wire Line
-	4050 3150 4250 3150
+	4050 3200 4250 3200
 Text Label 2300 1600 0    50   ~ 0
 TOP_5V
 Text Label 2950 2850 3    50   ~ 0
@@ -265,26 +253,26 @@ F 3 "~" H 3200 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 2000 1600 2000
-Text Label 4850 2350 2    50   ~ 0
+Text Label 5100 2350 2    50   ~ 0
 CAP1
-Text Label 4850 2450 2    50   ~ 0
+Text Label 5100 2450 2    50   ~ 0
 CAP2
-Text Label 4850 2550 2    50   ~ 0
+Text Label 5100 2550 2    50   ~ 0
 CAP3
-Text Label 4850 2750 2    50   ~ 0
+Text Label 5100 2750 2    50   ~ 0
 NFC+
-Text Label 4850 2850 2    50   ~ 0
+Text Label 5100 2850 2    50   ~ 0
 NFC-
 Wire Wire Line
-	4850 2350 5200 2350
+	5100 2350 5450 2350
 Wire Wire Line
-	5200 2450 4850 2450
+	5450 2450 5100 2450
 Wire Wire Line
-	4850 2550 5200 2550
+	5100 2550 5450 2550
 Wire Wire Line
-	5200 2750 4850 2750
+	5450 2750 5100 2750
 Wire Wire Line
-	4850 2850 5200 2850
+	5100 2850 5450 2850
 Text Label 1850 2150 0    50   ~ 0
 CAP1
 Text Label 1850 2250 0    50   ~ 0
@@ -425,4 +413,42 @@ F 3 "~" H 3750 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 3550 5150
+$Comp
+L Device:R R?
+U 1 1 5E4087B1
+P 4800 3650
+AR Path="/5DDFB633/5E4087B1" Ref="R?"  Part="1" 
+AR Path="/5E4087B1" Ref="R10"  Part="1" 
+F 0 "R10" H 4870 3696 50  0000 L CNN
+F 1 "30R" H 4870 3605 50  0000 L CNN
+F 2 "solo:0201_R" V 4730 3650 50  0001 C CNN
+F 3 "~" H 4800 3650 50  0001 C CNN
+	1    4800 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E4091E8
+P 4800 3950
+AR Path="/5DDFB633/5E4091E8" Ref="R?"  Part="1" 
+AR Path="/5E4091E8" Ref="R11"  Part="1" 
+F 0 "R11" H 4870 3996 50  0000 L CNN
+F 1 "30R" H 4870 3905 50  0000 L CNN
+F 2 "solo:0201_R" V 4730 3950 50  0001 C CNN
+F 3 "~" H 4800 3950 50  0001 C CNN
+	1    4800 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 3650 4650 3650
+Wire Wire Line
+	4650 3950 4200 3950
+Wire Wire Line
+	4950 3650 5450 3650
+Wire Wire Line
+	4950 3950 5200 3950
+Wire Wire Line
+	5200 3950 5200 3800
+Wire Wire Line
+	5200 3800 5450 3800
 $EndSCHEMATC

@@ -325,7 +325,7 @@ Text HLabel 9550 1600 2    50   Input ~ 0
 G
 Text HLabel 9550 1750 2    50   Input ~ 0
 B
-Text Label 7200 750  0    50   ~ 0
+Text Label 7200 1250 0    50   ~ 0
 SPI_MISO
 Text Label 7200 1150 0    50   ~ 0
 SPI_CLK
@@ -350,7 +350,7 @@ B
 Wire Wire Line
 	7200 1150 7000 1150
 Wire Wire Line
-	7200 750  7000 750 
+	7200 1250 7000 1250
 Text HLabel 9150 2450 2    50   Input ~ 0
 SENSE1
 Text HLabel 9150 2550 2    50   Input ~ 0
