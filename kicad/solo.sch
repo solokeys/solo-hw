@@ -302,28 +302,6 @@ F 3 "~" H 3800 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
-U 1 1 5DE55B82
-P 2000 6950
-F 0 "C2" H 2115 6996 50  0000 L CNN
-F 1 "4.7u" H 2115 6905 50  0000 L CNN
-F 2 "solo:0201_C" H 2038 6800 50  0001 C CNN
-F 3 "~" H 2000 6950 50  0001 C CNN
-	1    2000 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5DE55F0E
-P 2450 6950
-F 0 "C4" H 2565 6996 50  0000 L CNN
-F 1 "4.7u" H 2565 6905 50  0000 L CNN
-F 2 "solo:0201_C" H 2488 6800 50  0001 C CNN
-F 3 "~" H 2450 6950 50  0001 C CNN
-	1    2450 6950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C6
 U 1 1 5DE56149
 P 2900 6950
@@ -449,19 +427,7 @@ Wire Wire Line
 	2000 6200 2000 6050
 Connection ~ 2450 6200
 Wire Wire Line
-	1650 6650 2000 6650
-Wire Wire Line
-	2000 6650 2000 6800
-Wire Wire Line
-	2000 6650 2450 6650
-Wire Wire Line
-	2450 6650 2450 6800
-Connection ~ 2000 6650
-Wire Wire Line
-	2450 6650 2900 6650
-Wire Wire Line
 	2900 6650 2900 6800
-Connection ~ 2450 6650
 Wire Wire Line
 	2900 6650 3350 6650
 Wire Wire Line
@@ -486,16 +452,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 7250 2900 7100
 Connection ~ 3350 7250
-Wire Wire Line
-	2900 7250 2450 7250
-Wire Wire Line
-	2450 7250 2450 7100
-Connection ~ 2900 7250
-Wire Wire Line
-	2450 7250 2000 7250
-Wire Wire Line
-	2000 7250 2000 7100
-Connection ~ 2450 7250
 $Comp
 L Device:C C12
 U 1 1 5DE8ED7B
@@ -895,4 +851,6 @@ F 3 "~" H 9100 2800 50  0001 C CNN
 	1    9100 2800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1650 6650 2900 6650
 $EndSCHEMATC
