@@ -15,3 +15,6 @@ CAMOutputs.zip
 *.bck
 solo-A.step
 .DS_store
+gerbers/
+kicad/solo-A.xml
+kicad/solo-A.csv
