@@ -13,21 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 5600 1750 3300 2100
-U 5DDFB633
-F0 "solo" 50
-F1 "solo.sch" 50
-F2 "5V" I L 5600 2900 50 
-F3 "GND" I L 5600 3050 50 
-F4 "D+" I L 5600 3250 50 
-F5 "D-" I L 5600 3400 50 
-F6 "CAP1" I L 5600 1950 50 
-F7 "CAP2" I L 5600 2050 50 
-F8 "CAP3" I L 5600 2150 50 
-F9 "NFC+" I L 5600 2350 50 
-F10 "NFC-" I L 5600 2450 50 
-$EndSheet
 $Comp
 L solo:schottky_diode D3
 U 1 1 5DF2DB0A
@@ -201,16 +186,8 @@ Wire Wire Line
 	4100 2850 4100 2750
 Wire Wire Line
 	4400 2800 4400 2600
-Text Label 5050 2900 2    50   ~ 0
-5V
-Text Label 5050 3050 2    50   ~ 0
-GND
 Text Notes 1700 5900 0    50   ~ 0
 Reversible USB-A.\nWhen S2 is plugged, SEL=5V/1 and D2 pair are selected.\nDefault to S1.
-Wire Wire Line
-	5050 2900 5600 2900
-Wire Wire Line
-	5050 3050 5600 3050
 $Comp
 L solo:FSUSB242 SW1
 U 1 1 5DFAAB25
@@ -288,26 +265,6 @@ F 8 "0201" H 3350 2350 50  0001 C CNN "Package"
 $EndComp
 Wire Wire Line
 	2350 1600 1750 1600
-Text Label 5250 1950 2    50   ~ 0
-CAP1
-Text Label 5250 2050 2    50   ~ 0
-CAP2
-Text Label 5250 2150 2    50   ~ 0
-CAP3
-Text Label 5250 2350 2    50   ~ 0
-NFC+
-Text Label 5250 2450 2    50   ~ 0
-NFC-
-Wire Wire Line
-	5250 1950 5600 1950
-Wire Wire Line
-	5600 2050 5250 2050
-Wire Wire Line
-	5250 2150 5600 2150
-Wire Wire Line
-	5600 2350 5250 2350
-Wire Wire Line
-	5250 2450 5600 2450
 Text Label 2000 1750 0    50   ~ 0
 CAP1
 Text Label 2000 1850 0    50   ~ 0
@@ -473,24 +430,18 @@ F 8 "0201" V 3900 4750 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 NoConn ~ 3700 4750
-$Comp
-L Device:R R?
-U 1 1 5E4087B1
-P 4950 3250
-AR Path="/5DDFB633/5E4087B1" Ref="R?"  Part="1" 
-AR Path="/5E4087B1" Ref="R10"  Part="1" 
-F 0 "R10" H 5020 3296 50  0000 L CNN
-F 1 "30R" H 5020 3205 50  0000 L CNN
-F 2 "solo:0201_R" V 4880 3250 50  0001 C CNN
-F 3 "~" H 4950 3250 50  0001 C CNN
-F 4 "" H 4950 3250 50  0001 C CNN "Manufacturer"
-F 5 "+/-1%" H 4950 3250 50  0001 C CNN "Description"
-F 6 "" H 4950 3250 50  0001 C CNN "MPN"
-F 7 "2" H 4950 3250 50  0001 C CNN "Pins"
-F 8 "0201" H 4950 3250 50  0001 C CNN "Package"
-	1    4950 3250
-	0    1    1    0   
-$EndComp
+Wire Wire Line
+	5350 3400 5600 3400
+Wire Wire Line
+	5350 3550 5350 3400
+Wire Wire Line
+	5100 3550 5350 3550
+Wire Wire Line
+	5100 3250 5600 3250
+Wire Wire Line
+	4800 3550 4350 3550
+Wire Wire Line
+	4350 3250 4800 3250
 $Comp
 L Device:R R?
 U 1 1 5E4091E8
@@ -509,16 +460,65 @@ F 8 "0201" H 4950 3550 50  0001 C CNN "Package"
 	1    4950 3550
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5E4087B1
+P 4950 3250
+AR Path="/5DDFB633/5E4087B1" Ref="R?"  Part="1" 
+AR Path="/5E4087B1" Ref="R10"  Part="1" 
+F 0 "R10" H 5020 3296 50  0000 L CNN
+F 1 "30R" H 5020 3205 50  0000 L CNN
+F 2 "solo:0201_R" V 4880 3250 50  0001 C CNN
+F 3 "~" H 4950 3250 50  0001 C CNN
+F 4 "" H 4950 3250 50  0001 C CNN "Manufacturer"
+F 5 "+/-1%" H 4950 3250 50  0001 C CNN "Description"
+F 6 "" H 4950 3250 50  0001 C CNN "MPN"
+F 7 "2" H 4950 3250 50  0001 C CNN "Pins"
+F 8 "0201" H 4950 3250 50  0001 C CNN "Package"
+	1    4950 3250
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	4350 3250 4800 3250
+	5250 2450 5600 2450
 Wire Wire Line
-	4800 3550 4350 3550
+	5600 2350 5250 2350
 Wire Wire Line
-	5100 3250 5600 3250
+	5250 2150 5600 2150
 Wire Wire Line
-	5100 3550 5350 3550
+	5600 2050 5250 2050
 Wire Wire Line
-	5350 3550 5350 3400
+	5250 1950 5600 1950
+Text Label 5250 2450 2    50   ~ 0
+NFC-
+Text Label 5250 2350 2    50   ~ 0
+NFC+
+Text Label 5250 2150 2    50   ~ 0
+CAP3
+Text Label 5250 2050 2    50   ~ 0
+CAP2
+Text Label 5250 1950 2    50   ~ 0
+CAP1
 Wire Wire Line
-	5350 3400 5600 3400
+	5050 3050 5600 3050
+Wire Wire Line
+	5050 2900 5600 2900
+Text Label 5050 3050 2    50   ~ 0
+GND
+Text Label 5050 2900 2    50   ~ 0
+5V
+$Sheet
+S 5600 1750 3300 2100
+U 5DDFB633
+F0 "solo" 50
+F1 "solo.sch" 50
+F2 "5V" I L 5600 2900 50 
+F3 "GND" I L 5600 3050 50 
+F4 "D+" I L 5600 3250 50 
+F5 "D-" I L 5600 3400 50 
+F6 "CAP1" I L 5600 1950 50 
+F7 "CAP2" I L 5600 2050 50 
+F8 "CAP3" I L 5600 2150 50 
+F9 "NFC+" I L 5600 2350 50 
+F10 "NFC-" I L 5600 2450 50 
+$EndSheet
 $EndSCHEMATC
