@@ -2,10 +2,10 @@
 
   (general
     (thickness 0.8)
-    (drawings 101)
+    (drawings 108)
     (tracks 770)
     (zones 0)
-    (modules 40)
+    (modules 41)
     (nets 87)
   )
 
@@ -286,6 +286,20 @@
     (add_net "Net-(U1-PadM7)")
     (add_net "Net-(U1-PadM8)")
     (add_net "Net-(U1-PadN6)")
+  )
+
+  (module solo:c-plating (layer F.Cu) (tedit 5DFEA705) (tstamp 5DFF00FD)
+    (at 116.9 53.35)
+    (fp_text reference REF** (at 2.15 -4.05) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value c-plating (at 3.55 -3) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 smd rect (at -0.15 10.2) (size 2.5 2.5) (layers B.Cu B.Mask))
+    (pad 1 smd rect (at -0.15 0.1) (size 2.5 2.5) (layers B.Cu B.Mask))
+    (pad 2 smd rect (at -0.15 10.2) (size 2.5 2.5) (layers F.Cu F.Mask))
+    (pad 1 smd rect (at -0.15 0.1) (size 2.5 2.5) (layers F.Cu F.Mask))
   )
 
   (module solo:USB-C_WURTH (layer F.Cu) (tedit 5DFE7D1E) (tstamp 5DFE7B4E)
@@ -2012,7 +2026,15 @@
       ))
   )
 
-  (gr_line (start 154.24787 58.5) (end 97.999999 58.5) (layer Eco2.User) (width 0.1524))
+  (gr_line (start 115.5 62.3) (end 115.5 64.8) (layer Eco1.User) (width 0.1))
+  (gr_line (start 118 62.3) (end 115.5 62.3) (layer Eco1.User) (width 0.1))
+  (gr_line (start 118 64.8) (end 118 62.3) (layer Eco1.User) (width 0.1))
+  (gr_line (start 115.5 64.8) (end 118 64.8) (layer Eco1.User) (width 0.1))
+  (gr_line (start 118 54.699999) (end 118 52.199999) (layer Eco1.User) (width 0.1))
+  (gr_line (start 115.5 54.699999) (end 118 54.699999) (layer Eco1.User) (width 0.1))
+  (gr_line (start 115.5 52.199999) (end 115.5 54.699999) (layer Eco1.User) (width 0.1))
+  (gr_line (start 118 52.199999) (end 115.5 52.199999) (layer Eco1.User) (width 0.1))
+  (gr_line (start 154.24787 58.5) (end 97.999999 58.5) (layer Eco2.User) (width 0.05))
   (gr_arc (start 145 55) (end 149 55) (angle -90) (layer Edge.Cuts) (width 0.1524))
   (gr_arc (start 118.299999 59.45) (end 118.6 59.45) (angle -90) (layer Edge.Cuts) (width 0.1524))
   (gr_arc (start 118.3 57.549999) (end 118.3 57.849999) (angle -90) (layer Edge.Cuts) (width 0.1524))
@@ -2121,7 +2143,6 @@
   (gr_text CAP3 (at 147.2 63.15) (layer Cmts.User)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
-  (gr_line (start 154.22787 58.505) (end 97.979999 58.505) (layer Cmts.User) (width 0.1) (tstamp 5DEC2D97))
   (gr_text "Place imports at abs(100,100)\nCover outline at Margin" (at 129.8 71.7) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

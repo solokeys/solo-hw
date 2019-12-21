@@ -283,6 +283,11 @@ F 0 "P1" H 2207 4967 50  0000 C CNN
 F 1 "USB_C_Plug" H 2207 4876 50  0000 C CNN
 F 2 "solo:USB-C_WURTH" H 2250 3700 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2250 3700 50  0001 C CNN
+F 4 "Wurth Electronics" H 2100 3700 50  0001 C CNN "Manufacturer"
+F 5 "USB-C plug connector" H 2100 3700 50  0001 C CNN "Description"
+F 6 "632712000112" H 2100 3700 50  0001 C CNN "MPN"
+F 7 "26" H 2100 3700 50  0001 C CNN "Pins"
+F 8 "Custom, USB-C plug" H 2100 3700 50  0001 C CNN "Package"
 	1    2100 3700
 	1    0    0    -1  
 $EndComp
