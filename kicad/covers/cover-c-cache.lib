@@ -1,0 +1,60 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_Antenna_Loop
+#
+DEF Device_Antenna_Loop AE 0 40 N N 1 F N
+F0 "AE" 50 250 50 H V C CNN
+F1 "Device_Antenna_Loop" 50 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 7 0 1 10 100 -150 100 -100 200 0 50 150 -100 0 0 -100 0 -150 N
+X ~ 1 0 -200 100 U 50 50 1 1 I
+X ~ 2 100 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# solo_TOP_C
+#
+DEF solo_TOP_C TOP 0 40 Y Y 1 F N
+F0 "TOP" 200 200 50 H V C CNN
+F1 "solo_TOP_C" -100 200 50 H V C CNN
+F2 "solo:top-C" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -450 -200 250 -1300 0 1 0 N
+P 2 0 1 0 -350 -600 -50 -600 N
+P 2 0 1 0 -200 -600 -200 -650 N
+P 2 0 1 0 -200 -550 -200 -500 N
+P 2 0 1 0 -50 -550 -350 -550 N
+P 7 1 1 10 -50 -850 -100 -850 -200 -750 -350 -900 -200 -1050 -100 -950 -50 -950 N
+X CAP1 5 350 -500 100 L 50 50 1 1 I
+X CAP2 6 350 -600 100 L 50 50 1 1 I
+X NFC+ 7 350 -850 100 L 50 50 1 1 I
+X NFC- 8 350 -950 100 L 50 50 1 1 I
+X CAP3 9 350 -700 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# solo_side_buttons
+#
+DEF solo_side_buttons caps 0 40 Y Y 1 F N
+F0 "caps" -350 350 50 H V C CNN
+F1 "solo_side_buttons" -500 450 50 H V C CNN
+F2 "solo:side_buttons" -400 200 50 H I C CNN
+F3 "" -400 200 50 H I C CNN
+DRAW
+P 2 1 1 10 0 -350 0 -100 N
+P 2 1 1 10 0 350 0 100 N
+P 2 1 1 10 250 0 0 0 N
+P 3 1 1 10 -50 -350 0 -150 50 -350 N
+P 3 1 1 10 50 350 0 150 -50 350 N
+P 3 1 1 10 250 -50 50 0 250 50 N
+X ~ 1 -100 100 100 R 50 50 1 1 P
+X ~ 2 -100 -100 100 R 50 50 1 1 P
+X ~ 3 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
